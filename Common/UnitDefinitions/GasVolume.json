@@ -1,0 +1,33 @@
+﻿{
+  "Name": "GasVolume",
+  "BaseUnit": "CubicMeter",
+  "XmlDoc": "GasVolume: holds the volume of flowing gas.  This overlaps with the Volume unit, but provides additional conversions used primarly for Gas Volumes.",
+  "Units": [
+    {
+      "SingularName": "CubicFoot",
+      "PluralName": "CubicFeet",
+      "FromUnitToBaseFunc": "x*0.0283168",
+      "FromBaseToUnitFunc": "x/0.0283168",
+      "Prefixes": [  ],
+      "Localization": [
+        {
+          "Culture": "en-US",
+          "Abbreviations": [ "cf" ]
+        }
+      ]
+    },
+	{
+      "SingularName": "CubicMeter",
+      "PluralName": "CubicMeters",
+      "FromUnitToBaseFunc": "x",
+      "FromBaseToUnitFunc": "x",
+      "Prefixes": [ "Hecto", "Kilo" ],
+      "Localization": [
+        {
+          "Culture": "en-US",
+          "Abbreviations": [ "m3" ]
+        }
+      ]
+    }
+  ]
+}

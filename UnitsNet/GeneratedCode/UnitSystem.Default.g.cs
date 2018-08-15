@@ -1742,6 +1742,30 @@ namespace UnitsNet
                                 new AbbreviationsForCulture("en-US", "THz"),
                             }),
                     }),
+                new UnitLocalization(typeof (GasVolumeUnit),
+                    new[]
+                    {
+                        new CulturesForEnumValue((int) GasVolumeUnit.CubicFoot,
+                            new[]
+                            {
+                                new AbbreviationsForCulture("en-US", "cf"),
+                            }),
+                        new CulturesForEnumValue((int) GasVolumeUnit.CubicMeter,
+                            new[]
+                            {
+                                new AbbreviationsForCulture("en-US", "m3"),
+                            }),
+                        new CulturesForEnumValue((int) GasVolumeUnit.HectocubicMeter,
+                            new[]
+                            {
+                                new AbbreviationsForCulture("en-US", "hm3"),
+                            }),
+                        new CulturesForEnumValue((int) GasVolumeUnit.KilocubicMeter,
+                            new[]
+                            {
+                                new AbbreviationsForCulture("en-US", "km3"),
+                            }),
+                    }),
                 new UnitLocalization(typeof (HeatFluxUnit),
                     new[]
                     {
