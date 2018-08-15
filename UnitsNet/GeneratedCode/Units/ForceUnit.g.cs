@@ -47,6 +47,7 @@ namespace UnitsNet.Units
         KilogramForce,
         Kilonewton,
         KiloPond,
+        KiloPoundForce,
         Meganewton,
         Newton,
         Poundal,

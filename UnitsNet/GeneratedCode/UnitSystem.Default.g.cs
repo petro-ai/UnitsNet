@@ -1552,6 +1552,12 @@ namespace UnitsNet
                                 new AbbreviationsForCulture("en-US", "kp"),
                                 new AbbreviationsForCulture("ru-RU", "кгс"),
                             }),
+                        new CulturesForEnumValue((int) ForceUnit.KiloPoundForce,
+                            new[]
+                            {
+                                new AbbreviationsForCulture("en-US", "klbf"),
+                                new AbbreviationsForCulture("ru-RU", "kфунт-сила"),
+                            }),
                         new CulturesForEnumValue((int) ForceUnit.Meganewton,
                             new[]
                             {

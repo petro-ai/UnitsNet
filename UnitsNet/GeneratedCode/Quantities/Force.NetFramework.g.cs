@@ -103,6 +103,14 @@ namespace UnitsNet
         }
 
         /// <summary>
+        ///     Get nullable Force from nullable KiloPoundsForce.
+        /// </summary>
+        public static Force? FromKiloPoundsForce(QuantityValue? kilopoundsforce)
+        {
+            return kilopoundsforce.HasValue ? FromKiloPoundsForce(kilopoundsforce.Value) : default(Force?);
+        }
+
+        /// <summary>
         ///     Get nullable Force from nullable Meganewtons.
         /// </summary>
         public static Force? FromMeganewtons(QuantityValue? meganewtons)

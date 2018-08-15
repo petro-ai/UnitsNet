@@ -214,6 +214,40 @@ namespace UnitsNet.Extensions.NumberToForce
 
         #endregion
 
+        #region KiloPoundForce
+
+        /// <inheritdoc cref="Force.FromKiloPoundsForce(UnitsNet.QuantityValue)" />
+        public static Force KiloPoundsForce(this int value) => Force.FromKiloPoundsForce(value);
+
+        /// <inheritdoc cref="Force.FromKiloPoundsForce(UnitsNet.QuantityValue)" />
+        public static Force? KiloPoundsForce(this int? value) => Force.FromKiloPoundsForce(value);
+
+        /// <inheritdoc cref="Force.FromKiloPoundsForce(UnitsNet.QuantityValue)" />
+        public static Force KiloPoundsForce(this long value) => Force.FromKiloPoundsForce(value);
+
+        /// <inheritdoc cref="Force.FromKiloPoundsForce(UnitsNet.QuantityValue)" />
+        public static Force? KiloPoundsForce(this long? value) => Force.FromKiloPoundsForce(value);
+
+        /// <inheritdoc cref="Force.FromKiloPoundsForce(UnitsNet.QuantityValue)" />
+        public static Force KiloPoundsForce(this double value) => Force.FromKiloPoundsForce(value);
+
+        /// <inheritdoc cref="Force.FromKiloPoundsForce(UnitsNet.QuantityValue)" />
+        public static Force? KiloPoundsForce(this double? value) => Force.FromKiloPoundsForce(value);
+
+        /// <inheritdoc cref="Force.FromKiloPoundsForce(UnitsNet.QuantityValue)" />
+        public static Force KiloPoundsForce(this float value) => Force.FromKiloPoundsForce(value);
+
+        /// <inheritdoc cref="Force.FromKiloPoundsForce(UnitsNet.QuantityValue)" />
+        public static Force? KiloPoundsForce(this float? value) => Force.FromKiloPoundsForce(value);
+
+        /// <inheritdoc cref="Force.FromKiloPoundsForce(UnitsNet.QuantityValue)" />
+        public static Force KiloPoundsForce(this decimal value) => Force.FromKiloPoundsForce(Convert.ToDouble(value));
+
+        /// <inheritdoc cref="Force.FromKiloPoundsForce(UnitsNet.QuantityValue)" />
+        public static Force? KiloPoundsForce(this decimal? value) => Force.FromKiloPoundsForce(value == null ? (double?)null : Convert.ToDouble(value.Value));
+
+        #endregion
+
         #region Meganewton
 
         /// <inheritdoc cref="Force.FromMeganewtons(UnitsNet.QuantityValue)" />

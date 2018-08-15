@@ -1,17 +1,26 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="15.0">
   <Import Project="UnitsNet.Common.props" />
-
   <!-- Override some NuGet package properties -->
   <PropertyGroup>
     <PackageId>UnitsNet.Signed</PackageId>
     <Title>Units.NET (signed)</Title>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <ProjectGuid>{C22AF521-758E-4D89-AF0B-5A373FD1E059}</ProjectGuid>
   </PropertyGroup>
-
   <!-- Enable strong name signing -->
   <PropertyGroup>
     <DefineConstants>SIGNED</DefineConstants>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>$(MSBuildProjectDirectory)\..\UnitsNet.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
-
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
 </Project>

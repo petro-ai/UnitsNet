@@ -121,6 +121,22 @@
           "Abbreviations": [ "фунт-сила" ]
         }
       ]
+    },
+	{
+      "SingularName": "KiloPoundForce",
+      "PluralName": "KiloPoundsForce",
+      "FromUnitToBaseFunc": "x*4.4482216152605095551842641431421e3",
+      "FromBaseToUnitFunc": "x/4.4482216152605095551842641431421e-3",
+      "Localization": [
+        {
+          "Culture": "en-US",
+          "Abbreviations": [ "klbf" ]
+        },
+        {
+          "Culture": "ru-RU",
+          "Abbreviations": [ "kфунт-сила" ]
+        }
+      ]
     }
   ]
 }

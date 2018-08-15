@@ -184,6 +184,11 @@ namespace UnitsNet
         public double KiloPonds => As(ForceUnit.KiloPond);
 
         /// <summary>
+        ///     Get Force in KiloPoundsForce.
+        /// </summary>
+        public double KiloPoundsForce => As(ForceUnit.KiloPoundForce);
+
+        /// <summary>
         ///     Get Force in Meganewtons.
         /// </summary>
         public double Meganewtons => As(ForceUnit.Meganewton);
@@ -282,6 +287,20 @@ namespace UnitsNet
         {
             double value = (double) kiloponds;
             return new Force(value, ForceUnit.KiloPond);
+        }
+
+        /// <summary>
+        ///     Get Force from KiloPoundsForce.
+        /// </summary>
+#if WINDOWS_UWP
+        [Windows.Foundation.Metadata.DefaultOverload]
+        public static Force FromKiloPoundsForce(double kilopoundsforce)
+#else
+        public static Force FromKiloPoundsForce(QuantityValue kilopoundsforce)
+#endif
+        {
+            double value = (double) kilopoundsforce;
+            return new Force(value, ForceUnit.KiloPoundForce);
         }
 
         /// <summary>
@@ -556,6 +575,7 @@ namespace UnitsNet
                 case ForceUnit.KilogramForce: return _value*9.80665002864;
                 case ForceUnit.Kilonewton: return (_value) * 1e3d;
                 case ForceUnit.KiloPond: return _value*9.80665002864;
+                case ForceUnit.KiloPoundForce: return _value*4.4482216152605095551842641431421e3;
                 case ForceUnit.Meganewton: return (_value) * 1e6d;
                 case ForceUnit.Newton: return _value;
                 case ForceUnit.Poundal: return _value*0.13825502798973041652092282466083;
@@ -580,6 +600,7 @@ namespace UnitsNet
                 case ForceUnit.KilogramForce: return baseUnitValue/9.80665002864;
                 case ForceUnit.Kilonewton: return (baseUnitValue) / 1e3d;
                 case ForceUnit.KiloPond: return baseUnitValue/9.80665002864;
+                case ForceUnit.KiloPoundForce: return baseUnitValue/4.4482216152605095551842641431421e-3;
                 case ForceUnit.Meganewton: return (baseUnitValue) / 1e6d;
                 case ForceUnit.Newton: return baseUnitValue;
                 case ForceUnit.Poundal: return baseUnitValue/0.13825502798973041652092282466083;
