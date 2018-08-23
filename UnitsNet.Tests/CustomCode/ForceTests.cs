@@ -43,6 +43,8 @@ namespace UnitsNet.Tests.CustomCode
 
         protected override double TonnesForceInOneNewton => 1.019716212977928e-4;
 
+        protected override double KiloPoundsForceInOneNewton => throw new System.NotImplementedException();
+
         [Fact]
         public void ForceDividedByAreaEqualsPressure()
         {
