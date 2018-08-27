@@ -2,7 +2,7 @@
   <Import Project="UnitsNet.Common.props" />
   <!-- Override some NuGet package properties -->
   <PropertyGroup>
-    <PackageId>UnitsNet.Signed</PackageId>
+    <PackageId>RAI.UnitsNet.Signed</PackageId>
     <Title>Units.NET (signed)</Title>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
@@ -17,6 +17,7 @@
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>$(MSBuildProjectDirectory)\..\UnitsNet.snk</AssemblyOriginatorKeyFile>
     <PackageLicenseUrl>UnitsNet</PackageLicenseUrl>
+    <AssemblyName>UnitsNet.Signed</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
