@@ -47,5 +47,12 @@ namespace UnitsNet.Tests.CustomCode
     public class GasVolumeTests : GasVolumeTestsBase
     {
         // TODO Override properties in base class here
+        protected override double CubicFeetInOneCubicMeter => throw new NotImplementedException();
+
+        protected override double CubicMetersInOneCubicMeter => throw new NotImplementedException();
+
+        protected override double HectocubicMetersInOneCubicMeter => throw new NotImplementedException();
+
+        protected override double KilocubicMetersInOneCubicMeter => throw new NotImplementedException();
     }
 }
