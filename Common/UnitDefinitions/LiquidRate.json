@@ -1,10 +1,10 @@
 ﻿{
   "Name": "LiquidRate",
-  "BaseUnit": "CubicMetersPerDay",
+  "BaseUnit": "CubicMeterPerDay",
   "XmlDoc": "LiquidRate: holds the volume of flowing liquid fluids, typically oil, water or condensate.  This overlaps with the VolumeFlow unit, but provides additional conversions used primarly for O&G Volumes.",
   "Units": [
-	{
-      "SingularName": "CubicMetersPerDay",
+    {
+      "SingularName": "CubicMeterPerDay",
       "PluralName": "CubicMetersPerDay",
       "FromUnitToBaseFunc": "x",
       "FromBaseToUnitFunc": "x",
@@ -12,11 +12,11 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "m3/d" ]
+          "Abbreviations": [ "m3/d", "m³/d" ]
         }
       ]
     },
-	{
+    {
       "SingularName": "OilBarrelsPerDay",
       "PluralName": "OilBarrelsPerDay",
       "FromUnitToBaseFunc": "x*0.158987294928",

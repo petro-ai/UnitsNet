@@ -1,0 +1,33 @@
+﻿{
+  "Name": "GasRate",
+  "BaseUnit": "CubicMeterPerDay",
+  "XmlDoc": "GasRate: holds the volume of flowing gas.  This overlaps with the VolumeFlow unit, but provides additional conversions used primarly for O&G Volumes.",
+  "Units": [
+    {
+      "SingularName": "CubicMeterPerDay",
+      "PluralName": "CubicMetersPerDay",
+      "FromUnitToBaseFunc": "x",
+      "FromBaseToUnitFunc": "x",
+      "Prefixes": [ "Hecto", "Kilo", "Mega" ],
+      "Localization": [
+        {
+          "Culture": "en-US",
+          "Abbreviations": [ "m3/d", "m³/d" ]
+        }
+      ]
+    },
+    {
+      "SingularName": "CubicFoot",
+      "PluralName": "CubicFeet",
+      "FromUnitToBaseFunc": "x*0.0283168",
+      "FromBaseToUnitFunc": "x/0.0283168",
+      "Prefixes": ["Kilo", "Mega", "Giga", "Tera"],
+      "Localization": [
+        {
+          "Culture": "en-US",
+          "Abbreviations": [ "cfd", "cf/d" ]
+        }
+      ]
+    }
+  ]
+}

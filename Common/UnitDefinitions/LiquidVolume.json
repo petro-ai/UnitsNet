@@ -1,0 +1,36 @@
+﻿{
+  "Name": "LiquidVolume",
+  "BaseUnit": "CubicMeter",
+  "XmlDoc": "LiquidVolume: holds the volume of liquid fluids, typically oil, water or condensate.  This overlaps with the Volume unit, but provides additional conversions used primarly for O&G Volumes.",
+  "Units": [
+    {
+      "SingularName": "CubicMeter",
+      "PluralName": "CubicMeters",
+      "FromUnitToBaseFunc": "x",
+      "FromBaseToUnitFunc": "x",
+      "Prefixes": [ "Hecto", "Kilo" ],
+      "Localization": [
+        {
+          "Culture": "en-US",
+          "Abbreviations": [ "m³" ]
+        },
+        {
+          "Culture": "ru-RU",
+          "Abbreviations": [ "м³" ]
+        }
+      ]
+    },
+    {
+      "SingularName": "OilBarrel",
+      "PluralName": "OilBarrels",
+      "FromUnitToBaseFunc": "x*0.158987294928",
+      "FromBaseToUnitFunc": "x/0.158987294928",
+      "Localization": [
+        {
+          "Culture": "en-US",
+          "Abbreviations": [ "bbl" ]
+        }
+      ]
+    }
+  ]
+}
