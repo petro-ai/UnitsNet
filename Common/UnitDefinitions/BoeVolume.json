@@ -1,0 +1,20 @@
+﻿{
+  "Name": "BoeVolume",
+  "BaseUnit": "Boe",
+  "XmlDoc": "BoeVolume: holds the volume of BOE (Barrel of Oil Equivalent).",
+  "Units": [
+    {
+      "SingularName": "Boe",
+      "PluralName": "Boe",
+      "FromUnitToBaseFunc": "x",
+      "FromBaseToUnitFunc": "x",
+      "Prefixes": [ "Kilo", "Mega", "Giga" ],
+      "Localization": [
+        {
+          "Culture": "en-US",
+          "Abbreviations": [ "BOE" ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+﻿{
+  "Name": "BoeRate",
+  "BaseUnit": "BoePerDay",
+  "XmlDoc": "BoeRate: holds the volume of flowing BOE (Barrel of Oil Equivalent).",
+  "Units": [
+    {
+      "SingularName": "BoePerDay",
+      "PluralName": "BoePerDay",
+      "FromUnitToBaseFunc": "x",
+      "FromBaseToUnitFunc": "x",
+      "Prefixes": [ "Kilo", "Mega", "Giga" ],
+      "Localization": [
+        {
+          "Culture": "en-US",
+          "Abbreviations": [ "boepd", "boe/d" ]
+        }
+      ]
+    }
+  ]
+}
