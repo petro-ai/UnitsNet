@@ -1,0 +1,31 @@
+﻿{
+  "Name": "LiquidRate",
+  "BaseUnit": "CubicMeterPerDay",
+  "XmlDoc": "LiquidRate: holds the volume of flowing liquid over time.  This overlaps with the VolumeFlow unit, but provides additional conversions used primarily for O&G liquid rates.",
+  "Units": [
+    {
+      "SingularName": "CubicMeterPerDay",
+      "PluralName": "CubicMetersPerDay",
+      "FromUnitToBaseFunc": "x",
+      "FromBaseToUnitFunc": "x",
+      "Localization": [
+        {
+          "Culture": "en-US",
+          "Abbreviations": [ "m³/d", "m3d" ]
+        }
+      ]
+    },
+	{
+      "SingularName": "OilBarrelsPerDay",
+      "PluralName": "OilBarrelsPerDay",
+      "FromUnitToBaseFunc": "x*0.158987294928",
+      "FromBaseToUnitFunc": "x/0.158987294928",
+      "Localization": [
+        {
+          "Culture": "en-US",
+          "Abbreviations": [ "bbl/d", "BOPD" ]
+        }
+      ]
+    }
+  ]
+}
