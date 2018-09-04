@@ -170,11 +170,11 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "psi" ]
+          "Abbreviations": [ "psi-deprecated" ]
         },
         {
           "Culture": "ru-RU",
-          "Abbreviations": [ "psi" ]
+          "Abbreviations": [ "psi-deprecated" ]
         }
       ]
     },

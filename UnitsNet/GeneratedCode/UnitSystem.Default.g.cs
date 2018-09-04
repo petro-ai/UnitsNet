@@ -3532,8 +3532,8 @@ namespace UnitsNet
                         new CulturesForEnumValue((int) PressureUnit.Psi,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "psi"),
-                                new AbbreviationsForCulture("ru-RU", "psi"),
+                                new AbbreviationsForCulture("en-US", "psi-deprecated"),
+                                new AbbreviationsForCulture("ru-RU", "psi-deprecated"),
                             }),
                         new CulturesForEnumValue((int) PressureUnit.TechnicalAtmosphere,
                             new[]
@@ -4032,7 +4032,7 @@ namespace UnitsNet
                         new CulturesForEnumValue((int) SpeedUnit.FootPerHour,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "ft/h"),
+                                new AbbreviationsForCulture("en-US", "ft/h", "ft/hr"),
                             }),
                         new CulturesForEnumValue((int) SpeedUnit.FootPerMinute,
                             new[]
