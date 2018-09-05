@@ -319,14 +319,6 @@ namespace UnitsNet
         }
 
         /// <summary>
-        ///     Get nullable Pressure from nullable Psi.
-        /// </summary>
-        public static Pressure? FromPsi(QuantityValue? psi)
-        {
-            return psi.HasValue ? FromPsi(psi.Value) : default(Pressure?);
-        }
-
-        /// <summary>
         ///     Get nullable Pressure from nullable TechnicalAtmospheres.
         /// </summary>
         public static Pressure? FromTechnicalAtmospheres(QuantityValue? technicalatmospheres)

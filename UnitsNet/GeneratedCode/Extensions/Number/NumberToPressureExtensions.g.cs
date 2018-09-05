@@ -1132,40 +1132,6 @@ namespace UnitsNet.Extensions.NumberToPressure
 
         #endregion
 
-        #region Psi
-
-        /// <inheritdoc cref="Pressure.FromPsi(UnitsNet.QuantityValue)" />
-        public static Pressure Psi(this int value) => Pressure.FromPsi(value);
-
-        /// <inheritdoc cref="Pressure.FromPsi(UnitsNet.QuantityValue)" />
-        public static Pressure? Psi(this int? value) => Pressure.FromPsi(value);
-
-        /// <inheritdoc cref="Pressure.FromPsi(UnitsNet.QuantityValue)" />
-        public static Pressure Psi(this long value) => Pressure.FromPsi(value);
-
-        /// <inheritdoc cref="Pressure.FromPsi(UnitsNet.QuantityValue)" />
-        public static Pressure? Psi(this long? value) => Pressure.FromPsi(value);
-
-        /// <inheritdoc cref="Pressure.FromPsi(UnitsNet.QuantityValue)" />
-        public static Pressure Psi(this double value) => Pressure.FromPsi(value);
-
-        /// <inheritdoc cref="Pressure.FromPsi(UnitsNet.QuantityValue)" />
-        public static Pressure? Psi(this double? value) => Pressure.FromPsi(value);
-
-        /// <inheritdoc cref="Pressure.FromPsi(UnitsNet.QuantityValue)" />
-        public static Pressure Psi(this float value) => Pressure.FromPsi(value);
-
-        /// <inheritdoc cref="Pressure.FromPsi(UnitsNet.QuantityValue)" />
-        public static Pressure? Psi(this float? value) => Pressure.FromPsi(value);
-
-        /// <inheritdoc cref="Pressure.FromPsi(UnitsNet.QuantityValue)" />
-        public static Pressure Psi(this decimal value) => Pressure.FromPsi(Convert.ToDouble(value));
-
-        /// <inheritdoc cref="Pressure.FromPsi(UnitsNet.QuantityValue)" />
-        public static Pressure? Psi(this decimal? value) => Pressure.FromPsi(value == null ? (double?)null : Convert.ToDouble(value.Value));
-
-        #endregion
-
         #region TechnicalAtmosphere
 
         /// <inheritdoc cref="Pressure.FromTechnicalAtmospheres(UnitsNet.QuantityValue)" />

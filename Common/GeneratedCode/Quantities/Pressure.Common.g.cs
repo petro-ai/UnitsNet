@@ -319,12 +319,6 @@ namespace UnitsNet
         public double PoundsForcePerSquareInch => As(PressureUnit.PoundForcePerSquareInch);
 
         /// <summary>
-        ///     Get Pressure in Psi.
-        /// </summary>
-        [System.Obsolete("Deprecated due to github issue #215, please use PoundForcePerSquareInch instead")]
-        public double Psi => As(PressureUnit.Psi);
-
-        /// <summary>
         ///     Get Pressure in TechnicalAtmospheres.
         /// </summary>
         public double TechnicalAtmospheres => As(PressureUnit.TechnicalAtmosphere);
@@ -804,20 +798,6 @@ namespace UnitsNet
         }
 
         /// <summary>
-        ///     Get Pressure from Psi.
-        /// </summary>
-#if WINDOWS_UWP
-        [Windows.Foundation.Metadata.DefaultOverload]
-        public static Pressure FromPsi(double psi)
-#else
-        public static Pressure FromPsi(QuantityValue psi)
-#endif
-        {
-            double value = (double) psi;
-            return new Pressure(value, PressureUnit.Psi);
-        }
-
-        /// <summary>
         ///     Get Pressure from TechnicalAtmospheres.
         /// </summary>
 #if WINDOWS_UWP
@@ -1116,7 +1096,6 @@ namespace UnitsNet
                 case PressureUnit.Pascal: return _value;
                 case PressureUnit.PoundForcePerSquareFoot: return _value*4.788025898033584e1;
                 case PressureUnit.PoundForcePerSquareInch: return _value*6.894757293168361e3;
-                case PressureUnit.Psi: return _value*6.894757293168361e3;
                 case PressureUnit.TechnicalAtmosphere: return _value*9.80680592331*1e4;
                 case PressureUnit.TonneForcePerSquareCentimeter: return _value*9.80665e7;
                 case PressureUnit.TonneForcePerSquareMeter: return _value*9.80665e3;
@@ -1168,7 +1147,6 @@ namespace UnitsNet
                 case PressureUnit.Pascal: return baseUnitValue;
                 case PressureUnit.PoundForcePerSquareFoot: return baseUnitValue/4.788025898033584e1;
                 case PressureUnit.PoundForcePerSquareInch: return baseUnitValue/6.894757293168361e3;
-                case PressureUnit.Psi: return baseUnitValue/6.894757293168361e3;
                 case PressureUnit.TechnicalAtmosphere: return baseUnitValue/(9.80680592331*1e4);
                 case PressureUnit.TonneForcePerSquareCentimeter: return baseUnitValue/9.80665e7;
                 case PressureUnit.TonneForcePerSquareMeter: return baseUnitValue/9.80665e3;

@@ -3529,12 +3529,6 @@ namespace UnitsNet
                             {
                                 new AbbreviationsForCulture("en-US", "psi", "lb/in²"),
                             }),
-                        new CulturesForEnumValue((int) PressureUnit.Psi,
-                            new[]
-                            {
-                                new AbbreviationsForCulture("en-US", "psi-deprecated"),
-                                new AbbreviationsForCulture("ru-RU", "psi-deprecated"),
-                            }),
                         new CulturesForEnumValue((int) PressureUnit.TechnicalAtmosphere,
                             new[]
                             {
