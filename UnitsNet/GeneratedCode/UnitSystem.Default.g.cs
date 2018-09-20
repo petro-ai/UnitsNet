@@ -4421,7 +4421,7 @@ namespace UnitsNet
                         new CulturesForEnumValue((int) TorqueUnit.KilopoundForceFoot,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "kipf·ft"),
+                                new AbbreviationsForCulture("en-US", "klbf.ft"),
                             }),
                         new CulturesForEnumValue((int) TorqueUnit.KilopoundForceInch,
                             new[]

@@ -76,7 +76,7 @@
         {
           "Culture": "en-US",
           "Abbreviations": [ "lbf·ft", "ft.lbf" ],
-          "AbbreviationsWithPrefixes": [ "kipf·ft", "Mlbf·ft" ]
+          "AbbreviationsWithPrefixes": [ "klbf.ft", "Mlbf·ft", "kft.lbf" ]
         }
       ]
     },
