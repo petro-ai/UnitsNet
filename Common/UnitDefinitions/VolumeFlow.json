@@ -184,7 +184,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "gal (U.S.)/s" ]
+          "Abbreviations": [ "gal (U.S.)/s", "galUS/s", "galUS/sec" ]
         }
       ]
     },
@@ -196,7 +196,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "gal (U.S.)/min", "GPM" ]
+          "Abbreviations": [ "gal (U.S.)/min", "GPM", "galUS/min" ]
         }
       ]
     },
@@ -208,7 +208,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "gal (U.S.)/h" ]
+          "Abbreviations": [ "gal (U.S.)/h", "galUS/h", "galUS/hr" ]
         }
       ]
     },

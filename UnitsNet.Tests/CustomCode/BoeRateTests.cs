@@ -47,5 +47,12 @@ namespace UnitsNet.Tests.CustomCode
     public class BoeRateTests : BoeRateTestsBase
     {
         // TODO Override properties in base class here
+        protected override double BoePerDayInOneBoePerDay => throw new NotImplementedException();
+
+        protected override double GigaboePerDayInOneBoePerDay => throw new NotImplementedException();
+
+        protected override double KiloboePerDayInOneBoePerDay => throw new NotImplementedException();
+
+        protected override double MegaboePerDayInOneBoePerDay => throw new NotImplementedException();
     }
 }

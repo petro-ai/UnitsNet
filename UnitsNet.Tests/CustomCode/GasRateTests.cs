@@ -47,5 +47,22 @@ namespace UnitsNet.Tests.CustomCode
     public class GasRateTests : GasRateTestsBase
     {
         // TODO Override properties in base class here
+        protected override double CubicFeetInOneCubicMeterPerDay => throw new NotImplementedException();
+
+        protected override double CubicMetersPerDayInOneCubicMeterPerDay => throw new NotImplementedException();
+
+        protected override double GigacubicFeetInOneCubicMeterPerDay => throw new NotImplementedException();
+
+        protected override double HectocubicMetersPerDayInOneCubicMeterPerDay => throw new NotImplementedException();
+
+        protected override double KilocubicFeetInOneCubicMeterPerDay => throw new NotImplementedException();
+
+        protected override double KilocubicMetersPerDayInOneCubicMeterPerDay => throw new NotImplementedException();
+
+        protected override double MegacubicFeetInOneCubicMeterPerDay => throw new NotImplementedException();
+
+        protected override double MegacubicMetersPerDayInOneCubicMeterPerDay => throw new NotImplementedException();
+
+        protected override double TeracubicFeetInOneCubicMeterPerDay => throw new NotImplementedException();
     }
 }

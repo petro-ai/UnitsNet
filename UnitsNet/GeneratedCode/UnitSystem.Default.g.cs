@@ -4473,7 +4473,7 @@ namespace UnitsNet
                         new CulturesForEnumValue((int) TorqueUnit.PoundForceFoot,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "lbf·ft"),
+                                new AbbreviationsForCulture("en-US", "lbf·ft", "ft.lbf"),
                             }),
                         new CulturesForEnumValue((int) TorqueUnit.PoundForceInch,
                             new[]
@@ -4887,17 +4887,17 @@ namespace UnitsNet
                         new CulturesForEnumValue((int) VolumeFlowUnit.UsGallonsPerHour,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "gal (U.S.)/h"),
+                                new AbbreviationsForCulture("en-US", "gal (U.S.)/h", "galUS/h", "galUS/hr"),
                             }),
                         new CulturesForEnumValue((int) VolumeFlowUnit.UsGallonsPerMinute,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "gal (U.S.)/min", "GPM"),
+                                new AbbreviationsForCulture("en-US", "gal (U.S.)/min", "GPM", "galUS/min"),
                             }),
                         new CulturesForEnumValue((int) VolumeFlowUnit.UsGallonsPerSecond,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "gal (U.S.)/s"),
+                                new AbbreviationsForCulture("en-US", "gal (U.S.)/s", "galUS/s", "galUS/sec"),
                             }),
                     }),
              });

@@ -47,5 +47,12 @@ namespace UnitsNet.Tests.CustomCode
     public class BoeVolumeTests : BoeVolumeTestsBase
     {
         // TODO Override properties in base class here
+        protected override double BoeInOneBoe => throw new NotImplementedException();
+
+        protected override double GigaboeInOneBoe => throw new NotImplementedException();
+
+        protected override double KiloboeInOneBoe => throw new NotImplementedException();
+
+        protected override double MegaboeInOneBoe => throw new NotImplementedException();
     }
 }

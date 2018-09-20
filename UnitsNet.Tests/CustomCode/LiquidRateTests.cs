@@ -47,5 +47,12 @@ namespace UnitsNet.Tests.CustomCode
     public class LiquidRateTests : LiquidRateTestsBase
     {
         // TODO Override properties in base class here
+        protected override double CubicMetersPerDayInOneCubicMeterPerDay => throw new NotImplementedException();
+
+        protected override double HectocubicMetersPerDayInOneCubicMeterPerDay => throw new NotImplementedException();
+
+        protected override double KilocubicMetersPerDayInOneCubicMeterPerDay => throw new NotImplementedException();
+
+        protected override double OilBarrelsPerDayInOneCubicMeterPerDay => throw new NotImplementedException();
     }
 }
