@@ -18,7 +18,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "N/mm³" ]
+          "Abbreviations": [ "N/mm3", "N/mm³" ]
         }
       ]
     },
@@ -31,7 +31,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "N/cm³" ]
+          "Abbreviations": [ "N/cm3", "N/cm³" ]
         }
       ]
     },
@@ -44,7 +44,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "N/m³" ]
+          "Abbreviations": [ "N/m3", "N/m³" ]
         }
       ]
     },
@@ -56,7 +56,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "kgf/mm³" ]
+          "Abbreviations": [ "kgf/mm3", "kgf/mm³" ]
         }
       ]
     },
@@ -68,7 +68,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "kgf/cm³" ]
+          "Abbreviations": [ "kgf/cm3", "kgf/cm³" ]
         }
       ]
     },
@@ -80,7 +80,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "kgf/m³" ]
+          "Abbreviations": [ "kgf/m3", "kgf/m³" ]
         }
       ]
     },
@@ -93,8 +93,8 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "lbf/in³" ],
-          "AbbreviationsWithPrefixes": [ "kipf/in³" ]
+          "Abbreviations": [ "lbf/in3", "lbf/in³" ],
+          "AbbreviationsWithPrefixes": [ "kipf/in3", "kipf/in³" ]
         }
       ]
     },
@@ -107,8 +107,8 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "lbf/ft³" ],
-          "AbbreviationsWithPrefixes": [ "kipf/ft³" ]
+          "Abbreviations": [ "lbf/ft3", "lbf/ft³" ],
+          "AbbreviationsWithPrefixes": [ "kipf/ft3", "kipf/ft³" ]
         }
       ]
     },
@@ -120,7 +120,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "tf/mm³" ]
+          "Abbreviations": [ "tf/mm3", "tf/mm³" ]
         }
       ]
     },
@@ -132,7 +132,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "tf/cm³" ]
+          "Abbreviations": [ "tf/cm3", "tf/cm³" ]
         }
       ]
     },
@@ -144,7 +144,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "tf/m³" ]
+          "Abbreviations": [ "tf/m3", "tf/m³" ]
         }
       ]
     }

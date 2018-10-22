@@ -14,7 +14,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "rad/s²" ]
+          "Abbreviations": [ "rad/s2", "rad/s²" ]
         }
       ]
     },
@@ -26,7 +26,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "°/s²", "deg/s²" ]
+          "Abbreviations": [ "°/s2", "deg/s2", "°/s²", "deg/s²" ]
         }
       ]
     },

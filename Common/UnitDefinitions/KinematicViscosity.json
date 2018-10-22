@@ -16,11 +16,11 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "m²/s" ]
+          "Abbreviations": [ "m3/s", "m²/s" ]
         },
         {
           "Culture": "ru-RU",
-          "Abbreviations": [ "м²/с" ]
+          "Abbreviations": [ "м2/с", "м²/с" ]
         }
       ]
     },

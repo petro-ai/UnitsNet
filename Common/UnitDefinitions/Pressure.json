@@ -67,11 +67,11 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "kgf/m²" ]
+          "Abbreviations": [ "kgf/m2", "kgf/m²" ]
         },
         {
           "Culture": "ru-RU",
-          "Abbreviations": [ "кгс/м²" ]
+          "Abbreviations": [ "кгс/м2", "кгс/м²" ]
         }
       ]
     },
@@ -83,11 +83,11 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "kgf/cm²" ]
+          "Abbreviations": [ "kgf/cm2", "kgf/cm²" ]
         },
         {
           "Culture": "ru-RU",
-          "Abbreviations": [ "кгс/см²" ]
+          "Abbreviations": [ "кгс/см2", "кгс/см²" ]
         }
       ]
     },
@@ -99,11 +99,11 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "kgf/mm²" ]
+          "Abbreviations": [ "kgf/mm2", "kgf/mm²" ]
         },
         {
           "Culture": "ru-RU",
-          "Abbreviations": [ "кгс/мм²" ]
+          "Abbreviations": [ "кгс/мм2", "кгс/мм²" ]
         }
       ]
     },
@@ -116,12 +116,12 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "N/m²" ]
+          "Abbreviations": [ "N/m2", "N/m²" ]
         },
         {
           "Culture": "ru-RU",
-          "Abbreviations": [ "Н/м²" ],
-          "AbbreviationsWithPrefixes": [ "кН/м²", "Мн/м²" ]
+          "Abbreviations": [ "Н/м2", "Н/м²" ],
+          "AbbreviationsWithPrefixes": [ "кН/м2", "Мн/м2", "кН/м²", "Мн/м²" ]
         }
       ]
     },
@@ -134,12 +134,12 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "N/cm²" ]
+          "Abbreviations": [ "N/cm2", "N/cm²" ]
         },
         {
           "Culture": "ru-RU",
-          "Abbreviations": [ "Н/см²" ],
-          "AbbreviationsWithPrefixes": [ "кН/см²" ]
+          "Abbreviations": [ "Н/см2", "Н/см²" ],
+          "AbbreviationsWithPrefixes": [ "кН/см2", "кН/см²" ]
         }
       ]
     },
@@ -152,12 +152,12 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "N/mm²" ]
+          "Abbreviations": [ "N/mm2", "N/mm²" ]
         },
         {
           "Culture": "ru-RU",
-          "Abbreviations": [ "Н/мм²" ],
-          "AbbreviationsWithPrefixes": [ "кН/мм²" ]
+          "Abbreviations": [ "Н/мм2", "Н/мм²" ],
+          "AbbreviationsWithPrefixes": [ "кН/мм2", "кН/мм²" ]
         }
       ]
     },
@@ -202,8 +202,8 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "psi", "lb/in²" ],
-          "AbbreviationsWithPrefixes": [ "kipf/in²" ]
+          "Abbreviations": [ "psi", "lb/in2", "lb/in²" ],
+          "AbbreviationsWithPrefixes": [ "kipf/in2", "kipf/in²" ]
         }
       ]
     },
@@ -216,8 +216,8 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "lb/ft²" ],
-          "AbbreviationsWithPrefixes": [ "kipf/ft²" ]
+          "Abbreviations": [ "lb/ft2", "lb/ft²" ],
+          "AbbreviationsWithPrefixes": [ "kipf/ft2", "kipf/ft²" ]
         }
       ]
     },
@@ -229,7 +229,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "tf/mm²" ]
+          "Abbreviations": [ "tf/mm2", "tf/mm²" ]
         }
       ]
     },
@@ -241,7 +241,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "tf/m²" ]
+          "Abbreviations": [ "tf/m2", "tf/m²" ]
         }
       ]
     },
@@ -265,7 +265,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "tf/cm²" ]
+          "Abbreviations": [ "tf/cm2", "tf/cm²" ]
         }
       ]
     },

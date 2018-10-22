@@ -16,7 +16,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "m/s²" ]
+          "Abbreviations": [ "m/s2", "m/s²" ]
         }
       ]
     },
@@ -28,7 +28,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "in/s²" ]
+          "Abbreviations": [ "in/s2", "in/s²" ]
         }
       ]
     },
@@ -40,7 +40,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "ft/s²" ]
+          "Abbreviations": [ "ft/s2", "ft/s²" ]
         }
       ]
     },

@@ -12,11 +12,11 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "m³" ]
+          "Abbreviations": [ "m3", "m³" ]
         },
         {
           "Culture": "ru-RU",
-          "Abbreviations": [ "м³" ]
+          "Abbreviations": [ "м3", "м³" ]
         }
       ]
     },
