@@ -3591,7 +3591,7 @@ namespace UnitsNet
                         new CulturesForEnumValue((int) RatioUnit.DecimalFraction,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", ""),
+                                new AbbreviationsForCulture("en-US", "(unitless)"),
                             }),
                         new CulturesForEnumValue((int) RatioUnit.PartPerBillion,
                             new[]
@@ -4511,9 +4511,9 @@ namespace UnitsNet
                         new CulturesForEnumValue((int) VolumeUnit.AuTablespoon,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", ""),
-                                new AbbreviationsForCulture("ru-RU", ""),
-                                new AbbreviationsForCulture("nb-NO", ""),
+                                new AbbreviationsForCulture("en-US", "Tbsp", "Tbs", "T", "tb", "tbs", "tbsp", "tblsp", "tblspn", "Tbsp.", "Tbs.", "T.", "tb.", "tbs.", "tbsp.", "tblsp.", "tblspn.", "tablespoon", "Tablespoon"),
+                                new AbbreviationsForCulture("ru-RU", "столовая ложка"),
+                                new AbbreviationsForCulture("nb-NO", "ss", "ss.", "SS", "SS."),
                             }),
                         new CulturesForEnumValue((int) VolumeUnit.Centiliter,
                             new[]
@@ -4673,14 +4673,14 @@ namespace UnitsNet
                         new CulturesForEnumValue((int) VolumeUnit.MetricCup,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", ""),
+                                new AbbreviationsForCulture("en-US", "cup"),
                             }),
                         new CulturesForEnumValue((int) VolumeUnit.MetricTeaspoon,
                             new[]
                             {
                                 new AbbreviationsForCulture("en-US", "tsp", "t", "ts", "tspn", "t.", "ts.", "tsp.", "tspn.", "teaspoon"),
-                                new AbbreviationsForCulture("ru-RU", ""),
-                                new AbbreviationsForCulture("nb-NO", ""),
+                                new AbbreviationsForCulture("ru-RU", "чайная ложка"),
+                                new AbbreviationsForCulture("nb-NO", "ts", "ts."),
                             }),
                         new CulturesForEnumValue((int) VolumeUnit.Microliter,
                             new[]
@@ -4716,9 +4716,9 @@ namespace UnitsNet
                         new CulturesForEnumValue((int) VolumeUnit.UkTablespoon,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", ""),
-                                new AbbreviationsForCulture("ru-RU", ""),
-                                new AbbreviationsForCulture("nb-NO", ""),
+                                new AbbreviationsForCulture("en-US", "Tbsp", "Tbs", "T", "tb", "tbs", "tbsp", "tblsp", "tblspn", "Tbsp.", "Tbs.", "T.", "tb.", "tbs.", "tbsp.", "tblsp.", "tblspn.", "tablespoon", "Tablespoon"),
+                                new AbbreviationsForCulture("ru-RU", "столовая ложка"),
+                                new AbbreviationsForCulture("nb-NO", "ss", "ss.", "SS", "SS."),
                             }),
                         new CulturesForEnumValue((int) VolumeUnit.UsBeerBarrel,
                             new[]
@@ -4728,7 +4728,7 @@ namespace UnitsNet
                         new CulturesForEnumValue((int) VolumeUnit.UsCustomaryCup,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", ""),
+                                new AbbreviationsForCulture("en-US", "cup"),
                             }),
                         new CulturesForEnumValue((int) VolumeUnit.UsGallon,
                             new[]
@@ -4739,7 +4739,7 @@ namespace UnitsNet
                         new CulturesForEnumValue((int) VolumeUnit.UsLegalCup,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", ""),
+                                new AbbreviationsForCulture("en-US", "cup"),
                             }),
                         new CulturesForEnumValue((int) VolumeUnit.UsOunce,
                             new[]
@@ -4760,16 +4760,16 @@ namespace UnitsNet
                         new CulturesForEnumValue((int) VolumeUnit.UsTablespoon,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", ""),
-                                new AbbreviationsForCulture("ru-RU", ""),
-                                new AbbreviationsForCulture("nb-NO", ""),
+                                new AbbreviationsForCulture("en-US", "Tbsp", "Tbs", "T", "tb", "tbs", "tbsp", "tblsp", "tblspn", "Tbsp.", "Tbs.", "T.", "tb.", "tbs.", "tbsp.", "tblsp.", "tblspn.", "tablespoon", "Tablespoon"),
+                                new AbbreviationsForCulture("ru-RU", "столовая ложка"),
+                                new AbbreviationsForCulture("nb-NO", "ss", "ss.", "SS", "SS."),
                             }),
                         new CulturesForEnumValue((int) VolumeUnit.UsTeaspoon,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", ""),
-                                new AbbreviationsForCulture("ru-RU", ""),
-                                new AbbreviationsForCulture("nb-NO", ""),
+                                new AbbreviationsForCulture("en-US", "tsp", "t", "ts", "tspn", "t.", "ts.", "tsp.", "tspn.", "teaspoon"),
+                                new AbbreviationsForCulture("ru-RU", "чайная ложка"),
+                                new AbbreviationsForCulture("nb-NO", "ts", "ts."),
                             }),
                     }),
                 new UnitLocalization(typeof (VolumeFlowUnit),
