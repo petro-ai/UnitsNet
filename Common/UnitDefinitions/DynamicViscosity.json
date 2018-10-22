@@ -17,7 +17,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "Ns/m²" ]
+          "Abbreviations": [ "Ns/m2", "Ns/m²" ]
         }
       ]
     },

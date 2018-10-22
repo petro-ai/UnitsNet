@@ -17,7 +17,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "W/m³" ]
+          "Abbreviations": [ "W/m3", "W/m³" ]
         }
       ]
     },
@@ -30,7 +30,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "W/in³" ]
+          "Abbreviations": [ "W/in3", "W/in³" ]
         }
       ]
     },
@@ -43,7 +43,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "W/ft³" ]
+          "Abbreviations": [ "W/ft3", "W/ft³" ]
         }
       ]
     },

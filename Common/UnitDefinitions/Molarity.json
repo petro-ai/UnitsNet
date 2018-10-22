@@ -17,7 +17,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "mol/m³" ]
+          "Abbreviations": [ "mol/m3", "mol/m³" ]
         }
       ]
     },

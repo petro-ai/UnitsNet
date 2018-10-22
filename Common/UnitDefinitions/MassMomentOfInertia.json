@@ -16,7 +16,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "g·m²" ]
+          "Abbreviations": [ "g·m2", "g·m²" ]
         }
       ]
     },
@@ -29,7 +29,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "g·dm²" ]
+          "Abbreviations": [ "g·dm2", "g·dm²" ]
         }
       ]
     },
@@ -42,7 +42,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "g·cm²" ]
+          "Abbreviations": [ "g·cm2", "g·cm²" ]
         }
       ]
     },
@@ -55,7 +55,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "g·mm²" ]
+          "Abbreviations": [ "g·mm2", "g·mm²" ]
         }
       ]
     },
@@ -68,7 +68,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "t·m²" ]
+          "Abbreviations": [ "t·m2", "t·m²" ]
         }
       ]
     },
@@ -81,7 +81,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "t·dm²" ]
+          "Abbreviations": [ "t·dm2", "t·dm²" ]
         }
       ]
     },
@@ -94,7 +94,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "t·cm²" ]
+          "Abbreviations": [ "t·cm2", "t·cm²" ]
         }
       ]
     },
@@ -107,7 +107,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "t·mm²" ]
+          "Abbreviations": [ "t·mm2", "t·mm²" ]
         }
       ]
     },
@@ -119,7 +119,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "lb·ft²" ]
+          "Abbreviations": [ "lb·ft2", "lb·ft²" ]
         }
       ]
     },
@@ -131,7 +131,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "lb·in²" ]
+          "Abbreviations": [ "lb·in2", "lb·in²" ]
         }
       ]
     }

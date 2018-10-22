@@ -16,7 +16,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "W/m²·K" ]
+          "Abbreviations": [ "W/m2·K", "W/m²·K" ]
         }
       ]
     },
@@ -28,7 +28,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "W/m²·°C" ]
+          "Abbreviations": [ "W/m2·°C", "W/m²·°C" ]
         }
       ]
     }

@@ -16,11 +16,11 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "m³/s" ]
+          "Abbreviations": [ "m3/s", "m³/s" ]
         },
         {
           "Culture": "ru-RU",
-          "Abbreviations": [ "м³/с" ]
+          "Abbreviations": [ "м3/с", "м³/с" ]
         }
       ]
     },
@@ -33,7 +33,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "m³/min" ]
+          "Abbreviations": [ "m3/min", "m³/min" ]
         }
       ]
     },
@@ -46,11 +46,11 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "m³/h" ]
+          "Abbreviations": [ "m3/h", "m³/h" ]
         },
         {
           "Culture": "ru-RU",
-          "Abbreviations": [ "м³/ч" ]
+          "Abbreviations": [ "м3/ч", "м³/ч" ]
         }
       ]
     },
@@ -63,7 +63,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "ft³/s" ]
+          "Abbreviations": [ "ft3/s", "ft³/s" ]
         }
       ]
     },
@@ -76,7 +76,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "ft³/min" ]
+          "Abbreviations": [ "ft3/min", "ft³/min" ]
         }
       ]
     },
@@ -89,7 +89,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "ft³/h", "cf/hr" ]
+          "Abbreviations": [ "ft3/h", "ft³/h", "cf/hr" ]
         }
       ]
     },
@@ -102,7 +102,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "yd³/s" ]
+          "Abbreviations": [ "yd3/s", "yd³/s" ]
         }
       ]
     },
@@ -115,7 +115,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "yd³/min" ]
+          "Abbreviations": [ "yd3/min", "yd³/min" ]
         }
       ]
     },
@@ -128,7 +128,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "yd³/h" ]
+          "Abbreviations": [ "yd3/h", "yd³/h" ]
         }
       ]
     },
@@ -237,11 +237,11 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "dm³/min" ]
+          "Abbreviations": [ "dm3/min", "dm³/min" ]
         },
         {
           "Culture": "ru-RU",
-          "Abbreviations": [ "дм³/мин" ]
+          "Abbreviations": [ "дм3/мин", "дм³/мин" ]
         }
       ]
     },

@@ -17,7 +17,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "g/mm³" ]
+          "Abbreviations": [ "g/mm3", "g/mm³" ]
         }
       ]
     },
@@ -30,7 +30,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "g/cm³" ]
+          "Abbreviations": [ "g/cm3", "g/cm³" ]
         }
       ]
     },
@@ -43,11 +43,11 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "g/m³" ]
+          "Abbreviations": [ "g/m3", "g/m³" ]
         },
         {
           "Culture": "ru-RU",
-          "Abbreviations": [ "г/м³" ]
+          "Abbreviations": [ "г/м3", "г/м³" ]
         }
       ]
     },
@@ -60,8 +60,8 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "lb/in³" ],
-          "AbbreviationsWithPrefixes": [ "kip/in³" ]
+          "Abbreviations": [ "lb/in3", "lb/in³" ],
+          "AbbreviationsWithPrefixes": [ "kip/in3", "kip/in³" ]
         }
       ]
     },
@@ -74,8 +74,8 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "lb/ft³" ],
-          "AbbreviationsWithPrefixes": [ "kip/ft³" ]
+          "Abbreviations": [ "lb/ft3", "lb/ft³" ],
+          "AbbreviationsWithPrefixes": [ "kip/ft3", "kip/ft³" ]
         }
       ]
     },
@@ -87,7 +87,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "t/mm³" ]
+          "Abbreviations": [ "t/mm3", "t/mm³" ]
         }
       ]
     },
@@ -99,7 +99,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "t/cm³" ]
+          "Abbreviations": [ "t/cm3", "t/cm³" ]
         }
       ]
     },
@@ -111,7 +111,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "t/m³" ]
+          "Abbreviations": [ "t/m3", "t/m³" ]
         }
       ]
     },
@@ -123,7 +123,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "slug/ft³" ]
+          "Abbreviations": [ "slug/ft3", "slug/ft³" ]
         }
       ]
     },

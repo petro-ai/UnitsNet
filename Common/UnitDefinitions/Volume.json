@@ -33,11 +33,11 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "m³" ]
+          "Abbreviations": [ "m3", "m³" ]
         },
         {
           "Culture": "ru-RU",
-          "Abbreviations": [ "м³" ]
+          "Abbreviations": [ "м3", "м³" ]
         }
       ]
     },
@@ -49,11 +49,11 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "km³" ]
+          "Abbreviations": [ "km3", "km³" ]
         },
         {
           "Culture": "ru-RU",
-          "Abbreviations": [ "км³" ]
+          "Abbreviations": [ "км3", "км³" ]
         }
       ]
     },
@@ -65,11 +65,11 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "dm³" ]
+          "Abbreviations": [ "dm3", "dm³" ]
         },
         {
           "Culture": "ru-RU",
-          "Abbreviations": [ "дм³" ]
+          "Abbreviations": [ "дм3", "дм³" ]
         }
       ]
     },
@@ -81,11 +81,11 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "cm³" ]
+          "Abbreviations": [ "cm3", "cm³" ]
         },
         {
           "Culture": "ru-RU",
-          "Abbreviations": [ "см³" ]
+          "Abbreviations": [ "см3", "см³" ]
         }
       ]
     },
@@ -97,11 +97,11 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "mm³" ]
+          "Abbreviations": [ "mm3", "mm³" ]
         },
         {
           "Culture": "ru-RU",
-          "Abbreviations": [ "мм³" ]
+          "Abbreviations": [ "мм3", "мм³" ]
         }
       ]
     },
@@ -113,11 +113,11 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "µm³" ]
+          "Abbreviations": [ "µm3", "µm³" ]
         },
         {
           "Culture": "ru-RU",
-          "Abbreviations": [ "мкм³" ]
+          "Abbreviations": [ "мкм3", "мкм³" ]
         }
       ]
     },
@@ -129,11 +129,11 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "mi³" ]
+          "Abbreviations": [ "mi3", "mi³" ]
         },
         {
           "Culture": "ru-RU",
-          "Abbreviations": [ "миля³" ]
+          "Abbreviations": [ "миля3", "миля³" ]
         }
       ]
     },
@@ -145,11 +145,11 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "yd³" ]
+          "Abbreviations": [ "yd3", "yd³" ]
         },
         {
           "Culture": "ru-RU",
-          "Abbreviations": [ "ярд³" ]
+          "Abbreviations": [ "ярд3", "ярд³" ]
         }
       ]
     },
@@ -162,11 +162,11 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "ft³" ]
+          "Abbreviations": [ "ft3", "ft³" ]
         },
         {
           "Culture": "ru-RU",
-          "Abbreviations": [ "фут³" ]
+          "Abbreviations": [ "фут3", "фут³" ]
         }
       ]
     },
@@ -178,11 +178,11 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "in³" ]
+          "Abbreviations": [ "in3", "in³" ]
         },
         {
           "Culture": "ru-RU",
-          "Abbreviations": [ "дюйм³" ]
+          "Abbreviations": [ "дюйм3", "дюйм³" ]
         }
       ]
     },

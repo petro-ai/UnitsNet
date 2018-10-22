@@ -16,7 +16,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "m³/kg" ]
+          "Abbreviations": [ "m3/kg", "m³/kg" ]
         }
       ]
     }

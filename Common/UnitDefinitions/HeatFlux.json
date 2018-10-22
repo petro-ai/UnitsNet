@@ -16,7 +16,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "W/m²" ]
+          "Abbreviations": [ "W/m2", "W/m²" ]
         }
       ]
     },
@@ -28,7 +28,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "W/in²" ]
+          "Abbreviations": [ "W/in2", "W/in²" ]
         }
       ]
     },
@@ -40,7 +40,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "W/ft²" ]
+          "Abbreviations": [ "W/ft2", "W/ft²" ]
         }
       ]
     },
@@ -52,7 +52,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "BTU/s·in²" ]
+          "Abbreviations": [ "BTU/s·in2", "BTU/s·in²" ]
         }
       ]
     },
@@ -64,7 +64,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "BTU/s·ft²" ]
+          "Abbreviations": [ "BTU/s·ft2", "BTU/s·ft²" ]
         }
       ]
     },
@@ -76,7 +76,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "BTU/min·ft²" ]
+          "Abbreviations": [ "BTU/min·ft2", "BTU/min·ft²" ]
         }
       ]
     },
@@ -88,7 +88,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "BTU/h·ft²" ]
+          "Abbreviations": [ "BTU/h·ft2", "BTU/h·ft²" ]
         }
       ]
     },
@@ -101,7 +101,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "cal/s·cm²" ]
+          "Abbreviations": [ "cal/s·cm2", "cal/s·cm²" ]
         }
       ]
     },
@@ -113,7 +113,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "kcal/h·m²" ]
+          "Abbreviations": [ "kcal/h·m2", "kcal/h·m²" ]
         }
       ]
     }
