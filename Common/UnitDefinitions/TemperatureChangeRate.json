@@ -16,7 +16,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "°C/s" ]
+          "Abbreviations": [ "degC/s", "°C/s" ]
         }
       ]
     },
@@ -28,7 +28,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "°C/min" ]
+          "Abbreviations": [ "degC/min", "°C/min" ]
         }
       ]
     }

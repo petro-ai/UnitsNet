@@ -28,7 +28,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "m2°C/W", "m²°C/W" ]
+          "Abbreviations": [ "m2degC/W", "m²°C/W" ]
         }
       ]
     },
@@ -52,7 +52,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "cm2Hr°C/kcal", "cm²Hr°C/kcal" ]
+          "Abbreviations": [ "cm2HrdegC/kcal", "cm²Hr°C/kcal" ]
         }
       ]
     },
@@ -64,7 +64,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "Hrft2°F/Btu", "Hrft²°F/Btu" ]
+          "Abbreviations": [ "Hrft2degF/Btu", "Hrft²°F/Btu" ]
         }
       ]
     }

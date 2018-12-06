@@ -32,7 +32,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "°/s", "deg/s" ]
+          "Abbreviations": [ "deg/s", "°/s" ]
         },
         {
           "Culture": "ru-RU",
@@ -48,7 +48,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "°/min", "deg/min" ]
+          "Abbreviations": [ "deg/min", "°/min" ]
         }
       ]
     },
