@@ -23,7 +23,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "∆°C" ]
+          "Abbreviations": [ "∆degC", "∆°C" ]
         }
       ]
     },
@@ -35,7 +35,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "∆°De" ]
+          "Abbreviations": [ "∆degDe", "∆°De" ]
         }
       ]
     },
@@ -47,7 +47,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "∆°F" ]
+          "Abbreviations": [ "∆degF", "∆°F" ]
         }
       ]
     },
@@ -59,7 +59,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "∆°N" ]
+          "Abbreviations": [ "∆degN", "∆°N" ]
         }
       ]
     },
@@ -71,7 +71,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "∆°R" ]
+          "Abbreviations": [ "∆degR", "∆°R" ]
         }
       ]
     },
@@ -83,7 +83,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "∆°Ré" ]
+          "Abbreviations": [ "∆degRé", "∆°Ré" ]
         }
       ]
     },
@@ -95,7 +95,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "∆°Rø" ]
+          "Abbreviations": [ "∆degRø", "∆°Rø" ]
         }
       ]
     },
@@ -121,7 +121,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "∆°C" ]
+          "Abbreviations": [ "∆degC", "∆°C" ]
         }
       ]
     },
@@ -134,7 +134,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "∆°De" ]
+          "Abbreviations": [ "∆degDe", "∆°De" ]
         }
       ]
     },
@@ -147,7 +147,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "∆°F" ]
+          "Abbreviations": [ "∆degF", "∆°F" ]
         }
       ]
     },
@@ -160,7 +160,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "∆°N" ]
+          "Abbreviations": [ "∆degN", "∆°N" ]
         }
       ]
     },
@@ -173,7 +173,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "∆°R" ]
+          "Abbreviations": [ "∆degR", "∆°R" ]
         }
       ]
     },
@@ -186,7 +186,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "∆°Ré" ]
+          "Abbreviations": [ "∆degRé", "∆°Ré" ]
         }
       ]
     },
@@ -199,7 +199,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "∆°Rø" ]
+          "Abbreviations": [ "∆degRø", "∆°Rø" ]
         }
       ]
     }

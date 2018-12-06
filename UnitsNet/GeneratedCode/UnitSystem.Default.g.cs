@@ -246,7 +246,7 @@ namespace UnitsNet
                         new CulturesForEnumValue((int) AngleUnit.Degree,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "°", "deg"),
+                                new AbbreviationsForCulture("en-US", "deg", "°"),
                                 new AbbreviationsForCulture("ru-RU", "°"),
                             }),
                         new CulturesForEnumValue((int) AngleUnit.Gradian,
@@ -258,7 +258,7 @@ namespace UnitsNet
                         new CulturesForEnumValue((int) AngleUnit.Microdegree,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "µ°"),
+                                new AbbreviationsForCulture("en-US", "µdeg"),
                                 new AbbreviationsForCulture("ru-RU", "µ°"),
                             }),
                         new CulturesForEnumValue((int) AngleUnit.Microradian,
@@ -270,7 +270,7 @@ namespace UnitsNet
                         new CulturesForEnumValue((int) AngleUnit.Millidegree,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "m°"),
+                                new AbbreviationsForCulture("en-US", "mdeg"),
                                 new AbbreviationsForCulture("ru-RU", "m°"),
                             }),
                         new CulturesForEnumValue((int) AngleUnit.Milliradian,
@@ -282,7 +282,7 @@ namespace UnitsNet
                         new CulturesForEnumValue((int) AngleUnit.Nanodegree,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "n°"),
+                                new AbbreviationsForCulture("en-US", "ndeg"),
                                 new AbbreviationsForCulture("ru-RU", "n°"),
                             }),
                         new CulturesForEnumValue((int) AngleUnit.Nanoradian,
@@ -1953,7 +1953,7 @@ namespace UnitsNet
                         new CulturesForEnumValue((int) HeatTransferCoefficientUnit.WattPerSquareMeterCelsius,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "W/m2·°C", "W/m²·°C"),
+                                new AbbreviationsForCulture("en-US", "W/m2·degC", "W/m²·°C"),
                             }),
                         new CulturesForEnumValue((int) HeatTransferCoefficientUnit.WattPerSquareMeterKelvin,
                             new[]
@@ -2210,7 +2210,7 @@ namespace UnitsNet
                         new CulturesForEnumValue((int) LapseRateUnit.DegreeCelsiusPerKilometer,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "∆°C/km"),
+                                new AbbreviationsForCulture("en-US", "∆degC/km"),
                             }),
                     }),
                 new UnitLocalization(typeof (LengthUnit),
@@ -3668,7 +3668,7 @@ namespace UnitsNet
                         new CulturesForEnumValue((int) RotationalAccelerationUnit.DegreePerSecondSquared,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "°/s2", "deg/s2", "°/s²", "deg/s²"),
+                                new AbbreviationsForCulture("en-US", "deg/s2", "°/s2", "°/s²", "deg/s²"),
                             }),
                         new CulturesForEnumValue((int) RotationalAccelerationUnit.RadianPerSecondSquared,
                             new[]
@@ -3699,18 +3699,18 @@ namespace UnitsNet
                         new CulturesForEnumValue((int) RotationalSpeedUnit.DegreePerMinute,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "°/min", "deg/min"),
+                                new AbbreviationsForCulture("en-US", "deg/min", "°/min"),
                             }),
                         new CulturesForEnumValue((int) RotationalSpeedUnit.DegreePerSecond,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "°/s", "deg/s"),
+                                new AbbreviationsForCulture("en-US", "deg/s", "°/s"),
                                 new AbbreviationsForCulture("ru-RU", "°/с"),
                             }),
                         new CulturesForEnumValue((int) RotationalSpeedUnit.MicrodegreePerSecond,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "µ°/s"),
+                                new AbbreviationsForCulture("en-US", "µdeg/s"),
                                 new AbbreviationsForCulture("ru-RU", "µ°/с"),
                             }),
                         new CulturesForEnumValue((int) RotationalSpeedUnit.MicroradianPerSecond,
@@ -3722,7 +3722,7 @@ namespace UnitsNet
                         new CulturesForEnumValue((int) RotationalSpeedUnit.MillidegreePerSecond,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "m°/s"),
+                                new AbbreviationsForCulture("en-US", "mdeg/s"),
                                 new AbbreviationsForCulture("ru-RU", "m°/с"),
                             }),
                         new CulturesForEnumValue((int) RotationalSpeedUnit.MilliradianPerSecond,
@@ -3734,7 +3734,7 @@ namespace UnitsNet
                         new CulturesForEnumValue((int) RotationalSpeedUnit.NanodegreePerSecond,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "n°/s"),
+                                new AbbreviationsForCulture("en-US", "ndeg/s"),
                                 new AbbreviationsForCulture("ru-RU", "n°/с"),
                             }),
                         new CulturesForEnumValue((int) RotationalSpeedUnit.NanoradianPerSecond,
@@ -4165,37 +4165,37 @@ namespace UnitsNet
                         new CulturesForEnumValue((int) TemperatureUnit.DegreeCelsius,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "°C"),
+                                new AbbreviationsForCulture("en-US", "degC", "°C"),
                             }),
                         new CulturesForEnumValue((int) TemperatureUnit.DegreeDelisle,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "°De"),
+                                new AbbreviationsForCulture("en-US", "degDe", "°De"),
                             }),
                         new CulturesForEnumValue((int) TemperatureUnit.DegreeFahrenheit,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "°F"),
+                                new AbbreviationsForCulture("en-US", "degF", "°F"),
                             }),
                         new CulturesForEnumValue((int) TemperatureUnit.DegreeNewton,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "°N"),
+                                new AbbreviationsForCulture("en-US", "degN", "°N"),
                             }),
                         new CulturesForEnumValue((int) TemperatureUnit.DegreeRankine,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "°R"),
+                                new AbbreviationsForCulture("en-US", "degR", "°R"),
                             }),
                         new CulturesForEnumValue((int) TemperatureUnit.DegreeReaumur,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "°Ré"),
+                                new AbbreviationsForCulture("en-US", "degRé", "°Ré"),
                             }),
                         new CulturesForEnumValue((int) TemperatureUnit.DegreeRoemer,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "°Rø"),
+                                new AbbreviationsForCulture("en-US", "degRø", "°Rø"),
                             }),
                         new CulturesForEnumValue((int) TemperatureUnit.Kelvin,
                             new[]
@@ -4209,52 +4209,52 @@ namespace UnitsNet
                         new CulturesForEnumValue((int) TemperatureChangeRateUnit.CentidegreeCelsiusPerSecond,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "c°C/s"),
+                                new AbbreviationsForCulture("en-US", "cdegC/s"),
                             }),
                         new CulturesForEnumValue((int) TemperatureChangeRateUnit.DecadegreeCelsiusPerSecond,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "da°C/s"),
+                                new AbbreviationsForCulture("en-US", "dadegC/s"),
                             }),
                         new CulturesForEnumValue((int) TemperatureChangeRateUnit.DecidegreeCelsiusPerSecond,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "d°C/s"),
+                                new AbbreviationsForCulture("en-US", "ddegC/s"),
                             }),
                         new CulturesForEnumValue((int) TemperatureChangeRateUnit.DegreeCelsiusPerMinute,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "°C/min"),
+                                new AbbreviationsForCulture("en-US", "degC/min", "°C/min"),
                             }),
                         new CulturesForEnumValue((int) TemperatureChangeRateUnit.DegreeCelsiusPerSecond,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "°C/s"),
+                                new AbbreviationsForCulture("en-US", "degC/s", "°C/s"),
                             }),
                         new CulturesForEnumValue((int) TemperatureChangeRateUnit.HectodegreeCelsiusPerSecond,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "h°C/s"),
+                                new AbbreviationsForCulture("en-US", "hdegC/s"),
                             }),
                         new CulturesForEnumValue((int) TemperatureChangeRateUnit.KilodegreeCelsiusPerSecond,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "k°C/s"),
+                                new AbbreviationsForCulture("en-US", "kdegC/s"),
                             }),
                         new CulturesForEnumValue((int) TemperatureChangeRateUnit.MicrodegreeCelsiusPerSecond,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "µ°C/s"),
+                                new AbbreviationsForCulture("en-US", "µdegC/s"),
                             }),
                         new CulturesForEnumValue((int) TemperatureChangeRateUnit.MillidegreeCelsiusPerSecond,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "m°C/s"),
+                                new AbbreviationsForCulture("en-US", "mdegC/s"),
                             }),
                         new CulturesForEnumValue((int) TemperatureChangeRateUnit.NanodegreeCelsiusPerSecond,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "n°C/s"),
+                                new AbbreviationsForCulture("en-US", "ndegC/s"),
                             }),
                     }),
                 new UnitLocalization(typeof (TemperatureDeltaUnit),
@@ -4263,72 +4263,72 @@ namespace UnitsNet
                         new CulturesForEnumValue((int) TemperatureDeltaUnit.DegreeCelsius,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "∆°C"),
+                                new AbbreviationsForCulture("en-US", "∆degC", "∆°C"),
                             }),
                         new CulturesForEnumValue((int) TemperatureDeltaUnit.DegreeCelsiusDelta,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "∆°C"),
+                                new AbbreviationsForCulture("en-US", "∆degC", "∆°C"),
                             }),
                         new CulturesForEnumValue((int) TemperatureDeltaUnit.DegreeDelisle,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "∆°De"),
+                                new AbbreviationsForCulture("en-US", "∆degDe", "∆°De"),
                             }),
                         new CulturesForEnumValue((int) TemperatureDeltaUnit.DegreeDelisleDelta,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "∆°De"),
+                                new AbbreviationsForCulture("en-US", "∆degDe", "∆°De"),
                             }),
                         new CulturesForEnumValue((int) TemperatureDeltaUnit.DegreeFahrenheit,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "∆°F"),
+                                new AbbreviationsForCulture("en-US", "∆degF", "∆°F"),
                             }),
                         new CulturesForEnumValue((int) TemperatureDeltaUnit.DegreeFahrenheitDelta,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "∆°F"),
+                                new AbbreviationsForCulture("en-US", "∆degF", "∆°F"),
                             }),
                         new CulturesForEnumValue((int) TemperatureDeltaUnit.DegreeNewton,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "∆°N"),
+                                new AbbreviationsForCulture("en-US", "∆degN", "∆°N"),
                             }),
                         new CulturesForEnumValue((int) TemperatureDeltaUnit.DegreeNewtonDelta,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "∆°N"),
+                                new AbbreviationsForCulture("en-US", "∆degN", "∆°N"),
                             }),
                         new CulturesForEnumValue((int) TemperatureDeltaUnit.DegreeRankine,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "∆°R"),
+                                new AbbreviationsForCulture("en-US", "∆degR", "∆°R"),
                             }),
                         new CulturesForEnumValue((int) TemperatureDeltaUnit.DegreeRankineDelta,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "∆°R"),
+                                new AbbreviationsForCulture("en-US", "∆degR", "∆°R"),
                             }),
                         new CulturesForEnumValue((int) TemperatureDeltaUnit.DegreeReaumur,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "∆°Ré"),
+                                new AbbreviationsForCulture("en-US", "∆degRé", "∆°Ré"),
                             }),
                         new CulturesForEnumValue((int) TemperatureDeltaUnit.DegreeReaumurDelta,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "∆°Ré"),
+                                new AbbreviationsForCulture("en-US", "∆degRé", "∆°Ré"),
                             }),
                         new CulturesForEnumValue((int) TemperatureDeltaUnit.DegreeRoemer,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "∆°Rø"),
+                                new AbbreviationsForCulture("en-US", "∆degRø", "∆°Rø"),
                             }),
                         new CulturesForEnumValue((int) TemperatureDeltaUnit.DegreeRoemerDelta,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "∆°Rø"),
+                                new AbbreviationsForCulture("en-US", "∆degRø", "∆°Rø"),
                             }),
                         new CulturesForEnumValue((int) TemperatureDeltaUnit.Kelvin,
                             new[]
@@ -4347,7 +4347,7 @@ namespace UnitsNet
                         new CulturesForEnumValue((int) ThermalConductivityUnit.BtuPerHourFootFahrenheit,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "BTU/h·ft·°F"),
+                                new AbbreviationsForCulture("en-US", "BTU/h·ft·degF", "BTU/h·ft·°F"),
                             }),
                         new CulturesForEnumValue((int) ThermalConductivityUnit.WattPerMeterKelvin,
                             new[]
@@ -4361,12 +4361,12 @@ namespace UnitsNet
                         new CulturesForEnumValue((int) ThermalResistanceUnit.HourSquareFeetDegreeFahrenheitPerBtu,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "Hrft2°F/Btu", "Hrft²°F/Btu"),
+                                new AbbreviationsForCulture("en-US", "Hrft2degF/Btu", "Hrft²°F/Btu"),
                             }),
                         new CulturesForEnumValue((int) ThermalResistanceUnit.SquareCentimeterHourDegreeCelsiusPerKilocalorie,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "cm2Hr°C/kcal", "cm²Hr°C/kcal"),
+                                new AbbreviationsForCulture("en-US", "cm2HrdegC/kcal", "cm²Hr°C/kcal"),
                             }),
                         new CulturesForEnumValue((int) ThermalResistanceUnit.SquareCentimeterKelvinPerWatt,
                             new[]
@@ -4376,7 +4376,7 @@ namespace UnitsNet
                         new CulturesForEnumValue((int) ThermalResistanceUnit.SquareMeterDegreeCelsiusPerWatt,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "m2°C/W", "m²°C/W"),
+                                new AbbreviationsForCulture("en-US", "m2degC/W", "m²°C/W"),
                             }),
                         new CulturesForEnumValue((int) ThermalResistanceUnit.SquareMeterKelvinPerKilowatt,
                             new[]
