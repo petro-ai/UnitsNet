@@ -1603,7 +1603,7 @@ namespace UnitsNet
                         new CulturesForEnumValue((int) ForceUnit.KiloPoundForce,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "klbf"),
+                                new AbbreviationsForCulture("en-US", "klbf", "klb"),
                                 new AbbreviationsForCulture("ru-RU", "kфунт-сила"),
                             }),
                         new CulturesForEnumValue((int) ForceUnit.Meganewton,
@@ -4421,7 +4421,7 @@ namespace UnitsNet
                         new CulturesForEnumValue((int) TorqueUnit.KilopoundForceFoot,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "klbf.ft"),
+                                new AbbreviationsForCulture("en-US", "klbf·ft", "kft.lbf"),
                             }),
                         new CulturesForEnumValue((int) TorqueUnit.KilopoundForceInch,
                             new[]
@@ -4447,7 +4447,7 @@ namespace UnitsNet
                         new CulturesForEnumValue((int) TorqueUnit.MegapoundForceFoot,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "Mlbf·ft"),
+                                new AbbreviationsForCulture("en-US", "klbf·ft"),
                             }),
                         new CulturesForEnumValue((int) TorqueUnit.MegapoundForceInch,
                             new[]
