@@ -71,12 +71,24 @@
       "PluralName": "PoundForceFeet",
       "FromUnitToBaseFunc": "x*1.3558179483314",
       "FromBaseToUnitFunc": "x/1.3558179483314",
-      "Prefixes": [ "Kilo", "Mega" ],
+      "Prefixes": [ "Mega" ],
       "Localization": [
         {
           "Culture": "en-US",
           "Abbreviations": [ "lbf·ft", "ft.lbf" ],
-          "AbbreviationsWithPrefixes": [ "klbf.ft", "Mlbf·ft", "kft.lbf" ]
+          "AbbreviationsWithPrefixes": [ "klbf·ft", "Mlbf·ft" ]
+        }
+      ]
+    },
+    {
+      "SingularName": "KilopoundForceFoot",
+      "PluralName": "KilopoundForceFeet",
+      "FromUnitToBaseFunc": "x*1355.8179483314",
+      "FromBaseToUnitFunc": "x/1355.8179483314",
+      "Localization": [
+        {
+          "Culture": "en-US",
+          "Abbreviations": [ "klbf·ft", "kft.lbf" ]
         }
       ]
     },
