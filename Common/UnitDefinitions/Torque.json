@@ -17,7 +17,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "N·mm" ]
+          "Abbreviations": [ "N/mm", "N·mm", "N.mm" ]
         }
       ]
     },
@@ -30,7 +30,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "N·cm" ]
+          "Abbreviations": [ "N/cm", "N·cm", "N.cm" ]
         }
       ]
     },
@@ -43,7 +43,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "N·m" ]
+          "Abbreviations": [ "N/m", "N·m", "N.m" ]
         },
         {
           "Culture": "ru-RU",
@@ -61,8 +61,8 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "lbf·in" ],
-          "AbbreviationsWithPrefixes": [ "kipf·in", "Mlbf·in" ]
+          "Abbreviations": [ "lbf/in", "lbf·in", "lbf.in" ],
+          "AbbreviationsWithPrefixes": [ "kipf/in", "Mlbf/in", "kipf·in", "Mlbf·in" ]
         }
       ]
     },
@@ -75,8 +75,8 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "lbf·ft", "ft.lbf" ],
-          "AbbreviationsWithPrefixes": [ "klbf·ft", "Mlbf·ft" ]
+          "Abbreviations": [ "lbf/ft", "lbf·ft", "ft.lbf", "lbf.ft" ],
+          "AbbreviationsWithPrefixes": [ "klbf/ft", "Mlbf/ft", "klbf·ft", "Mlbf·ft" ]
         }
       ]
     },
@@ -88,7 +88,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "klbf·ft", "kft.lbf" ]
+          "Abbreviations": [ "klbf/ft", "klbf·ft", "kft.lbf", "klbf.ft" ]
         }
       ]
     },
@@ -100,7 +100,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "kgf·mm" ]
+          "Abbreviations": [ "kgf/mm", "kgf·mm", "kgf.mm" ]
         }
       ]
     },
@@ -112,7 +112,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "kgf·cm" ]
+          "Abbreviations": [ "kgf/cm", "kgf·cm", "kgf.cm" ]
         }
       ]
     },
@@ -124,7 +124,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "kgf·m" ]
+          "Abbreviations": [ "kgf/m", "kgf·m", "kgf.m" ]
         }
       ]
     },
@@ -136,7 +136,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "tf·mm" ]
+          "Abbreviations": [ "tf/mm", "tf·mm", "tf.mm" ]
         }
       ]
     },
@@ -148,7 +148,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "tf·cm" ]
+          "Abbreviations": [ "tf/cm", "tf·cm", "tf.cm" ]
         }
       ]
     },
@@ -160,7 +160,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "tf·m" ]
+          "Abbreviations": [ "tf/m", "tf·m", "tf.m" ]
         }
       ]
     }
