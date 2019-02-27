@@ -151,14 +151,6 @@ namespace UnitsNet
         }
 
         /// <summary>
-        ///     Get nullable Torque from nullable MegapoundForceFeet.
-        /// </summary>
-        public static Torque? FromMegapoundForceFeet(QuantityValue? megapoundforcefeet)
-        {
-            return megapoundforcefeet.HasValue ? FromMegapoundForceFeet(megapoundforcefeet.Value) : default(Torque?);
-        }
-
-        /// <summary>
         ///     Get nullable Torque from nullable MegapoundForceInches.
         /// </summary>
         public static Torque? FromMegapoundForceInches(QuantityValue? megapoundforceinches)

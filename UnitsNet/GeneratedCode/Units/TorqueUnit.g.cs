@@ -53,7 +53,6 @@ namespace UnitsNet.Units
         MeganewtonCentimeter,
         MeganewtonMeter,
         MeganewtonMillimeter,
-        MegapoundForceFoot,
         MegapoundForceInch,
         NewtonCentimeter,
         NewtonMeter,

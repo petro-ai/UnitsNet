@@ -418,40 +418,6 @@ namespace UnitsNet.Extensions.NumberToTorque
 
         #endregion
 
-        #region MegapoundForceFoot
-
-        /// <inheritdoc cref="Torque.FromMegapoundForceFeet(UnitsNet.QuantityValue)" />
-        public static Torque MegapoundForceFeet(this int value) => Torque.FromMegapoundForceFeet(value);
-
-        /// <inheritdoc cref="Torque.FromMegapoundForceFeet(UnitsNet.QuantityValue)" />
-        public static Torque? MegapoundForceFeet(this int? value) => Torque.FromMegapoundForceFeet(value);
-
-        /// <inheritdoc cref="Torque.FromMegapoundForceFeet(UnitsNet.QuantityValue)" />
-        public static Torque MegapoundForceFeet(this long value) => Torque.FromMegapoundForceFeet(value);
-
-        /// <inheritdoc cref="Torque.FromMegapoundForceFeet(UnitsNet.QuantityValue)" />
-        public static Torque? MegapoundForceFeet(this long? value) => Torque.FromMegapoundForceFeet(value);
-
-        /// <inheritdoc cref="Torque.FromMegapoundForceFeet(UnitsNet.QuantityValue)" />
-        public static Torque MegapoundForceFeet(this double value) => Torque.FromMegapoundForceFeet(value);
-
-        /// <inheritdoc cref="Torque.FromMegapoundForceFeet(UnitsNet.QuantityValue)" />
-        public static Torque? MegapoundForceFeet(this double? value) => Torque.FromMegapoundForceFeet(value);
-
-        /// <inheritdoc cref="Torque.FromMegapoundForceFeet(UnitsNet.QuantityValue)" />
-        public static Torque MegapoundForceFeet(this float value) => Torque.FromMegapoundForceFeet(value);
-
-        /// <inheritdoc cref="Torque.FromMegapoundForceFeet(UnitsNet.QuantityValue)" />
-        public static Torque? MegapoundForceFeet(this float? value) => Torque.FromMegapoundForceFeet(value);
-
-        /// <inheritdoc cref="Torque.FromMegapoundForceFeet(UnitsNet.QuantityValue)" />
-        public static Torque MegapoundForceFeet(this decimal value) => Torque.FromMegapoundForceFeet(Convert.ToDouble(value));
-
-        /// <inheritdoc cref="Torque.FromMegapoundForceFeet(UnitsNet.QuantityValue)" />
-        public static Torque? MegapoundForceFeet(this decimal? value) => Torque.FromMegapoundForceFeet(value == null ? (double?)null : Convert.ToDouble(value.Value));
-
-        #endregion
-
         #region MegapoundForceInch
 
         /// <inheritdoc cref="Torque.FromMegapoundForceInches(UnitsNet.QuantityValue)" />

@@ -214,11 +214,6 @@ namespace UnitsNet
         public double MeganewtonMillimeters => As(TorqueUnit.MeganewtonMillimeter);
 
         /// <summary>
-        ///     Get Torque in MegapoundForceFeet.
-        /// </summary>
-        public double MegapoundForceFeet => As(TorqueUnit.MegapoundForceFoot);
-
-        /// <summary>
         ///     Get Torque in MegapoundForceInches.
         /// </summary>
         public double MegapoundForceInches => As(TorqueUnit.MegapoundForceInch);
@@ -421,20 +416,6 @@ namespace UnitsNet
         {
             double value = (double) meganewtonmillimeters;
             return new Torque(value, TorqueUnit.MeganewtonMillimeter);
-        }
-
-        /// <summary>
-        ///     Get Torque from MegapoundForceFeet.
-        /// </summary>
-#if WINDOWS_UWP
-        [Windows.Foundation.Metadata.DefaultOverload]
-        public static Torque FromMegapoundForceFeet(double megapoundforcefeet)
-#else
-        public static Torque FromMegapoundForceFeet(QuantityValue megapoundforcefeet)
-#endif
-        {
-            double value = (double) megapoundforcefeet;
-            return new Torque(value, TorqueUnit.MegapoundForceFoot);
         }
 
         /// <summary>
@@ -769,9 +750,8 @@ namespace UnitsNet
                 case TorqueUnit.KilopoundForceFoot: return _value*1355.8179483314;
                 case TorqueUnit.KilopoundForceInch: return (_value*1.129848290276167e-1) * 1e3d;
                 case TorqueUnit.MeganewtonCentimeter: return (_value*0.01) * 1e6d;
-                case TorqueUnit.MeganewtonMeter: return (_value) * 1e6d;
+                case TorqueUnit.MeganewtonMeter: return _value*1000000;
                 case TorqueUnit.MeganewtonMillimeter: return (_value*0.001) * 1e6d;
-                case TorqueUnit.MegapoundForceFoot: return (_value*1.3558179483314) * 1e6d;
                 case TorqueUnit.MegapoundForceInch: return (_value*1.129848290276167e-1) * 1e6d;
                 case TorqueUnit.NewtonCentimeter: return _value*0.01;
                 case TorqueUnit.NewtonMeter: return _value;
@@ -804,9 +784,8 @@ namespace UnitsNet
                 case TorqueUnit.KilopoundForceFoot: return baseUnitValue/1355.8179483314;
                 case TorqueUnit.KilopoundForceInch: return (baseUnitValue/1.129848290276167e-1) / 1e3d;
                 case TorqueUnit.MeganewtonCentimeter: return (baseUnitValue*100) / 1e6d;
-                case TorqueUnit.MeganewtonMeter: return (baseUnitValue) / 1e6d;
+                case TorqueUnit.MeganewtonMeter: return baseUnitValue*.000001;
                 case TorqueUnit.MeganewtonMillimeter: return (baseUnitValue*1000) / 1e6d;
-                case TorqueUnit.MegapoundForceFoot: return (baseUnitValue/1.3558179483314) / 1e6d;
                 case TorqueUnit.MegapoundForceInch: return (baseUnitValue/1.129848290276167e-1) / 1e6d;
                 case TorqueUnit.NewtonCentimeter: return baseUnitValue*100;
                 case TorqueUnit.NewtonMeter: return baseUnitValue;

@@ -4435,18 +4435,12 @@ namespace UnitsNet
                         new CulturesForEnumValue((int) TorqueUnit.MeganewtonMeter,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "kN.m"),
-                                new AbbreviationsForCulture("ru-RU", "кН·м"),
+                                new AbbreviationsForCulture("en-US", "MN/m", "MN·m", "MN.m"),
                             }),
                         new CulturesForEnumValue((int) TorqueUnit.MeganewtonMillimeter,
                             new[]
                             {
                                 new AbbreviationsForCulture("en-US", "MN/mm"),
-                            }),
-                        new CulturesForEnumValue((int) TorqueUnit.MegapoundForceFoot,
-                            new[]
-                            {
-                                new AbbreviationsForCulture("en-US", "klbf/ft"),
                             }),
                         new CulturesForEnumValue((int) TorqueUnit.MegapoundForceInch,
                             new[]
