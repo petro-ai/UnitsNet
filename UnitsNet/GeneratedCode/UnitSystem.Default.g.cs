@@ -4390,110 +4390,109 @@ namespace UnitsNet
                         new CulturesForEnumValue((int) TorqueUnit.KilogramForceCentimeter,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "kgf·cm", "kgf.cm"),
+                                new AbbreviationsForCulture("en-US", "kgf/cm", "kgf·cm", "kgf.cm"),
                             }),
                         new CulturesForEnumValue((int) TorqueUnit.KilogramForceMeter,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "kgf·m", "kgf.m"),
+                                new AbbreviationsForCulture("en-US", "kgf/m", "kgf·m", "kgf.m"),
                             }),
                         new CulturesForEnumValue((int) TorqueUnit.KilogramForceMillimeter,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "kgf·mm", "kgf.mm"),
+                                new AbbreviationsForCulture("en-US", "kgf/mm", "kgf·mm", "kgf.mm"),
                             }),
                         new CulturesForEnumValue((int) TorqueUnit.KilonewtonCentimeter,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "kN·cm"),
+                                new AbbreviationsForCulture("en-US", "kN/cm"),
                             }),
                         new CulturesForEnumValue((int) TorqueUnit.KilonewtonMeter,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "kN·m"),
-                                new AbbreviationsForCulture("ru-RU", "кН·м"),
+                                new AbbreviationsForCulture("en-US", "kN/m", "kN·m", "kN.m"),
                             }),
                         new CulturesForEnumValue((int) TorqueUnit.KilonewtonMillimeter,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "kN·mm"),
+                                new AbbreviationsForCulture("en-US", "kN/mm"),
                             }),
                         new CulturesForEnumValue((int) TorqueUnit.KilopoundForceFoot,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "klbf·ft", "kft.lbf", "klbf.ft"),
+                                new AbbreviationsForCulture("en-US", "klbf/ft", "klbf·ft", "kft.lbf", "klbf.ft"),
                             }),
                         new CulturesForEnumValue((int) TorqueUnit.KilopoundForceInch,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "kipf·in"),
+                                new AbbreviationsForCulture("en-US", "kipf/in"),
                             }),
                         new CulturesForEnumValue((int) TorqueUnit.MeganewtonCentimeter,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "MN·cm"),
+                                new AbbreviationsForCulture("en-US", "MN/cm"),
                             }),
                         new CulturesForEnumValue((int) TorqueUnit.MeganewtonMeter,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "MN·m"),
-                                new AbbreviationsForCulture("ru-RU", ""),
+                                new AbbreviationsForCulture("en-US", "kN.m"),
+                                new AbbreviationsForCulture("ru-RU", "кН·м"),
                             }),
                         new CulturesForEnumValue((int) TorqueUnit.MeganewtonMillimeter,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "MN·mm"),
+                                new AbbreviationsForCulture("en-US", "MN/mm"),
                             }),
                         new CulturesForEnumValue((int) TorqueUnit.MegapoundForceFoot,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "klbf·ft"),
+                                new AbbreviationsForCulture("en-US", "klbf/ft"),
                             }),
                         new CulturesForEnumValue((int) TorqueUnit.MegapoundForceInch,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "Mlbf·in"),
+                                new AbbreviationsForCulture("en-US", "Mlbf/in"),
                             }),
                         new CulturesForEnumValue((int) TorqueUnit.NewtonCentimeter,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "N·cm", "N.cm"),
+                                new AbbreviationsForCulture("en-US", "N/cm", "N·cm", "N.cm"),
                             }),
                         new CulturesForEnumValue((int) TorqueUnit.NewtonMeter,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "N·m", "N.m"),
+                                new AbbreviationsForCulture("en-US", "N/m", "N·m", "N.m"),
                                 new AbbreviationsForCulture("ru-RU", "Н·м"),
                             }),
                         new CulturesForEnumValue((int) TorqueUnit.NewtonMillimeter,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "N·mm", "N.mm"),
+                                new AbbreviationsForCulture("en-US", "N/mm", "N·mm", "N.mm"),
                             }),
                         new CulturesForEnumValue((int) TorqueUnit.PoundForceFoot,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "lbf·ft", "ft.lbf", "lbf.ft"),
+                                new AbbreviationsForCulture("en-US", "lbf/ft", "lbf·ft", "ft.lbf", "lbf.ft"),
                             }),
                         new CulturesForEnumValue((int) TorqueUnit.PoundForceInch,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "lbf·in", "lbf.in"),
+                                new AbbreviationsForCulture("en-US", "lbf/in", "lbf·in", "lbf.in"),
                             }),
                         new CulturesForEnumValue((int) TorqueUnit.TonneForceCentimeter,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "tf·cm", "tf.cm"),
+                                new AbbreviationsForCulture("en-US", "tf/cm", "tf·cm", "tf.cm"),
                             }),
                         new CulturesForEnumValue((int) TorqueUnit.TonneForceMeter,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "tf·m", "tf.m"),
+                                new AbbreviationsForCulture("en-US", "tf/m", "tf·m", "tf.m"),
                             }),
                         new CulturesForEnumValue((int) TorqueUnit.TonneForceMillimeter,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "tf·mm", "tf.mm"),
+                                new AbbreviationsForCulture("en-US", "tf/mm", "tf·mm", "tf.mm"),
                             }),
                     }),
                 new UnitLocalization(typeof (VitaminAUnit),

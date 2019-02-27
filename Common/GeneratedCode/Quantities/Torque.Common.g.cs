@@ -764,7 +764,7 @@ namespace UnitsNet
                 case TorqueUnit.KilogramForceMeter: return _value*9.80665019960652;
                 case TorqueUnit.KilogramForceMillimeter: return _value*0.00980665019960652;
                 case TorqueUnit.KilonewtonCentimeter: return (_value*0.01) * 1e3d;
-                case TorqueUnit.KilonewtonMeter: return (_value) * 1e3d;
+                case TorqueUnit.KilonewtonMeter: return _value*1000;
                 case TorqueUnit.KilonewtonMillimeter: return (_value*0.001) * 1e3d;
                 case TorqueUnit.KilopoundForceFoot: return _value*1355.8179483314;
                 case TorqueUnit.KilopoundForceInch: return (_value*1.129848290276167e-1) * 1e3d;
@@ -799,7 +799,7 @@ namespace UnitsNet
                 case TorqueUnit.KilogramForceMeter: return baseUnitValue*0.101971619222242;
                 case TorqueUnit.KilogramForceMillimeter: return baseUnitValue*101.971619222242;
                 case TorqueUnit.KilonewtonCentimeter: return (baseUnitValue*100) / 1e3d;
-                case TorqueUnit.KilonewtonMeter: return (baseUnitValue) / 1e3d;
+                case TorqueUnit.KilonewtonMeter: return baseUnitValue*.001;
                 case TorqueUnit.KilonewtonMillimeter: return (baseUnitValue*1000) / 1e3d;
                 case TorqueUnit.KilopoundForceFoot: return baseUnitValue/1355.8179483314;
                 case TorqueUnit.KilopoundForceInch: return (baseUnitValue/1.129848290276167e-1) / 1e3d;

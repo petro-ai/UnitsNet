@@ -39,16 +39,29 @@
       "PluralName": "NewtonMeters",
       "FromUnitToBaseFunc": "x",
       "FromBaseToUnitFunc": "x",
-      "Prefixes": [ "Kilo", "Mega" ],
+      "Prefixes": [ "Mega" ],
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "N/m", "N·m", "N.m" ]
+          "Abbreviations": [ "N/m", "N·m", "N.m" ],
+          "AbbreviationsWithPrefixes": ["MN.m", "MN·m"]
         },
         {
           "Culture": "ru-RU",
           "Abbreviations": [ "Н·м" ],
           "AbbreviationsWithPrefixes": [ "кН·м" ]
+        }
+      ]
+    },
+    {
+      "SingularName": "KilonewtonMeter",
+      "PluralName": "KilonewtonMeters",
+      "FromUnitToBaseFunc": "x*1000",
+      "FromBaseToUnitFunc": "x*.001",
+      "Localization": [
+        {
+          "Culture": "en-US",
+          "Abbreviations": [ "kN/m", "kN·m", "kN.m" ]
         }
       ]
     },
