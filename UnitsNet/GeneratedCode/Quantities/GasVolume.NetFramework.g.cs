@@ -63,11 +63,27 @@ namespace UnitsNet
         #region Nullable From Methods
 
         /// <summary>
+        ///     Get nullable GasVolume from nullable BillionCubicFeet.
+        /// </summary>
+        public static GasVolume? FromBillionCubicFeet(QuantityValue? billioncubicfeet)
+        {
+            return billioncubicfeet.HasValue ? FromBillionCubicFeet(billioncubicfeet.Value) : default(GasVolume?);
+        }
+
+        /// <summary>
         ///     Get nullable GasVolume from nullable CubicFeet.
         /// </summary>
         public static GasVolume? FromCubicFeet(QuantityValue? cubicfeet)
         {
             return cubicfeet.HasValue ? FromCubicFeet(cubicfeet.Value) : default(GasVolume?);
+        }
+
+        /// <summary>
+        ///     Get nullable GasVolume from nullable CubicKiloMeters.
+        /// </summary>
+        public static GasVolume? FromCubicKiloMeters(QuantityValue? cubickilometers)
+        {
+            return cubickilometers.HasValue ? FromCubicKiloMeters(cubickilometers.Value) : default(GasVolume?);
         }
 
         /// <summary>
@@ -92,6 +108,22 @@ namespace UnitsNet
         public static GasVolume? FromKilocubicMeters(QuantityValue? kilocubicmeters)
         {
             return kilocubicmeters.HasValue ? FromKilocubicMeters(kilocubicmeters.Value) : default(GasVolume?);
+        }
+
+        /// <summary>
+        ///     Get nullable GasVolume from nullable MillionCubicFeet.
+        /// </summary>
+        public static GasVolume? FromMillionCubicFeet(QuantityValue? millioncubicfeet)
+        {
+            return millioncubicfeet.HasValue ? FromMillionCubicFeet(millioncubicfeet.Value) : default(GasVolume?);
+        }
+
+        /// <summary>
+        ///     Get nullable GasVolume from nullable ThousandCubicFeet.
+        /// </summary>
+        public static GasVolume? FromThousandCubicFeet(QuantityValue? thousandcubicfeet)
+        {
+            return thousandcubicfeet.HasValue ? FromThousandCubicFeet(thousandcubicfeet.Value) : default(GasVolume?);
         }
 
         /// <summary>

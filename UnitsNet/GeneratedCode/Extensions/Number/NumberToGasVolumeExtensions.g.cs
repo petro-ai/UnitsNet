@@ -44,6 +44,40 @@ namespace UnitsNet.Extensions.NumberToGasVolume
 {
     public static class NumberToGasVolumeExtensions
     {
+        #region BillionCubicFoot
+
+        /// <inheritdoc cref="GasVolume.FromBillionCubicFeet(UnitsNet.QuantityValue)" />
+        public static GasVolume BillionCubicFeet(this int value) => GasVolume.FromBillionCubicFeet(value);
+
+        /// <inheritdoc cref="GasVolume.FromBillionCubicFeet(UnitsNet.QuantityValue)" />
+        public static GasVolume? BillionCubicFeet(this int? value) => GasVolume.FromBillionCubicFeet(value);
+
+        /// <inheritdoc cref="GasVolume.FromBillionCubicFeet(UnitsNet.QuantityValue)" />
+        public static GasVolume BillionCubicFeet(this long value) => GasVolume.FromBillionCubicFeet(value);
+
+        /// <inheritdoc cref="GasVolume.FromBillionCubicFeet(UnitsNet.QuantityValue)" />
+        public static GasVolume? BillionCubicFeet(this long? value) => GasVolume.FromBillionCubicFeet(value);
+
+        /// <inheritdoc cref="GasVolume.FromBillionCubicFeet(UnitsNet.QuantityValue)" />
+        public static GasVolume BillionCubicFeet(this double value) => GasVolume.FromBillionCubicFeet(value);
+
+        /// <inheritdoc cref="GasVolume.FromBillionCubicFeet(UnitsNet.QuantityValue)" />
+        public static GasVolume? BillionCubicFeet(this double? value) => GasVolume.FromBillionCubicFeet(value);
+
+        /// <inheritdoc cref="GasVolume.FromBillionCubicFeet(UnitsNet.QuantityValue)" />
+        public static GasVolume BillionCubicFeet(this float value) => GasVolume.FromBillionCubicFeet(value);
+
+        /// <inheritdoc cref="GasVolume.FromBillionCubicFeet(UnitsNet.QuantityValue)" />
+        public static GasVolume? BillionCubicFeet(this float? value) => GasVolume.FromBillionCubicFeet(value);
+
+        /// <inheritdoc cref="GasVolume.FromBillionCubicFeet(UnitsNet.QuantityValue)" />
+        public static GasVolume BillionCubicFeet(this decimal value) => GasVolume.FromBillionCubicFeet(Convert.ToDouble(value));
+
+        /// <inheritdoc cref="GasVolume.FromBillionCubicFeet(UnitsNet.QuantityValue)" />
+        public static GasVolume? BillionCubicFeet(this decimal? value) => GasVolume.FromBillionCubicFeet(value == null ? (double?)null : Convert.ToDouble(value.Value));
+
+        #endregion
+
         #region CubicFoot
 
         /// <inheritdoc cref="GasVolume.FromCubicFeet(UnitsNet.QuantityValue)" />
@@ -75,6 +109,40 @@ namespace UnitsNet.Extensions.NumberToGasVolume
 
         /// <inheritdoc cref="GasVolume.FromCubicFeet(UnitsNet.QuantityValue)" />
         public static GasVolume? CubicFeet(this decimal? value) => GasVolume.FromCubicFeet(value == null ? (double?)null : Convert.ToDouble(value.Value));
+
+        #endregion
+
+        #region CubicKiloMeter
+
+        /// <inheritdoc cref="GasVolume.FromCubicKiloMeters(UnitsNet.QuantityValue)" />
+        public static GasVolume CubicKiloMeters(this int value) => GasVolume.FromCubicKiloMeters(value);
+
+        /// <inheritdoc cref="GasVolume.FromCubicKiloMeters(UnitsNet.QuantityValue)" />
+        public static GasVolume? CubicKiloMeters(this int? value) => GasVolume.FromCubicKiloMeters(value);
+
+        /// <inheritdoc cref="GasVolume.FromCubicKiloMeters(UnitsNet.QuantityValue)" />
+        public static GasVolume CubicKiloMeters(this long value) => GasVolume.FromCubicKiloMeters(value);
+
+        /// <inheritdoc cref="GasVolume.FromCubicKiloMeters(UnitsNet.QuantityValue)" />
+        public static GasVolume? CubicKiloMeters(this long? value) => GasVolume.FromCubicKiloMeters(value);
+
+        /// <inheritdoc cref="GasVolume.FromCubicKiloMeters(UnitsNet.QuantityValue)" />
+        public static GasVolume CubicKiloMeters(this double value) => GasVolume.FromCubicKiloMeters(value);
+
+        /// <inheritdoc cref="GasVolume.FromCubicKiloMeters(UnitsNet.QuantityValue)" />
+        public static GasVolume? CubicKiloMeters(this double? value) => GasVolume.FromCubicKiloMeters(value);
+
+        /// <inheritdoc cref="GasVolume.FromCubicKiloMeters(UnitsNet.QuantityValue)" />
+        public static GasVolume CubicKiloMeters(this float value) => GasVolume.FromCubicKiloMeters(value);
+
+        /// <inheritdoc cref="GasVolume.FromCubicKiloMeters(UnitsNet.QuantityValue)" />
+        public static GasVolume? CubicKiloMeters(this float? value) => GasVolume.FromCubicKiloMeters(value);
+
+        /// <inheritdoc cref="GasVolume.FromCubicKiloMeters(UnitsNet.QuantityValue)" />
+        public static GasVolume CubicKiloMeters(this decimal value) => GasVolume.FromCubicKiloMeters(Convert.ToDouble(value));
+
+        /// <inheritdoc cref="GasVolume.FromCubicKiloMeters(UnitsNet.QuantityValue)" />
+        public static GasVolume? CubicKiloMeters(this decimal? value) => GasVolume.FromCubicKiloMeters(value == null ? (double?)null : Convert.ToDouble(value.Value));
 
         #endregion
 
@@ -177,6 +245,74 @@ namespace UnitsNet.Extensions.NumberToGasVolume
 
         /// <inheritdoc cref="GasVolume.FromKilocubicMeters(UnitsNet.QuantityValue)" />
         public static GasVolume? KilocubicMeters(this decimal? value) => GasVolume.FromKilocubicMeters(value == null ? (double?)null : Convert.ToDouble(value.Value));
+
+        #endregion
+
+        #region MillionCubicFoot
+
+        /// <inheritdoc cref="GasVolume.FromMillionCubicFeet(UnitsNet.QuantityValue)" />
+        public static GasVolume MillionCubicFeet(this int value) => GasVolume.FromMillionCubicFeet(value);
+
+        /// <inheritdoc cref="GasVolume.FromMillionCubicFeet(UnitsNet.QuantityValue)" />
+        public static GasVolume? MillionCubicFeet(this int? value) => GasVolume.FromMillionCubicFeet(value);
+
+        /// <inheritdoc cref="GasVolume.FromMillionCubicFeet(UnitsNet.QuantityValue)" />
+        public static GasVolume MillionCubicFeet(this long value) => GasVolume.FromMillionCubicFeet(value);
+
+        /// <inheritdoc cref="GasVolume.FromMillionCubicFeet(UnitsNet.QuantityValue)" />
+        public static GasVolume? MillionCubicFeet(this long? value) => GasVolume.FromMillionCubicFeet(value);
+
+        /// <inheritdoc cref="GasVolume.FromMillionCubicFeet(UnitsNet.QuantityValue)" />
+        public static GasVolume MillionCubicFeet(this double value) => GasVolume.FromMillionCubicFeet(value);
+
+        /// <inheritdoc cref="GasVolume.FromMillionCubicFeet(UnitsNet.QuantityValue)" />
+        public static GasVolume? MillionCubicFeet(this double? value) => GasVolume.FromMillionCubicFeet(value);
+
+        /// <inheritdoc cref="GasVolume.FromMillionCubicFeet(UnitsNet.QuantityValue)" />
+        public static GasVolume MillionCubicFeet(this float value) => GasVolume.FromMillionCubicFeet(value);
+
+        /// <inheritdoc cref="GasVolume.FromMillionCubicFeet(UnitsNet.QuantityValue)" />
+        public static GasVolume? MillionCubicFeet(this float? value) => GasVolume.FromMillionCubicFeet(value);
+
+        /// <inheritdoc cref="GasVolume.FromMillionCubicFeet(UnitsNet.QuantityValue)" />
+        public static GasVolume MillionCubicFeet(this decimal value) => GasVolume.FromMillionCubicFeet(Convert.ToDouble(value));
+
+        /// <inheritdoc cref="GasVolume.FromMillionCubicFeet(UnitsNet.QuantityValue)" />
+        public static GasVolume? MillionCubicFeet(this decimal? value) => GasVolume.FromMillionCubicFeet(value == null ? (double?)null : Convert.ToDouble(value.Value));
+
+        #endregion
+
+        #region ThousandCubicFoot
+
+        /// <inheritdoc cref="GasVolume.FromThousandCubicFeet(UnitsNet.QuantityValue)" />
+        public static GasVolume ThousandCubicFeet(this int value) => GasVolume.FromThousandCubicFeet(value);
+
+        /// <inheritdoc cref="GasVolume.FromThousandCubicFeet(UnitsNet.QuantityValue)" />
+        public static GasVolume? ThousandCubicFeet(this int? value) => GasVolume.FromThousandCubicFeet(value);
+
+        /// <inheritdoc cref="GasVolume.FromThousandCubicFeet(UnitsNet.QuantityValue)" />
+        public static GasVolume ThousandCubicFeet(this long value) => GasVolume.FromThousandCubicFeet(value);
+
+        /// <inheritdoc cref="GasVolume.FromThousandCubicFeet(UnitsNet.QuantityValue)" />
+        public static GasVolume? ThousandCubicFeet(this long? value) => GasVolume.FromThousandCubicFeet(value);
+
+        /// <inheritdoc cref="GasVolume.FromThousandCubicFeet(UnitsNet.QuantityValue)" />
+        public static GasVolume ThousandCubicFeet(this double value) => GasVolume.FromThousandCubicFeet(value);
+
+        /// <inheritdoc cref="GasVolume.FromThousandCubicFeet(UnitsNet.QuantityValue)" />
+        public static GasVolume? ThousandCubicFeet(this double? value) => GasVolume.FromThousandCubicFeet(value);
+
+        /// <inheritdoc cref="GasVolume.FromThousandCubicFeet(UnitsNet.QuantityValue)" />
+        public static GasVolume ThousandCubicFeet(this float value) => GasVolume.FromThousandCubicFeet(value);
+
+        /// <inheritdoc cref="GasVolume.FromThousandCubicFeet(UnitsNet.QuantityValue)" />
+        public static GasVolume? ThousandCubicFeet(this float? value) => GasVolume.FromThousandCubicFeet(value);
+
+        /// <inheritdoc cref="GasVolume.FromThousandCubicFeet(UnitsNet.QuantityValue)" />
+        public static GasVolume ThousandCubicFeet(this decimal value) => GasVolume.FromThousandCubicFeet(Convert.ToDouble(value));
+
+        /// <inheritdoc cref="GasVolume.FromThousandCubicFeet(UnitsNet.QuantityValue)" />
+        public static GasVolume? ThousandCubicFeet(this decimal? value) => GasVolume.FromThousandCubicFeet(value == null ? (double?)null : Convert.ToDouble(value.Value));
 
         #endregion
 

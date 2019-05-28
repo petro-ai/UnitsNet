@@ -1793,17 +1793,27 @@ namespace UnitsNet
                 new UnitLocalization(typeof (GasRateUnit),
                     new[]
                     {
-                        new CulturesForEnumValue((int) GasRateUnit.CubicFoot,
+                        new CulturesForEnumValue((int) GasRateUnit.BillionCubicFootPerDay,
+                            new[]
+                            {
+                                new AbbreviationsForCulture("en-US", "bcf/d"),
+                            }),
+                        new CulturesForEnumValue((int) GasRateUnit.CubicFootPerDay,
                             new[]
                             {
                                 new AbbreviationsForCulture("en-US", "cfd", "cf/d"),
+                            }),
+                        new CulturesForEnumValue((int) GasRateUnit.CubicKiloMetersPerDay,
+                            new[]
+                            {
+                                new AbbreviationsForCulture("en-US", "e3m3/d", "km3/d"),
                             }),
                         new CulturesForEnumValue((int) GasRateUnit.CubicMeterPerDay,
                             new[]
                             {
                                 new AbbreviationsForCulture("en-US", "m3/d", "m³/d"),
                             }),
-                        new CulturesForEnumValue((int) GasRateUnit.GigacubicFoot,
+                        new CulturesForEnumValue((int) GasRateUnit.GigacubicFootPerDay,
                             new[]
                             {
                                 new AbbreviationsForCulture("en-US", "Gcfd"),
@@ -1813,7 +1823,7 @@ namespace UnitsNet
                             {
                                 new AbbreviationsForCulture("en-US", "hm3/d"),
                             }),
-                        new CulturesForEnumValue((int) GasRateUnit.KilocubicFoot,
+                        new CulturesForEnumValue((int) GasRateUnit.KilocubicFootPerDay,
                             new[]
                             {
                                 new AbbreviationsForCulture("en-US", "kcfd"),
@@ -1823,7 +1833,7 @@ namespace UnitsNet
                             {
                                 new AbbreviationsForCulture("en-US", "km3/d"),
                             }),
-                        new CulturesForEnumValue((int) GasRateUnit.MegacubicFoot,
+                        new CulturesForEnumValue((int) GasRateUnit.MegacubicFootPerDay,
                             new[]
                             {
                                 new AbbreviationsForCulture("en-US", "Mcfd"),
@@ -1833,19 +1843,39 @@ namespace UnitsNet
                             {
                                 new AbbreviationsForCulture("en-US", "Mm3/d"),
                             }),
-                        new CulturesForEnumValue((int) GasRateUnit.TeracubicFoot,
+                        new CulturesForEnumValue((int) GasRateUnit.MillionCubicFootPerDay,
+                            new[]
+                            {
+                                new AbbreviationsForCulture("en-US", "mmcf/d"),
+                            }),
+                        new CulturesForEnumValue((int) GasRateUnit.TeracubicFootPerDay,
                             new[]
                             {
                                 new AbbreviationsForCulture("en-US", "Tcfd"),
+                            }),
+                        new CulturesForEnumValue((int) GasRateUnit.ThousandCubicFootPerDay,
+                            new[]
+                            {
+                                new AbbreviationsForCulture("en-US", "mcf/d"),
                             }),
                     }),
                 new UnitLocalization(typeof (GasVolumeUnit),
                     new[]
                     {
+                        new CulturesForEnumValue((int) GasVolumeUnit.BillionCubicFoot,
+                            new[]
+                            {
+                                new AbbreviationsForCulture("en-US", "bcf"),
+                            }),
                         new CulturesForEnumValue((int) GasVolumeUnit.CubicFoot,
                             new[]
                             {
                                 new AbbreviationsForCulture("en-US", "cf"),
+                            }),
+                        new CulturesForEnumValue((int) GasVolumeUnit.CubicKiloMeter,
+                            new[]
+                            {
+                                new AbbreviationsForCulture("en-US", "e3m3", "km3"),
                             }),
                         new CulturesForEnumValue((int) GasVolumeUnit.CubicMeter,
                             new[]
@@ -1861,6 +1891,16 @@ namespace UnitsNet
                             new[]
                             {
                                 new AbbreviationsForCulture("en-US", "km3"),
+                            }),
+                        new CulturesForEnumValue((int) GasVolumeUnit.MillionCubicFoot,
+                            new[]
+                            {
+                                new AbbreviationsForCulture("en-US", "mmcf"),
+                            }),
+                        new CulturesForEnumValue((int) GasVolumeUnit.ThousandCubicFoot,
+                            new[]
+                            {
+                                new AbbreviationsForCulture("en-US", "mcf"),
                             }),
                     }),
                 new UnitLocalization(typeof (HeatFluxUnit),
@@ -2377,6 +2417,11 @@ namespace UnitsNet
                 new UnitLocalization(typeof (LiquidRateUnit),
                     new[]
                     {
+                        new CulturesForEnumValue((int) LiquidRateUnit.CubicKiloMetersPerDay,
+                            new[]
+                            {
+                                new AbbreviationsForCulture("en-US", "e3m3/d", "km3/d"),
+                            }),
                         new CulturesForEnumValue((int) LiquidRateUnit.CubicMeterPerDay,
                             new[]
                             {
@@ -2392,15 +2437,30 @@ namespace UnitsNet
                             {
                                 new AbbreviationsForCulture("en-US", "km3/d"),
                             }),
+                        new CulturesForEnumValue((int) LiquidRateUnit.MillionOilBarrelPerDay,
+                            new[]
+                            {
+                                new AbbreviationsForCulture("en-US", "mmbbl/d"),
+                            }),
                         new CulturesForEnumValue((int) LiquidRateUnit.OilBarrelsPerDay,
                             new[]
                             {
                                 new AbbreviationsForCulture("en-US", "bbl/d", "BOPD"),
                             }),
+                        new CulturesForEnumValue((int) LiquidRateUnit.ThousandOilBarrelsPerDay,
+                            new[]
+                            {
+                                new AbbreviationsForCulture("en-US", "mbbl/d"),
+                            }),
                     }),
                 new UnitLocalization(typeof (LiquidVolumeUnit),
                     new[]
                     {
+                        new CulturesForEnumValue((int) LiquidVolumeUnit.CubicKiloMeter,
+                            new[]
+                            {
+                                new AbbreviationsForCulture("en-US", "e3m3", "km3"),
+                            }),
                         new CulturesForEnumValue((int) LiquidVolumeUnit.CubicMeter,
                             new[]
                             {
@@ -2419,10 +2479,20 @@ namespace UnitsNet
                                 new AbbreviationsForCulture("en-US", "km3"),
                                 new AbbreviationsForCulture("ru-RU", "kм3"),
                             }),
+                        new CulturesForEnumValue((int) LiquidVolumeUnit.MillionOilBarrel,
+                            new[]
+                            {
+                                new AbbreviationsForCulture("en-US", "mmbbl"),
+                            }),
                         new CulturesForEnumValue((int) LiquidVolumeUnit.OilBarrel,
                             new[]
                             {
                                 new AbbreviationsForCulture("en-US", "bbl"),
+                            }),
+                        new CulturesForEnumValue((int) LiquidVolumeUnit.ThousandOilBarrel,
+                            new[]
+                            {
+                                new AbbreviationsForCulture("en-US", "mbbl"),
                             }),
                     }),
                 new UnitLocalization(typeof (LuminousFluxUnit),

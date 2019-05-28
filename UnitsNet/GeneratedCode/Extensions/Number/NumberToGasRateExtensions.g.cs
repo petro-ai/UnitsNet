@@ -44,37 +44,105 @@ namespace UnitsNet.Extensions.NumberToGasRate
 {
     public static class NumberToGasRateExtensions
     {
-        #region CubicFoot
+        #region BillionCubicFootPerDay
 
-        /// <inheritdoc cref="GasRate.FromCubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate CubicFeet(this int value) => GasRate.FromCubicFeet(value);
+        /// <inheritdoc cref="GasRate.FromBillionCubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate BillionCubicFeetPerDay(this int value) => GasRate.FromBillionCubicFeetPerDay(value);
 
-        /// <inheritdoc cref="GasRate.FromCubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate? CubicFeet(this int? value) => GasRate.FromCubicFeet(value);
+        /// <inheritdoc cref="GasRate.FromBillionCubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate? BillionCubicFeetPerDay(this int? value) => GasRate.FromBillionCubicFeetPerDay(value);
 
-        /// <inheritdoc cref="GasRate.FromCubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate CubicFeet(this long value) => GasRate.FromCubicFeet(value);
+        /// <inheritdoc cref="GasRate.FromBillionCubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate BillionCubicFeetPerDay(this long value) => GasRate.FromBillionCubicFeetPerDay(value);
 
-        /// <inheritdoc cref="GasRate.FromCubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate? CubicFeet(this long? value) => GasRate.FromCubicFeet(value);
+        /// <inheritdoc cref="GasRate.FromBillionCubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate? BillionCubicFeetPerDay(this long? value) => GasRate.FromBillionCubicFeetPerDay(value);
 
-        /// <inheritdoc cref="GasRate.FromCubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate CubicFeet(this double value) => GasRate.FromCubicFeet(value);
+        /// <inheritdoc cref="GasRate.FromBillionCubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate BillionCubicFeetPerDay(this double value) => GasRate.FromBillionCubicFeetPerDay(value);
 
-        /// <inheritdoc cref="GasRate.FromCubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate? CubicFeet(this double? value) => GasRate.FromCubicFeet(value);
+        /// <inheritdoc cref="GasRate.FromBillionCubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate? BillionCubicFeetPerDay(this double? value) => GasRate.FromBillionCubicFeetPerDay(value);
 
-        /// <inheritdoc cref="GasRate.FromCubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate CubicFeet(this float value) => GasRate.FromCubicFeet(value);
+        /// <inheritdoc cref="GasRate.FromBillionCubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate BillionCubicFeetPerDay(this float value) => GasRate.FromBillionCubicFeetPerDay(value);
 
-        /// <inheritdoc cref="GasRate.FromCubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate? CubicFeet(this float? value) => GasRate.FromCubicFeet(value);
+        /// <inheritdoc cref="GasRate.FromBillionCubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate? BillionCubicFeetPerDay(this float? value) => GasRate.FromBillionCubicFeetPerDay(value);
 
-        /// <inheritdoc cref="GasRate.FromCubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate CubicFeet(this decimal value) => GasRate.FromCubicFeet(Convert.ToDouble(value));
+        /// <inheritdoc cref="GasRate.FromBillionCubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate BillionCubicFeetPerDay(this decimal value) => GasRate.FromBillionCubicFeetPerDay(Convert.ToDouble(value));
 
-        /// <inheritdoc cref="GasRate.FromCubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate? CubicFeet(this decimal? value) => GasRate.FromCubicFeet(value == null ? (double?)null : Convert.ToDouble(value.Value));
+        /// <inheritdoc cref="GasRate.FromBillionCubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate? BillionCubicFeetPerDay(this decimal? value) => GasRate.FromBillionCubicFeetPerDay(value == null ? (double?)null : Convert.ToDouble(value.Value));
+
+        #endregion
+
+        #region CubicFootPerDay
+
+        /// <inheritdoc cref="GasRate.FromCubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate CubicFeetPerDay(this int value) => GasRate.FromCubicFeetPerDay(value);
+
+        /// <inheritdoc cref="GasRate.FromCubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate? CubicFeetPerDay(this int? value) => GasRate.FromCubicFeetPerDay(value);
+
+        /// <inheritdoc cref="GasRate.FromCubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate CubicFeetPerDay(this long value) => GasRate.FromCubicFeetPerDay(value);
+
+        /// <inheritdoc cref="GasRate.FromCubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate? CubicFeetPerDay(this long? value) => GasRate.FromCubicFeetPerDay(value);
+
+        /// <inheritdoc cref="GasRate.FromCubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate CubicFeetPerDay(this double value) => GasRate.FromCubicFeetPerDay(value);
+
+        /// <inheritdoc cref="GasRate.FromCubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate? CubicFeetPerDay(this double? value) => GasRate.FromCubicFeetPerDay(value);
+
+        /// <inheritdoc cref="GasRate.FromCubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate CubicFeetPerDay(this float value) => GasRate.FromCubicFeetPerDay(value);
+
+        /// <inheritdoc cref="GasRate.FromCubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate? CubicFeetPerDay(this float? value) => GasRate.FromCubicFeetPerDay(value);
+
+        /// <inheritdoc cref="GasRate.FromCubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate CubicFeetPerDay(this decimal value) => GasRate.FromCubicFeetPerDay(Convert.ToDouble(value));
+
+        /// <inheritdoc cref="GasRate.FromCubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate? CubicFeetPerDay(this decimal? value) => GasRate.FromCubicFeetPerDay(value == null ? (double?)null : Convert.ToDouble(value.Value));
+
+        #endregion
+
+        #region CubicKiloMetersPerDay
+
+        /// <inheritdoc cref="GasRate.FromCubicKiloMetersPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate CubicKiloMetersPerDay(this int value) => GasRate.FromCubicKiloMetersPerDay(value);
+
+        /// <inheritdoc cref="GasRate.FromCubicKiloMetersPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate? CubicKiloMetersPerDay(this int? value) => GasRate.FromCubicKiloMetersPerDay(value);
+
+        /// <inheritdoc cref="GasRate.FromCubicKiloMetersPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate CubicKiloMetersPerDay(this long value) => GasRate.FromCubicKiloMetersPerDay(value);
+
+        /// <inheritdoc cref="GasRate.FromCubicKiloMetersPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate? CubicKiloMetersPerDay(this long? value) => GasRate.FromCubicKiloMetersPerDay(value);
+
+        /// <inheritdoc cref="GasRate.FromCubicKiloMetersPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate CubicKiloMetersPerDay(this double value) => GasRate.FromCubicKiloMetersPerDay(value);
+
+        /// <inheritdoc cref="GasRate.FromCubicKiloMetersPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate? CubicKiloMetersPerDay(this double? value) => GasRate.FromCubicKiloMetersPerDay(value);
+
+        /// <inheritdoc cref="GasRate.FromCubicKiloMetersPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate CubicKiloMetersPerDay(this float value) => GasRate.FromCubicKiloMetersPerDay(value);
+
+        /// <inheritdoc cref="GasRate.FromCubicKiloMetersPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate? CubicKiloMetersPerDay(this float? value) => GasRate.FromCubicKiloMetersPerDay(value);
+
+        /// <inheritdoc cref="GasRate.FromCubicKiloMetersPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate CubicKiloMetersPerDay(this decimal value) => GasRate.FromCubicKiloMetersPerDay(Convert.ToDouble(value));
+
+        /// <inheritdoc cref="GasRate.FromCubicKiloMetersPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate? CubicKiloMetersPerDay(this decimal? value) => GasRate.FromCubicKiloMetersPerDay(value == null ? (double?)null : Convert.ToDouble(value.Value));
 
         #endregion
 
@@ -112,37 +180,37 @@ namespace UnitsNet.Extensions.NumberToGasRate
 
         #endregion
 
-        #region GigacubicFoot
+        #region GigacubicFootPerDay
 
-        /// <inheritdoc cref="GasRate.FromGigacubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate GigacubicFeet(this int value) => GasRate.FromGigacubicFeet(value);
+        /// <inheritdoc cref="GasRate.FromGigacubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate GigacubicFeetPerDay(this int value) => GasRate.FromGigacubicFeetPerDay(value);
 
-        /// <inheritdoc cref="GasRate.FromGigacubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate? GigacubicFeet(this int? value) => GasRate.FromGigacubicFeet(value);
+        /// <inheritdoc cref="GasRate.FromGigacubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate? GigacubicFeetPerDay(this int? value) => GasRate.FromGigacubicFeetPerDay(value);
 
-        /// <inheritdoc cref="GasRate.FromGigacubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate GigacubicFeet(this long value) => GasRate.FromGigacubicFeet(value);
+        /// <inheritdoc cref="GasRate.FromGigacubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate GigacubicFeetPerDay(this long value) => GasRate.FromGigacubicFeetPerDay(value);
 
-        /// <inheritdoc cref="GasRate.FromGigacubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate? GigacubicFeet(this long? value) => GasRate.FromGigacubicFeet(value);
+        /// <inheritdoc cref="GasRate.FromGigacubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate? GigacubicFeetPerDay(this long? value) => GasRate.FromGigacubicFeetPerDay(value);
 
-        /// <inheritdoc cref="GasRate.FromGigacubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate GigacubicFeet(this double value) => GasRate.FromGigacubicFeet(value);
+        /// <inheritdoc cref="GasRate.FromGigacubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate GigacubicFeetPerDay(this double value) => GasRate.FromGigacubicFeetPerDay(value);
 
-        /// <inheritdoc cref="GasRate.FromGigacubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate? GigacubicFeet(this double? value) => GasRate.FromGigacubicFeet(value);
+        /// <inheritdoc cref="GasRate.FromGigacubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate? GigacubicFeetPerDay(this double? value) => GasRate.FromGigacubicFeetPerDay(value);
 
-        /// <inheritdoc cref="GasRate.FromGigacubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate GigacubicFeet(this float value) => GasRate.FromGigacubicFeet(value);
+        /// <inheritdoc cref="GasRate.FromGigacubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate GigacubicFeetPerDay(this float value) => GasRate.FromGigacubicFeetPerDay(value);
 
-        /// <inheritdoc cref="GasRate.FromGigacubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate? GigacubicFeet(this float? value) => GasRate.FromGigacubicFeet(value);
+        /// <inheritdoc cref="GasRate.FromGigacubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate? GigacubicFeetPerDay(this float? value) => GasRate.FromGigacubicFeetPerDay(value);
 
-        /// <inheritdoc cref="GasRate.FromGigacubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate GigacubicFeet(this decimal value) => GasRate.FromGigacubicFeet(Convert.ToDouble(value));
+        /// <inheritdoc cref="GasRate.FromGigacubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate GigacubicFeetPerDay(this decimal value) => GasRate.FromGigacubicFeetPerDay(Convert.ToDouble(value));
 
-        /// <inheritdoc cref="GasRate.FromGigacubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate? GigacubicFeet(this decimal? value) => GasRate.FromGigacubicFeet(value == null ? (double?)null : Convert.ToDouble(value.Value));
+        /// <inheritdoc cref="GasRate.FromGigacubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate? GigacubicFeetPerDay(this decimal? value) => GasRate.FromGigacubicFeetPerDay(value == null ? (double?)null : Convert.ToDouble(value.Value));
 
         #endregion
 
@@ -180,37 +248,37 @@ namespace UnitsNet.Extensions.NumberToGasRate
 
         #endregion
 
-        #region KilocubicFoot
+        #region KilocubicFootPerDay
 
-        /// <inheritdoc cref="GasRate.FromKilocubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate KilocubicFeet(this int value) => GasRate.FromKilocubicFeet(value);
+        /// <inheritdoc cref="GasRate.FromKilocubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate KilocubicFeetPerDay(this int value) => GasRate.FromKilocubicFeetPerDay(value);
 
-        /// <inheritdoc cref="GasRate.FromKilocubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate? KilocubicFeet(this int? value) => GasRate.FromKilocubicFeet(value);
+        /// <inheritdoc cref="GasRate.FromKilocubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate? KilocubicFeetPerDay(this int? value) => GasRate.FromKilocubicFeetPerDay(value);
 
-        /// <inheritdoc cref="GasRate.FromKilocubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate KilocubicFeet(this long value) => GasRate.FromKilocubicFeet(value);
+        /// <inheritdoc cref="GasRate.FromKilocubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate KilocubicFeetPerDay(this long value) => GasRate.FromKilocubicFeetPerDay(value);
 
-        /// <inheritdoc cref="GasRate.FromKilocubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate? KilocubicFeet(this long? value) => GasRate.FromKilocubicFeet(value);
+        /// <inheritdoc cref="GasRate.FromKilocubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate? KilocubicFeetPerDay(this long? value) => GasRate.FromKilocubicFeetPerDay(value);
 
-        /// <inheritdoc cref="GasRate.FromKilocubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate KilocubicFeet(this double value) => GasRate.FromKilocubicFeet(value);
+        /// <inheritdoc cref="GasRate.FromKilocubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate KilocubicFeetPerDay(this double value) => GasRate.FromKilocubicFeetPerDay(value);
 
-        /// <inheritdoc cref="GasRate.FromKilocubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate? KilocubicFeet(this double? value) => GasRate.FromKilocubicFeet(value);
+        /// <inheritdoc cref="GasRate.FromKilocubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate? KilocubicFeetPerDay(this double? value) => GasRate.FromKilocubicFeetPerDay(value);
 
-        /// <inheritdoc cref="GasRate.FromKilocubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate KilocubicFeet(this float value) => GasRate.FromKilocubicFeet(value);
+        /// <inheritdoc cref="GasRate.FromKilocubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate KilocubicFeetPerDay(this float value) => GasRate.FromKilocubicFeetPerDay(value);
 
-        /// <inheritdoc cref="GasRate.FromKilocubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate? KilocubicFeet(this float? value) => GasRate.FromKilocubicFeet(value);
+        /// <inheritdoc cref="GasRate.FromKilocubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate? KilocubicFeetPerDay(this float? value) => GasRate.FromKilocubicFeetPerDay(value);
 
-        /// <inheritdoc cref="GasRate.FromKilocubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate KilocubicFeet(this decimal value) => GasRate.FromKilocubicFeet(Convert.ToDouble(value));
+        /// <inheritdoc cref="GasRate.FromKilocubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate KilocubicFeetPerDay(this decimal value) => GasRate.FromKilocubicFeetPerDay(Convert.ToDouble(value));
 
-        /// <inheritdoc cref="GasRate.FromKilocubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate? KilocubicFeet(this decimal? value) => GasRate.FromKilocubicFeet(value == null ? (double?)null : Convert.ToDouble(value.Value));
+        /// <inheritdoc cref="GasRate.FromKilocubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate? KilocubicFeetPerDay(this decimal? value) => GasRate.FromKilocubicFeetPerDay(value == null ? (double?)null : Convert.ToDouble(value.Value));
 
         #endregion
 
@@ -248,37 +316,37 @@ namespace UnitsNet.Extensions.NumberToGasRate
 
         #endregion
 
-        #region MegacubicFoot
+        #region MegacubicFootPerDay
 
-        /// <inheritdoc cref="GasRate.FromMegacubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate MegacubicFeet(this int value) => GasRate.FromMegacubicFeet(value);
+        /// <inheritdoc cref="GasRate.FromMegacubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate MegacubicFeetPerDay(this int value) => GasRate.FromMegacubicFeetPerDay(value);
 
-        /// <inheritdoc cref="GasRate.FromMegacubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate? MegacubicFeet(this int? value) => GasRate.FromMegacubicFeet(value);
+        /// <inheritdoc cref="GasRate.FromMegacubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate? MegacubicFeetPerDay(this int? value) => GasRate.FromMegacubicFeetPerDay(value);
 
-        /// <inheritdoc cref="GasRate.FromMegacubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate MegacubicFeet(this long value) => GasRate.FromMegacubicFeet(value);
+        /// <inheritdoc cref="GasRate.FromMegacubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate MegacubicFeetPerDay(this long value) => GasRate.FromMegacubicFeetPerDay(value);
 
-        /// <inheritdoc cref="GasRate.FromMegacubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate? MegacubicFeet(this long? value) => GasRate.FromMegacubicFeet(value);
+        /// <inheritdoc cref="GasRate.FromMegacubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate? MegacubicFeetPerDay(this long? value) => GasRate.FromMegacubicFeetPerDay(value);
 
-        /// <inheritdoc cref="GasRate.FromMegacubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate MegacubicFeet(this double value) => GasRate.FromMegacubicFeet(value);
+        /// <inheritdoc cref="GasRate.FromMegacubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate MegacubicFeetPerDay(this double value) => GasRate.FromMegacubicFeetPerDay(value);
 
-        /// <inheritdoc cref="GasRate.FromMegacubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate? MegacubicFeet(this double? value) => GasRate.FromMegacubicFeet(value);
+        /// <inheritdoc cref="GasRate.FromMegacubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate? MegacubicFeetPerDay(this double? value) => GasRate.FromMegacubicFeetPerDay(value);
 
-        /// <inheritdoc cref="GasRate.FromMegacubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate MegacubicFeet(this float value) => GasRate.FromMegacubicFeet(value);
+        /// <inheritdoc cref="GasRate.FromMegacubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate MegacubicFeetPerDay(this float value) => GasRate.FromMegacubicFeetPerDay(value);
 
-        /// <inheritdoc cref="GasRate.FromMegacubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate? MegacubicFeet(this float? value) => GasRate.FromMegacubicFeet(value);
+        /// <inheritdoc cref="GasRate.FromMegacubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate? MegacubicFeetPerDay(this float? value) => GasRate.FromMegacubicFeetPerDay(value);
 
-        /// <inheritdoc cref="GasRate.FromMegacubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate MegacubicFeet(this decimal value) => GasRate.FromMegacubicFeet(Convert.ToDouble(value));
+        /// <inheritdoc cref="GasRate.FromMegacubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate MegacubicFeetPerDay(this decimal value) => GasRate.FromMegacubicFeetPerDay(Convert.ToDouble(value));
 
-        /// <inheritdoc cref="GasRate.FromMegacubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate? MegacubicFeet(this decimal? value) => GasRate.FromMegacubicFeet(value == null ? (double?)null : Convert.ToDouble(value.Value));
+        /// <inheritdoc cref="GasRate.FromMegacubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate? MegacubicFeetPerDay(this decimal? value) => GasRate.FromMegacubicFeetPerDay(value == null ? (double?)null : Convert.ToDouble(value.Value));
 
         #endregion
 
@@ -316,37 +384,105 @@ namespace UnitsNet.Extensions.NumberToGasRate
 
         #endregion
 
-        #region TeracubicFoot
+        #region MillionCubicFootPerDay
 
-        /// <inheritdoc cref="GasRate.FromTeracubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate TeracubicFeet(this int value) => GasRate.FromTeracubicFeet(value);
+        /// <inheritdoc cref="GasRate.FromMillionCubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate MillionCubicFeetPerDay(this int value) => GasRate.FromMillionCubicFeetPerDay(value);
 
-        /// <inheritdoc cref="GasRate.FromTeracubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate? TeracubicFeet(this int? value) => GasRate.FromTeracubicFeet(value);
+        /// <inheritdoc cref="GasRate.FromMillionCubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate? MillionCubicFeetPerDay(this int? value) => GasRate.FromMillionCubicFeetPerDay(value);
 
-        /// <inheritdoc cref="GasRate.FromTeracubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate TeracubicFeet(this long value) => GasRate.FromTeracubicFeet(value);
+        /// <inheritdoc cref="GasRate.FromMillionCubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate MillionCubicFeetPerDay(this long value) => GasRate.FromMillionCubicFeetPerDay(value);
 
-        /// <inheritdoc cref="GasRate.FromTeracubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate? TeracubicFeet(this long? value) => GasRate.FromTeracubicFeet(value);
+        /// <inheritdoc cref="GasRate.FromMillionCubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate? MillionCubicFeetPerDay(this long? value) => GasRate.FromMillionCubicFeetPerDay(value);
 
-        /// <inheritdoc cref="GasRate.FromTeracubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate TeracubicFeet(this double value) => GasRate.FromTeracubicFeet(value);
+        /// <inheritdoc cref="GasRate.FromMillionCubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate MillionCubicFeetPerDay(this double value) => GasRate.FromMillionCubicFeetPerDay(value);
 
-        /// <inheritdoc cref="GasRate.FromTeracubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate? TeracubicFeet(this double? value) => GasRate.FromTeracubicFeet(value);
+        /// <inheritdoc cref="GasRate.FromMillionCubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate? MillionCubicFeetPerDay(this double? value) => GasRate.FromMillionCubicFeetPerDay(value);
 
-        /// <inheritdoc cref="GasRate.FromTeracubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate TeracubicFeet(this float value) => GasRate.FromTeracubicFeet(value);
+        /// <inheritdoc cref="GasRate.FromMillionCubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate MillionCubicFeetPerDay(this float value) => GasRate.FromMillionCubicFeetPerDay(value);
 
-        /// <inheritdoc cref="GasRate.FromTeracubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate? TeracubicFeet(this float? value) => GasRate.FromTeracubicFeet(value);
+        /// <inheritdoc cref="GasRate.FromMillionCubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate? MillionCubicFeetPerDay(this float? value) => GasRate.FromMillionCubicFeetPerDay(value);
 
-        /// <inheritdoc cref="GasRate.FromTeracubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate TeracubicFeet(this decimal value) => GasRate.FromTeracubicFeet(Convert.ToDouble(value));
+        /// <inheritdoc cref="GasRate.FromMillionCubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate MillionCubicFeetPerDay(this decimal value) => GasRate.FromMillionCubicFeetPerDay(Convert.ToDouble(value));
 
-        /// <inheritdoc cref="GasRate.FromTeracubicFeet(UnitsNet.QuantityValue)" />
-        public static GasRate? TeracubicFeet(this decimal? value) => GasRate.FromTeracubicFeet(value == null ? (double?)null : Convert.ToDouble(value.Value));
+        /// <inheritdoc cref="GasRate.FromMillionCubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate? MillionCubicFeetPerDay(this decimal? value) => GasRate.FromMillionCubicFeetPerDay(value == null ? (double?)null : Convert.ToDouble(value.Value));
+
+        #endregion
+
+        #region TeracubicFootPerDay
+
+        /// <inheritdoc cref="GasRate.FromTeracubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate TeracubicFeetPerDay(this int value) => GasRate.FromTeracubicFeetPerDay(value);
+
+        /// <inheritdoc cref="GasRate.FromTeracubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate? TeracubicFeetPerDay(this int? value) => GasRate.FromTeracubicFeetPerDay(value);
+
+        /// <inheritdoc cref="GasRate.FromTeracubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate TeracubicFeetPerDay(this long value) => GasRate.FromTeracubicFeetPerDay(value);
+
+        /// <inheritdoc cref="GasRate.FromTeracubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate? TeracubicFeetPerDay(this long? value) => GasRate.FromTeracubicFeetPerDay(value);
+
+        /// <inheritdoc cref="GasRate.FromTeracubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate TeracubicFeetPerDay(this double value) => GasRate.FromTeracubicFeetPerDay(value);
+
+        /// <inheritdoc cref="GasRate.FromTeracubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate? TeracubicFeetPerDay(this double? value) => GasRate.FromTeracubicFeetPerDay(value);
+
+        /// <inheritdoc cref="GasRate.FromTeracubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate TeracubicFeetPerDay(this float value) => GasRate.FromTeracubicFeetPerDay(value);
+
+        /// <inheritdoc cref="GasRate.FromTeracubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate? TeracubicFeetPerDay(this float? value) => GasRate.FromTeracubicFeetPerDay(value);
+
+        /// <inheritdoc cref="GasRate.FromTeracubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate TeracubicFeetPerDay(this decimal value) => GasRate.FromTeracubicFeetPerDay(Convert.ToDouble(value));
+
+        /// <inheritdoc cref="GasRate.FromTeracubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate? TeracubicFeetPerDay(this decimal? value) => GasRate.FromTeracubicFeetPerDay(value == null ? (double?)null : Convert.ToDouble(value.Value));
+
+        #endregion
+
+        #region ThousandCubicFootPerDay
+
+        /// <inheritdoc cref="GasRate.FromThousandCubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate ThousandCubicFeetPerDay(this int value) => GasRate.FromThousandCubicFeetPerDay(value);
+
+        /// <inheritdoc cref="GasRate.FromThousandCubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate? ThousandCubicFeetPerDay(this int? value) => GasRate.FromThousandCubicFeetPerDay(value);
+
+        /// <inheritdoc cref="GasRate.FromThousandCubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate ThousandCubicFeetPerDay(this long value) => GasRate.FromThousandCubicFeetPerDay(value);
+
+        /// <inheritdoc cref="GasRate.FromThousandCubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate? ThousandCubicFeetPerDay(this long? value) => GasRate.FromThousandCubicFeetPerDay(value);
+
+        /// <inheritdoc cref="GasRate.FromThousandCubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate ThousandCubicFeetPerDay(this double value) => GasRate.FromThousandCubicFeetPerDay(value);
+
+        /// <inheritdoc cref="GasRate.FromThousandCubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate? ThousandCubicFeetPerDay(this double? value) => GasRate.FromThousandCubicFeetPerDay(value);
+
+        /// <inheritdoc cref="GasRate.FromThousandCubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate ThousandCubicFeetPerDay(this float value) => GasRate.FromThousandCubicFeetPerDay(value);
+
+        /// <inheritdoc cref="GasRate.FromThousandCubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate? ThousandCubicFeetPerDay(this float? value) => GasRate.FromThousandCubicFeetPerDay(value);
+
+        /// <inheritdoc cref="GasRate.FromThousandCubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate ThousandCubicFeetPerDay(this decimal value) => GasRate.FromThousandCubicFeetPerDay(Convert.ToDouble(value));
+
+        /// <inheritdoc cref="GasRate.FromThousandCubicFeetPerDay(UnitsNet.QuantityValue)" />
+        public static GasRate? ThousandCubicFeetPerDay(this decimal? value) => GasRate.FromThousandCubicFeetPerDay(value == null ? (double?)null : Convert.ToDouble(value.Value));
 
         #endregion
 

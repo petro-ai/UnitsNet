@@ -42,9 +42,13 @@ namespace UnitsNet.Units
     public enum GasVolumeUnit
     {
         Undefined = 0,
+        BillionCubicFoot,
         CubicFoot,
+        CubicKiloMeter,
         CubicMeter,
         HectocubicMeter,
         KilocubicMeter,
+        MillionCubicFoot,
+        ThousandCubicFoot,
     }
 }

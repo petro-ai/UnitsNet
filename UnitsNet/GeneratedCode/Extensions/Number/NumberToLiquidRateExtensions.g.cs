@@ -44,6 +44,40 @@ namespace UnitsNet.Extensions.NumberToLiquidRate
 {
     public static class NumberToLiquidRateExtensions
     {
+        #region CubicKiloMetersPerDay
+
+        /// <inheritdoc cref="LiquidRate.FromCubicKiloMetersPerDay(UnitsNet.QuantityValue)" />
+        public static LiquidRate CubicKiloMetersPerDay(this int value) => LiquidRate.FromCubicKiloMetersPerDay(value);
+
+        /// <inheritdoc cref="LiquidRate.FromCubicKiloMetersPerDay(UnitsNet.QuantityValue)" />
+        public static LiquidRate? CubicKiloMetersPerDay(this int? value) => LiquidRate.FromCubicKiloMetersPerDay(value);
+
+        /// <inheritdoc cref="LiquidRate.FromCubicKiloMetersPerDay(UnitsNet.QuantityValue)" />
+        public static LiquidRate CubicKiloMetersPerDay(this long value) => LiquidRate.FromCubicKiloMetersPerDay(value);
+
+        /// <inheritdoc cref="LiquidRate.FromCubicKiloMetersPerDay(UnitsNet.QuantityValue)" />
+        public static LiquidRate? CubicKiloMetersPerDay(this long? value) => LiquidRate.FromCubicKiloMetersPerDay(value);
+
+        /// <inheritdoc cref="LiquidRate.FromCubicKiloMetersPerDay(UnitsNet.QuantityValue)" />
+        public static LiquidRate CubicKiloMetersPerDay(this double value) => LiquidRate.FromCubicKiloMetersPerDay(value);
+
+        /// <inheritdoc cref="LiquidRate.FromCubicKiloMetersPerDay(UnitsNet.QuantityValue)" />
+        public static LiquidRate? CubicKiloMetersPerDay(this double? value) => LiquidRate.FromCubicKiloMetersPerDay(value);
+
+        /// <inheritdoc cref="LiquidRate.FromCubicKiloMetersPerDay(UnitsNet.QuantityValue)" />
+        public static LiquidRate CubicKiloMetersPerDay(this float value) => LiquidRate.FromCubicKiloMetersPerDay(value);
+
+        /// <inheritdoc cref="LiquidRate.FromCubicKiloMetersPerDay(UnitsNet.QuantityValue)" />
+        public static LiquidRate? CubicKiloMetersPerDay(this float? value) => LiquidRate.FromCubicKiloMetersPerDay(value);
+
+        /// <inheritdoc cref="LiquidRate.FromCubicKiloMetersPerDay(UnitsNet.QuantityValue)" />
+        public static LiquidRate CubicKiloMetersPerDay(this decimal value) => LiquidRate.FromCubicKiloMetersPerDay(Convert.ToDouble(value));
+
+        /// <inheritdoc cref="LiquidRate.FromCubicKiloMetersPerDay(UnitsNet.QuantityValue)" />
+        public static LiquidRate? CubicKiloMetersPerDay(this decimal? value) => LiquidRate.FromCubicKiloMetersPerDay(value == null ? (double?)null : Convert.ToDouble(value.Value));
+
+        #endregion
+
         #region CubicMeterPerDay
 
         /// <inheritdoc cref="LiquidRate.FromCubicMetersPerDay(UnitsNet.QuantityValue)" />
@@ -146,6 +180,40 @@ namespace UnitsNet.Extensions.NumberToLiquidRate
 
         #endregion
 
+        #region MillionOilBarrelPerDay
+
+        /// <inheritdoc cref="LiquidRate.FromMillionOilBarrelsPerDay(UnitsNet.QuantityValue)" />
+        public static LiquidRate MillionOilBarrelsPerDay(this int value) => LiquidRate.FromMillionOilBarrelsPerDay(value);
+
+        /// <inheritdoc cref="LiquidRate.FromMillionOilBarrelsPerDay(UnitsNet.QuantityValue)" />
+        public static LiquidRate? MillionOilBarrelsPerDay(this int? value) => LiquidRate.FromMillionOilBarrelsPerDay(value);
+
+        /// <inheritdoc cref="LiquidRate.FromMillionOilBarrelsPerDay(UnitsNet.QuantityValue)" />
+        public static LiquidRate MillionOilBarrelsPerDay(this long value) => LiquidRate.FromMillionOilBarrelsPerDay(value);
+
+        /// <inheritdoc cref="LiquidRate.FromMillionOilBarrelsPerDay(UnitsNet.QuantityValue)" />
+        public static LiquidRate? MillionOilBarrelsPerDay(this long? value) => LiquidRate.FromMillionOilBarrelsPerDay(value);
+
+        /// <inheritdoc cref="LiquidRate.FromMillionOilBarrelsPerDay(UnitsNet.QuantityValue)" />
+        public static LiquidRate MillionOilBarrelsPerDay(this double value) => LiquidRate.FromMillionOilBarrelsPerDay(value);
+
+        /// <inheritdoc cref="LiquidRate.FromMillionOilBarrelsPerDay(UnitsNet.QuantityValue)" />
+        public static LiquidRate? MillionOilBarrelsPerDay(this double? value) => LiquidRate.FromMillionOilBarrelsPerDay(value);
+
+        /// <inheritdoc cref="LiquidRate.FromMillionOilBarrelsPerDay(UnitsNet.QuantityValue)" />
+        public static LiquidRate MillionOilBarrelsPerDay(this float value) => LiquidRate.FromMillionOilBarrelsPerDay(value);
+
+        /// <inheritdoc cref="LiquidRate.FromMillionOilBarrelsPerDay(UnitsNet.QuantityValue)" />
+        public static LiquidRate? MillionOilBarrelsPerDay(this float? value) => LiquidRate.FromMillionOilBarrelsPerDay(value);
+
+        /// <inheritdoc cref="LiquidRate.FromMillionOilBarrelsPerDay(UnitsNet.QuantityValue)" />
+        public static LiquidRate MillionOilBarrelsPerDay(this decimal value) => LiquidRate.FromMillionOilBarrelsPerDay(Convert.ToDouble(value));
+
+        /// <inheritdoc cref="LiquidRate.FromMillionOilBarrelsPerDay(UnitsNet.QuantityValue)" />
+        public static LiquidRate? MillionOilBarrelsPerDay(this decimal? value) => LiquidRate.FromMillionOilBarrelsPerDay(value == null ? (double?)null : Convert.ToDouble(value.Value));
+
+        #endregion
+
         #region OilBarrelsPerDay
 
         /// <inheritdoc cref="LiquidRate.FromOilBarrelsPerDay(UnitsNet.QuantityValue)" />
@@ -177,6 +245,40 @@ namespace UnitsNet.Extensions.NumberToLiquidRate
 
         /// <inheritdoc cref="LiquidRate.FromOilBarrelsPerDay(UnitsNet.QuantityValue)" />
         public static LiquidRate? OilBarrelsPerDay(this decimal? value) => LiquidRate.FromOilBarrelsPerDay(value == null ? (double?)null : Convert.ToDouble(value.Value));
+
+        #endregion
+
+        #region ThousandOilBarrelsPerDay
+
+        /// <inheritdoc cref="LiquidRate.FromThousandOilBarrelsPerDay(UnitsNet.QuantityValue)" />
+        public static LiquidRate ThousandOilBarrelsPerDay(this int value) => LiquidRate.FromThousandOilBarrelsPerDay(value);
+
+        /// <inheritdoc cref="LiquidRate.FromThousandOilBarrelsPerDay(UnitsNet.QuantityValue)" />
+        public static LiquidRate? ThousandOilBarrelsPerDay(this int? value) => LiquidRate.FromThousandOilBarrelsPerDay(value);
+
+        /// <inheritdoc cref="LiquidRate.FromThousandOilBarrelsPerDay(UnitsNet.QuantityValue)" />
+        public static LiquidRate ThousandOilBarrelsPerDay(this long value) => LiquidRate.FromThousandOilBarrelsPerDay(value);
+
+        /// <inheritdoc cref="LiquidRate.FromThousandOilBarrelsPerDay(UnitsNet.QuantityValue)" />
+        public static LiquidRate? ThousandOilBarrelsPerDay(this long? value) => LiquidRate.FromThousandOilBarrelsPerDay(value);
+
+        /// <inheritdoc cref="LiquidRate.FromThousandOilBarrelsPerDay(UnitsNet.QuantityValue)" />
+        public static LiquidRate ThousandOilBarrelsPerDay(this double value) => LiquidRate.FromThousandOilBarrelsPerDay(value);
+
+        /// <inheritdoc cref="LiquidRate.FromThousandOilBarrelsPerDay(UnitsNet.QuantityValue)" />
+        public static LiquidRate? ThousandOilBarrelsPerDay(this double? value) => LiquidRate.FromThousandOilBarrelsPerDay(value);
+
+        /// <inheritdoc cref="LiquidRate.FromThousandOilBarrelsPerDay(UnitsNet.QuantityValue)" />
+        public static LiquidRate ThousandOilBarrelsPerDay(this float value) => LiquidRate.FromThousandOilBarrelsPerDay(value);
+
+        /// <inheritdoc cref="LiquidRate.FromThousandOilBarrelsPerDay(UnitsNet.QuantityValue)" />
+        public static LiquidRate? ThousandOilBarrelsPerDay(this float? value) => LiquidRate.FromThousandOilBarrelsPerDay(value);
+
+        /// <inheritdoc cref="LiquidRate.FromThousandOilBarrelsPerDay(UnitsNet.QuantityValue)" />
+        public static LiquidRate ThousandOilBarrelsPerDay(this decimal value) => LiquidRate.FromThousandOilBarrelsPerDay(Convert.ToDouble(value));
+
+        /// <inheritdoc cref="LiquidRate.FromThousandOilBarrelsPerDay(UnitsNet.QuantityValue)" />
+        public static LiquidRate? ThousandOilBarrelsPerDay(this decimal? value) => LiquidRate.FromThousandOilBarrelsPerDay(value == null ? (double?)null : Convert.ToDouble(value.Value));
 
         #endregion
 

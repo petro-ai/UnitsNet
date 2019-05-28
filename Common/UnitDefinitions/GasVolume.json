@@ -8,7 +8,7 @@
       "PluralName": "CubicFeet",
       "FromUnitToBaseFunc": "x*0.0283168",
       "FromBaseToUnitFunc": "x/0.0283168",
-      "Prefixes": [  ],
+      "Prefixes": [],
       "Localization": [
         {
           "Culture": "en-US",
@@ -16,7 +16,46 @@
         }
       ]
     },
-	{
+    {
+      "SingularName": "ThousandCubicFoot",
+      "PluralName": "ThousandCubicFeet",
+      "FromUnitToBaseFunc": "x*28.3168",
+      "FromBaseToUnitFunc": "x/28.3168",
+      "Prefixes": [],
+      "Localization": [
+        {
+          "Culture": "en-US",
+          "Abbreviations": [ "mcf" ]
+        }
+      ]
+    },
+    {
+      "SingularName": "MillionCubicFoot",
+      "PluralName": "MillionCubicFeet",
+      "FromUnitToBaseFunc": "x*28316.8",
+      "FromBaseToUnitFunc": "x/28316.8",
+      "Prefixes": [],
+      "Localization": [
+        {
+          "Culture": "en-US",
+          "Abbreviations": [ "mmcf" ]
+        }
+      ]
+    },
+    {
+      "SingularName": "BillionCubicFoot",
+      "PluralName": "BillionCubicFeet",
+      "FromUnitToBaseFunc": "x*28316800",
+      "FromBaseToUnitFunc": "x/28316800",
+      "Prefixes": [],
+      "Localization": [
+        {
+          "Culture": "en-US",
+          "Abbreviations": [ "bcf" ]
+        }
+      ]
+    },
+    {
       "SingularName": "CubicMeter",
       "PluralName": "CubicMeters",
       "FromUnitToBaseFunc": "x",
@@ -26,6 +65,18 @@
         {
           "Culture": "en-US",
           "Abbreviations": [ "m3" ]
+        }
+      ]
+    },
+    {
+      "SingularName": "CubicKiloMeter",
+      "PluralName": "CubicKiloMeters",
+      "FromUnitToBaseFunc": "x/1000",
+      "FromBaseToUnitFunc": "x*1000",
+      "Localization": [
+        {
+          "Culture": "en-US",
+          "Abbreviations": [ "e3m3", "km3" ]
         }
       ]
     }

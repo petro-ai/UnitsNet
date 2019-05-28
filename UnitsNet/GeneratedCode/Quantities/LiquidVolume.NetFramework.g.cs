@@ -63,6 +63,14 @@ namespace UnitsNet
         #region Nullable From Methods
 
         /// <summary>
+        ///     Get nullable LiquidVolume from nullable CubicKiloMeters.
+        /// </summary>
+        public static LiquidVolume? FromCubicKiloMeters(QuantityValue? cubickilometers)
+        {
+            return cubickilometers.HasValue ? FromCubicKiloMeters(cubickilometers.Value) : default(LiquidVolume?);
+        }
+
+        /// <summary>
         ///     Get nullable LiquidVolume from nullable CubicMeters.
         /// </summary>
         public static LiquidVolume? FromCubicMeters(QuantityValue? cubicmeters)
@@ -87,11 +95,27 @@ namespace UnitsNet
         }
 
         /// <summary>
+        ///     Get nullable LiquidVolume from nullable MillionOilBarrels.
+        /// </summary>
+        public static LiquidVolume? FromMillionOilBarrels(QuantityValue? millionoilbarrels)
+        {
+            return millionoilbarrels.HasValue ? FromMillionOilBarrels(millionoilbarrels.Value) : default(LiquidVolume?);
+        }
+
+        /// <summary>
         ///     Get nullable LiquidVolume from nullable OilBarrels.
         /// </summary>
         public static LiquidVolume? FromOilBarrels(QuantityValue? oilbarrels)
         {
             return oilbarrels.HasValue ? FromOilBarrels(oilbarrels.Value) : default(LiquidVolume?);
+        }
+
+        /// <summary>
+        ///     Get nullable LiquidVolume from nullable ThousandOilBarrels.
+        /// </summary>
+        public static LiquidVolume? FromThousandOilBarrels(QuantityValue? thousandoilbarrels)
+        {
+            return thousandoilbarrels.HasValue ? FromThousandOilBarrels(thousandoilbarrels.Value) : default(LiquidVolume?);
         }
 
         /// <summary>

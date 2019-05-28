@@ -42,9 +42,12 @@ namespace UnitsNet.Units
     public enum LiquidRateUnit
     {
         Undefined = 0,
+        CubicKiloMetersPerDay,
         CubicMeterPerDay,
         HectocubicMeterPerDay,
         KilocubicMeterPerDay,
+        MillionOilBarrelPerDay,
         OilBarrelsPerDay,
+        ThousandOilBarrelsPerDay,
     }
 }

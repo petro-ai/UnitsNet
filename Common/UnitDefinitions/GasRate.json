@@ -17,15 +17,66 @@
       ]
     },
     {
-      "SingularName": "CubicFoot",
-      "PluralName": "CubicFeet",
+      "SingularName": "CubicFootPerDay",
+      "PluralName": "CubicFeetPerDay",
       "FromUnitToBaseFunc": "x*0.0283168",
       "FromBaseToUnitFunc": "x/0.0283168",
-      "Prefixes": ["Kilo", "Mega", "Giga", "Tera"],
+      "Prefixes": [ "Kilo", "Mega", "Giga", "Tera" ],
       "Localization": [
         {
           "Culture": "en-US",
           "Abbreviations": [ "cfd", "cf/d" ]
+        }
+      ]
+    },
+    {
+      "SingularName": "ThousandCubicFootPerDay",
+      "PluralName": "ThousandCubicFeetPerDay",
+      "FromUnitToBaseFunc": "x*28.3168",
+      "FromBaseToUnitFunc": "x/28.3168",
+      "Prefixes": [],
+      "Localization": [
+        {
+          "Culture": "en-US",
+          "Abbreviations": [ "mcf/d" ]
+        }
+      ]
+    },
+    {
+      "SingularName": "MillionCubicFootPerDay",
+      "PluralName": "MillionCubicFeetPerDay",
+      "FromUnitToBaseFunc": "x*28316.8",
+      "FromBaseToUnitFunc": "x/28316.8",
+      "Prefixes": [],
+      "Localization": [
+        {
+          "Culture": "en-US",
+          "Abbreviations": [ "mmcf/d" ]
+        }
+      ]
+    },
+    {
+      "SingularName": "BillionCubicFootPerDay",
+      "PluralName": "BillionCubicFeetPerDay",
+      "FromUnitToBaseFunc": "x*28316800",
+      "FromBaseToUnitFunc": "x/28316800",
+      "Prefixes": [],
+      "Localization": [
+        {
+          "Culture": "en-US",
+          "Abbreviations": [ "bcf/d" ]
+        }
+      ]
+    },
+    {
+      "SingularName": "CubicKiloMetersPerDay",
+      "PluralName": "CubicKiloMetersPerDay",
+      "FromUnitToBaseFunc": "x/1000",
+      "FromBaseToUnitFunc": "x*1000",
+      "Localization": [
+        {
+          "Culture": "en-US",
+          "Abbreviations": [ "e3m3/d", "km3/d" ]
         }
       ]
     }

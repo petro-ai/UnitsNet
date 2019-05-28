@@ -27,6 +27,42 @@
           "Abbreviations": [ "bbl/d", "BOPD" ]
         }
       ]
+    },
+    {
+      "SingularName": "ThousandOilBarrelsPerDay",
+      "PluralName": "ThousandOilBarrelsPerDay",
+      "FromUnitToBaseFunc": "x*158.987294928",
+      "FromBaseToUnitFunc": "x/158.987294928",
+      "Localization": [
+        {
+          "Culture": "en-US",
+          "Abbreviations": [ "mbbl/d" ]
+        }
+      ]
+    },
+    {
+      "SingularName": "MillionOilBarrelPerDay",
+      "PluralName": "MillionOilBarrelsPerDay",
+      "FromUnitToBaseFunc": "x*158987.294928",
+      "FromBaseToUnitFunc": "x/158987.294928",
+      "Localization": [
+        {
+          "Culture": "en-US",
+          "Abbreviations": [ "mmbbl/d" ]
+        }
+      ]
+    },
+    {
+      "SingularName": "CubicKiloMetersPerDay",
+      "PluralName": "CubicKiloMetersPerDay",
+      "FromUnitToBaseFunc": "x/1000",
+      "FromBaseToUnitFunc": "x*1000",
+      "Localization": [
+        {
+          "Culture": "en-US",
+          "Abbreviations": [ "e3m3/d", "km3/d" ]
+        }
+      ]
     }
   ]
 }

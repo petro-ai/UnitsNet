@@ -42,9 +42,12 @@ namespace UnitsNet.Units
     public enum LiquidVolumeUnit
     {
         Undefined = 0,
+        CubicKiloMeter,
         CubicMeter,
         HectocubicMeter,
         KilocubicMeter,
+        MillionOilBarrel,
         OilBarrel,
+        ThousandOilBarrel,
     }
 }

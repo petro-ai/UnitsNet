@@ -42,14 +42,18 @@ namespace UnitsNet.Units
     public enum GasRateUnit
     {
         Undefined = 0,
-        CubicFoot,
+        BillionCubicFootPerDay,
+        CubicFootPerDay,
+        CubicKiloMetersPerDay,
         CubicMeterPerDay,
-        GigacubicFoot,
+        GigacubicFootPerDay,
         HectocubicMeterPerDay,
-        KilocubicFoot,
+        KilocubicFootPerDay,
         KilocubicMeterPerDay,
-        MegacubicFoot,
+        MegacubicFootPerDay,
         MegacubicMeterPerDay,
-        TeracubicFoot,
+        MillionCubicFootPerDay,
+        TeracubicFootPerDay,
+        ThousandCubicFootPerDay,
     }
 }

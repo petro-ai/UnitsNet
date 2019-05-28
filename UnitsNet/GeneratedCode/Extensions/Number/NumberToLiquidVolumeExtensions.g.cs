@@ -44,6 +44,40 @@ namespace UnitsNet.Extensions.NumberToLiquidVolume
 {
     public static class NumberToLiquidVolumeExtensions
     {
+        #region CubicKiloMeter
+
+        /// <inheritdoc cref="LiquidVolume.FromCubicKiloMeters(UnitsNet.QuantityValue)" />
+        public static LiquidVolume CubicKiloMeters(this int value) => LiquidVolume.FromCubicKiloMeters(value);
+
+        /// <inheritdoc cref="LiquidVolume.FromCubicKiloMeters(UnitsNet.QuantityValue)" />
+        public static LiquidVolume? CubicKiloMeters(this int? value) => LiquidVolume.FromCubicKiloMeters(value);
+
+        /// <inheritdoc cref="LiquidVolume.FromCubicKiloMeters(UnitsNet.QuantityValue)" />
+        public static LiquidVolume CubicKiloMeters(this long value) => LiquidVolume.FromCubicKiloMeters(value);
+
+        /// <inheritdoc cref="LiquidVolume.FromCubicKiloMeters(UnitsNet.QuantityValue)" />
+        public static LiquidVolume? CubicKiloMeters(this long? value) => LiquidVolume.FromCubicKiloMeters(value);
+
+        /// <inheritdoc cref="LiquidVolume.FromCubicKiloMeters(UnitsNet.QuantityValue)" />
+        public static LiquidVolume CubicKiloMeters(this double value) => LiquidVolume.FromCubicKiloMeters(value);
+
+        /// <inheritdoc cref="LiquidVolume.FromCubicKiloMeters(UnitsNet.QuantityValue)" />
+        public static LiquidVolume? CubicKiloMeters(this double? value) => LiquidVolume.FromCubicKiloMeters(value);
+
+        /// <inheritdoc cref="LiquidVolume.FromCubicKiloMeters(UnitsNet.QuantityValue)" />
+        public static LiquidVolume CubicKiloMeters(this float value) => LiquidVolume.FromCubicKiloMeters(value);
+
+        /// <inheritdoc cref="LiquidVolume.FromCubicKiloMeters(UnitsNet.QuantityValue)" />
+        public static LiquidVolume? CubicKiloMeters(this float? value) => LiquidVolume.FromCubicKiloMeters(value);
+
+        /// <inheritdoc cref="LiquidVolume.FromCubicKiloMeters(UnitsNet.QuantityValue)" />
+        public static LiquidVolume CubicKiloMeters(this decimal value) => LiquidVolume.FromCubicKiloMeters(Convert.ToDouble(value));
+
+        /// <inheritdoc cref="LiquidVolume.FromCubicKiloMeters(UnitsNet.QuantityValue)" />
+        public static LiquidVolume? CubicKiloMeters(this decimal? value) => LiquidVolume.FromCubicKiloMeters(value == null ? (double?)null : Convert.ToDouble(value.Value));
+
+        #endregion
+
         #region CubicMeter
 
         /// <inheritdoc cref="LiquidVolume.FromCubicMeters(UnitsNet.QuantityValue)" />
@@ -146,6 +180,40 @@ namespace UnitsNet.Extensions.NumberToLiquidVolume
 
         #endregion
 
+        #region MillionOilBarrel
+
+        /// <inheritdoc cref="LiquidVolume.FromMillionOilBarrels(UnitsNet.QuantityValue)" />
+        public static LiquidVolume MillionOilBarrels(this int value) => LiquidVolume.FromMillionOilBarrels(value);
+
+        /// <inheritdoc cref="LiquidVolume.FromMillionOilBarrels(UnitsNet.QuantityValue)" />
+        public static LiquidVolume? MillionOilBarrels(this int? value) => LiquidVolume.FromMillionOilBarrels(value);
+
+        /// <inheritdoc cref="LiquidVolume.FromMillionOilBarrels(UnitsNet.QuantityValue)" />
+        public static LiquidVolume MillionOilBarrels(this long value) => LiquidVolume.FromMillionOilBarrels(value);
+
+        /// <inheritdoc cref="LiquidVolume.FromMillionOilBarrels(UnitsNet.QuantityValue)" />
+        public static LiquidVolume? MillionOilBarrels(this long? value) => LiquidVolume.FromMillionOilBarrels(value);
+
+        /// <inheritdoc cref="LiquidVolume.FromMillionOilBarrels(UnitsNet.QuantityValue)" />
+        public static LiquidVolume MillionOilBarrels(this double value) => LiquidVolume.FromMillionOilBarrels(value);
+
+        /// <inheritdoc cref="LiquidVolume.FromMillionOilBarrels(UnitsNet.QuantityValue)" />
+        public static LiquidVolume? MillionOilBarrels(this double? value) => LiquidVolume.FromMillionOilBarrels(value);
+
+        /// <inheritdoc cref="LiquidVolume.FromMillionOilBarrels(UnitsNet.QuantityValue)" />
+        public static LiquidVolume MillionOilBarrels(this float value) => LiquidVolume.FromMillionOilBarrels(value);
+
+        /// <inheritdoc cref="LiquidVolume.FromMillionOilBarrels(UnitsNet.QuantityValue)" />
+        public static LiquidVolume? MillionOilBarrels(this float? value) => LiquidVolume.FromMillionOilBarrels(value);
+
+        /// <inheritdoc cref="LiquidVolume.FromMillionOilBarrels(UnitsNet.QuantityValue)" />
+        public static LiquidVolume MillionOilBarrels(this decimal value) => LiquidVolume.FromMillionOilBarrels(Convert.ToDouble(value));
+
+        /// <inheritdoc cref="LiquidVolume.FromMillionOilBarrels(UnitsNet.QuantityValue)" />
+        public static LiquidVolume? MillionOilBarrels(this decimal? value) => LiquidVolume.FromMillionOilBarrels(value == null ? (double?)null : Convert.ToDouble(value.Value));
+
+        #endregion
+
         #region OilBarrel
 
         /// <inheritdoc cref="LiquidVolume.FromOilBarrels(UnitsNet.QuantityValue)" />
@@ -177,6 +245,40 @@ namespace UnitsNet.Extensions.NumberToLiquidVolume
 
         /// <inheritdoc cref="LiquidVolume.FromOilBarrels(UnitsNet.QuantityValue)" />
         public static LiquidVolume? OilBarrels(this decimal? value) => LiquidVolume.FromOilBarrels(value == null ? (double?)null : Convert.ToDouble(value.Value));
+
+        #endregion
+
+        #region ThousandOilBarrel
+
+        /// <inheritdoc cref="LiquidVolume.FromThousandOilBarrels(UnitsNet.QuantityValue)" />
+        public static LiquidVolume ThousandOilBarrels(this int value) => LiquidVolume.FromThousandOilBarrels(value);
+
+        /// <inheritdoc cref="LiquidVolume.FromThousandOilBarrels(UnitsNet.QuantityValue)" />
+        public static LiquidVolume? ThousandOilBarrels(this int? value) => LiquidVolume.FromThousandOilBarrels(value);
+
+        /// <inheritdoc cref="LiquidVolume.FromThousandOilBarrels(UnitsNet.QuantityValue)" />
+        public static LiquidVolume ThousandOilBarrels(this long value) => LiquidVolume.FromThousandOilBarrels(value);
+
+        /// <inheritdoc cref="LiquidVolume.FromThousandOilBarrels(UnitsNet.QuantityValue)" />
+        public static LiquidVolume? ThousandOilBarrels(this long? value) => LiquidVolume.FromThousandOilBarrels(value);
+
+        /// <inheritdoc cref="LiquidVolume.FromThousandOilBarrels(UnitsNet.QuantityValue)" />
+        public static LiquidVolume ThousandOilBarrels(this double value) => LiquidVolume.FromThousandOilBarrels(value);
+
+        /// <inheritdoc cref="LiquidVolume.FromThousandOilBarrels(UnitsNet.QuantityValue)" />
+        public static LiquidVolume? ThousandOilBarrels(this double? value) => LiquidVolume.FromThousandOilBarrels(value);
+
+        /// <inheritdoc cref="LiquidVolume.FromThousandOilBarrels(UnitsNet.QuantityValue)" />
+        public static LiquidVolume ThousandOilBarrels(this float value) => LiquidVolume.FromThousandOilBarrels(value);
+
+        /// <inheritdoc cref="LiquidVolume.FromThousandOilBarrels(UnitsNet.QuantityValue)" />
+        public static LiquidVolume? ThousandOilBarrels(this float? value) => LiquidVolume.FromThousandOilBarrels(value);
+
+        /// <inheritdoc cref="LiquidVolume.FromThousandOilBarrels(UnitsNet.QuantityValue)" />
+        public static LiquidVolume ThousandOilBarrels(this decimal value) => LiquidVolume.FromThousandOilBarrels(Convert.ToDouble(value));
+
+        /// <inheritdoc cref="LiquidVolume.FromThousandOilBarrels(UnitsNet.QuantityValue)" />
+        public static LiquidVolume? ThousandOilBarrels(this decimal? value) => LiquidVolume.FromThousandOilBarrels(value == null ? (double?)null : Convert.ToDouble(value.Value));
 
         #endregion
 

@@ -31,6 +31,42 @@
           "Abbreviations": [ "bbl" ]
         }
       ]
+    },
+    {
+      "SingularName": "ThousandOilBarrel",
+      "PluralName": "ThousandOilBarrels",
+      "FromUnitToBaseFunc": "x*158.987294928",
+      "FromBaseToUnitFunc": "x/158.987294928",
+      "Localization": [
+        {
+          "Culture": "en-US",
+          "Abbreviations": [ "mbbl" ]
+        }
+      ]
+    },
+    {
+      "SingularName": "MillionOilBarrel",
+      "PluralName": "MillionOilBarrels",
+      "FromUnitToBaseFunc": "x*158987.294928",
+      "FromBaseToUnitFunc": "x/158987.294928",
+      "Localization": [
+        {
+          "Culture": "en-US",
+          "Abbreviations": [ "mmbbl" ]
+        }
+      ]
+    },
+    {
+      "SingularName": "CubicKiloMeter",
+      "PluralName": "CubicKiloMeters",
+      "FromUnitToBaseFunc": "x/1000",
+      "FromBaseToUnitFunc": "x*1000",
+      "Localization": [
+        {
+          "Culture": "en-US",
+          "Abbreviations": [ "e3m3", "km3" ]
+        }
+      ]
     }
   ]
 }

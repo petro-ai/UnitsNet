@@ -158,6 +158,11 @@ namespace UnitsNet
         public static LiquidVolumeUnit[] Units { get; } = Enum.GetValues(typeof(LiquidVolumeUnit)).Cast<LiquidVolumeUnit>().ToArray();
 
         /// <summary>
+        ///     Get LiquidVolume in CubicKiloMeters.
+        /// </summary>
+        public double CubicKiloMeters => As(LiquidVolumeUnit.CubicKiloMeter);
+
+        /// <summary>
         ///     Get LiquidVolume in CubicMeters.
         /// </summary>
         public double CubicMeters => As(LiquidVolumeUnit.CubicMeter);
@@ -173,15 +178,39 @@ namespace UnitsNet
         public double KilocubicMeters => As(LiquidVolumeUnit.KilocubicMeter);
 
         /// <summary>
+        ///     Get LiquidVolume in MillionOilBarrels.
+        /// </summary>
+        public double MillionOilBarrels => As(LiquidVolumeUnit.MillionOilBarrel);
+
+        /// <summary>
         ///     Get LiquidVolume in OilBarrels.
         /// </summary>
         public double OilBarrels => As(LiquidVolumeUnit.OilBarrel);
+
+        /// <summary>
+        ///     Get LiquidVolume in ThousandOilBarrels.
+        /// </summary>
+        public double ThousandOilBarrels => As(LiquidVolumeUnit.ThousandOilBarrel);
 
         #endregion
 
         #region Static
 
         public static LiquidVolume Zero => new LiquidVolume(0, BaseUnit);
+
+        /// <summary>
+        ///     Get LiquidVolume from CubicKiloMeters.
+        /// </summary>
+#if WINDOWS_UWP
+        [Windows.Foundation.Metadata.DefaultOverload]
+        public static LiquidVolume FromCubicKiloMeters(double cubickilometers)
+#else
+        public static LiquidVolume FromCubicKiloMeters(QuantityValue cubickilometers)
+#endif
+        {
+            double value = (double) cubickilometers;
+            return new LiquidVolume(value, LiquidVolumeUnit.CubicKiloMeter);
+        }
 
         /// <summary>
         ///     Get LiquidVolume from CubicMeters.
@@ -226,6 +255,20 @@ namespace UnitsNet
         }
 
         /// <summary>
+        ///     Get LiquidVolume from MillionOilBarrels.
+        /// </summary>
+#if WINDOWS_UWP
+        [Windows.Foundation.Metadata.DefaultOverload]
+        public static LiquidVolume FromMillionOilBarrels(double millionoilbarrels)
+#else
+        public static LiquidVolume FromMillionOilBarrels(QuantityValue millionoilbarrels)
+#endif
+        {
+            double value = (double) millionoilbarrels;
+            return new LiquidVolume(value, LiquidVolumeUnit.MillionOilBarrel);
+        }
+
+        /// <summary>
         ///     Get LiquidVolume from OilBarrels.
         /// </summary>
 #if WINDOWS_UWP
@@ -237,6 +280,20 @@ namespace UnitsNet
         {
             double value = (double) oilbarrels;
             return new LiquidVolume(value, LiquidVolumeUnit.OilBarrel);
+        }
+
+        /// <summary>
+        ///     Get LiquidVolume from ThousandOilBarrels.
+        /// </summary>
+#if WINDOWS_UWP
+        [Windows.Foundation.Metadata.DefaultOverload]
+        public static LiquidVolume FromThousandOilBarrels(double thousandoilbarrels)
+#else
+        public static LiquidVolume FromThousandOilBarrels(QuantityValue thousandoilbarrels)
+#endif
+        {
+            double value = (double) thousandoilbarrels;
+            return new LiquidVolume(value, LiquidVolumeUnit.ThousandOilBarrel);
         }
 
 
@@ -436,10 +493,13 @@ namespace UnitsNet
         {
             switch(Unit)
             {
+                case LiquidVolumeUnit.CubicKiloMeter: return _value/1000;
                 case LiquidVolumeUnit.CubicMeter: return _value;
                 case LiquidVolumeUnit.HectocubicMeter: return (_value) * 1e2d;
                 case LiquidVolumeUnit.KilocubicMeter: return (_value) * 1e3d;
+                case LiquidVolumeUnit.MillionOilBarrel: return _value*158987.294928;
                 case LiquidVolumeUnit.OilBarrel: return _value*0.158987294928;
+                case LiquidVolumeUnit.ThousandOilBarrel: return _value*158.987294928;
                 default:
                     throw new NotImplementedException($"Can not convert {Unit} to base units.");
             }
@@ -454,10 +514,13 @@ namespace UnitsNet
 
             switch(unit)
             {
+                case LiquidVolumeUnit.CubicKiloMeter: return baseUnitValue*1000;
                 case LiquidVolumeUnit.CubicMeter: return baseUnitValue;
                 case LiquidVolumeUnit.HectocubicMeter: return (baseUnitValue) / 1e2d;
                 case LiquidVolumeUnit.KilocubicMeter: return (baseUnitValue) / 1e3d;
+                case LiquidVolumeUnit.MillionOilBarrel: return baseUnitValue/158987.294928;
                 case LiquidVolumeUnit.OilBarrel: return baseUnitValue/0.158987294928;
+                case LiquidVolumeUnit.ThousandOilBarrel: return baseUnitValue/158.987294928;
                 default:
                     throw new NotImplementedException($"Can not convert {Unit} to {unit}.");
             }

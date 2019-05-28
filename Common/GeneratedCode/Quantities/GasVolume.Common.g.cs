@@ -158,9 +158,19 @@ namespace UnitsNet
         public static GasVolumeUnit[] Units { get; } = Enum.GetValues(typeof(GasVolumeUnit)).Cast<GasVolumeUnit>().ToArray();
 
         /// <summary>
+        ///     Get GasVolume in BillionCubicFeet.
+        /// </summary>
+        public double BillionCubicFeet => As(GasVolumeUnit.BillionCubicFoot);
+
+        /// <summary>
         ///     Get GasVolume in CubicFeet.
         /// </summary>
         public double CubicFeet => As(GasVolumeUnit.CubicFoot);
+
+        /// <summary>
+        ///     Get GasVolume in CubicKiloMeters.
+        /// </summary>
+        public double CubicKiloMeters => As(GasVolumeUnit.CubicKiloMeter);
 
         /// <summary>
         ///     Get GasVolume in CubicMeters.
@@ -177,11 +187,35 @@ namespace UnitsNet
         /// </summary>
         public double KilocubicMeters => As(GasVolumeUnit.KilocubicMeter);
 
+        /// <summary>
+        ///     Get GasVolume in MillionCubicFeet.
+        /// </summary>
+        public double MillionCubicFeet => As(GasVolumeUnit.MillionCubicFoot);
+
+        /// <summary>
+        ///     Get GasVolume in ThousandCubicFeet.
+        /// </summary>
+        public double ThousandCubicFeet => As(GasVolumeUnit.ThousandCubicFoot);
+
         #endregion
 
         #region Static
 
         public static GasVolume Zero => new GasVolume(0, BaseUnit);
+
+        /// <summary>
+        ///     Get GasVolume from BillionCubicFeet.
+        /// </summary>
+#if WINDOWS_UWP
+        [Windows.Foundation.Metadata.DefaultOverload]
+        public static GasVolume FromBillionCubicFeet(double billioncubicfeet)
+#else
+        public static GasVolume FromBillionCubicFeet(QuantityValue billioncubicfeet)
+#endif
+        {
+            double value = (double) billioncubicfeet;
+            return new GasVolume(value, GasVolumeUnit.BillionCubicFoot);
+        }
 
         /// <summary>
         ///     Get GasVolume from CubicFeet.
@@ -195,6 +229,20 @@ namespace UnitsNet
         {
             double value = (double) cubicfeet;
             return new GasVolume(value, GasVolumeUnit.CubicFoot);
+        }
+
+        /// <summary>
+        ///     Get GasVolume from CubicKiloMeters.
+        /// </summary>
+#if WINDOWS_UWP
+        [Windows.Foundation.Metadata.DefaultOverload]
+        public static GasVolume FromCubicKiloMeters(double cubickilometers)
+#else
+        public static GasVolume FromCubicKiloMeters(QuantityValue cubickilometers)
+#endif
+        {
+            double value = (double) cubickilometers;
+            return new GasVolume(value, GasVolumeUnit.CubicKiloMeter);
         }
 
         /// <summary>
@@ -237,6 +285,34 @@ namespace UnitsNet
         {
             double value = (double) kilocubicmeters;
             return new GasVolume(value, GasVolumeUnit.KilocubicMeter);
+        }
+
+        /// <summary>
+        ///     Get GasVolume from MillionCubicFeet.
+        /// </summary>
+#if WINDOWS_UWP
+        [Windows.Foundation.Metadata.DefaultOverload]
+        public static GasVolume FromMillionCubicFeet(double millioncubicfeet)
+#else
+        public static GasVolume FromMillionCubicFeet(QuantityValue millioncubicfeet)
+#endif
+        {
+            double value = (double) millioncubicfeet;
+            return new GasVolume(value, GasVolumeUnit.MillionCubicFoot);
+        }
+
+        /// <summary>
+        ///     Get GasVolume from ThousandCubicFeet.
+        /// </summary>
+#if WINDOWS_UWP
+        [Windows.Foundation.Metadata.DefaultOverload]
+        public static GasVolume FromThousandCubicFeet(double thousandcubicfeet)
+#else
+        public static GasVolume FromThousandCubicFeet(QuantityValue thousandcubicfeet)
+#endif
+        {
+            double value = (double) thousandcubicfeet;
+            return new GasVolume(value, GasVolumeUnit.ThousandCubicFoot);
         }
 
 
@@ -436,10 +512,14 @@ namespace UnitsNet
         {
             switch(Unit)
             {
+                case GasVolumeUnit.BillionCubicFoot: return _value*28316800;
                 case GasVolumeUnit.CubicFoot: return _value*0.0283168;
+                case GasVolumeUnit.CubicKiloMeter: return _value/1000;
                 case GasVolumeUnit.CubicMeter: return _value;
                 case GasVolumeUnit.HectocubicMeter: return (_value) * 1e2d;
                 case GasVolumeUnit.KilocubicMeter: return (_value) * 1e3d;
+                case GasVolumeUnit.MillionCubicFoot: return _value*28316.8;
+                case GasVolumeUnit.ThousandCubicFoot: return _value*28.3168;
                 default:
                     throw new NotImplementedException($"Can not convert {Unit} to base units.");
             }
@@ -454,10 +534,14 @@ namespace UnitsNet
 
             switch(unit)
             {
+                case GasVolumeUnit.BillionCubicFoot: return baseUnitValue/28316800;
                 case GasVolumeUnit.CubicFoot: return baseUnitValue/0.0283168;
+                case GasVolumeUnit.CubicKiloMeter: return baseUnitValue*1000;
                 case GasVolumeUnit.CubicMeter: return baseUnitValue;
                 case GasVolumeUnit.HectocubicMeter: return (baseUnitValue) / 1e2d;
                 case GasVolumeUnit.KilocubicMeter: return (baseUnitValue) / 1e3d;
+                case GasVolumeUnit.MillionCubicFoot: return baseUnitValue/28316.8;
+                case GasVolumeUnit.ThousandCubicFoot: return baseUnitValue/28.3168;
                 default:
                     throw new NotImplementedException($"Can not convert {Unit} to {unit}.");
             }

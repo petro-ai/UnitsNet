@@ -158,6 +158,11 @@ namespace UnitsNet
         public static LiquidRateUnit[] Units { get; } = Enum.GetValues(typeof(LiquidRateUnit)).Cast<LiquidRateUnit>().ToArray();
 
         /// <summary>
+        ///     Get LiquidRate in CubicKiloMetersPerDay.
+        /// </summary>
+        public double CubicKiloMetersPerDay => As(LiquidRateUnit.CubicKiloMetersPerDay);
+
+        /// <summary>
         ///     Get LiquidRate in CubicMetersPerDay.
         /// </summary>
         public double CubicMetersPerDay => As(LiquidRateUnit.CubicMeterPerDay);
@@ -173,15 +178,39 @@ namespace UnitsNet
         public double KilocubicMetersPerDay => As(LiquidRateUnit.KilocubicMeterPerDay);
 
         /// <summary>
+        ///     Get LiquidRate in MillionOilBarrelsPerDay.
+        /// </summary>
+        public double MillionOilBarrelsPerDay => As(LiquidRateUnit.MillionOilBarrelPerDay);
+
+        /// <summary>
         ///     Get LiquidRate in OilBarrelsPerDay.
         /// </summary>
         public double OilBarrelsPerDay => As(LiquidRateUnit.OilBarrelsPerDay);
+
+        /// <summary>
+        ///     Get LiquidRate in ThousandOilBarrelsPerDay.
+        /// </summary>
+        public double ThousandOilBarrelsPerDay => As(LiquidRateUnit.ThousandOilBarrelsPerDay);
 
         #endregion
 
         #region Static
 
         public static LiquidRate Zero => new LiquidRate(0, BaseUnit);
+
+        /// <summary>
+        ///     Get LiquidRate from CubicKiloMetersPerDay.
+        /// </summary>
+#if WINDOWS_UWP
+        [Windows.Foundation.Metadata.DefaultOverload]
+        public static LiquidRate FromCubicKiloMetersPerDay(double cubickilometersperday)
+#else
+        public static LiquidRate FromCubicKiloMetersPerDay(QuantityValue cubickilometersperday)
+#endif
+        {
+            double value = (double) cubickilometersperday;
+            return new LiquidRate(value, LiquidRateUnit.CubicKiloMetersPerDay);
+        }
 
         /// <summary>
         ///     Get LiquidRate from CubicMetersPerDay.
@@ -226,6 +255,20 @@ namespace UnitsNet
         }
 
         /// <summary>
+        ///     Get LiquidRate from MillionOilBarrelsPerDay.
+        /// </summary>
+#if WINDOWS_UWP
+        [Windows.Foundation.Metadata.DefaultOverload]
+        public static LiquidRate FromMillionOilBarrelsPerDay(double millionoilbarrelsperday)
+#else
+        public static LiquidRate FromMillionOilBarrelsPerDay(QuantityValue millionoilbarrelsperday)
+#endif
+        {
+            double value = (double) millionoilbarrelsperday;
+            return new LiquidRate(value, LiquidRateUnit.MillionOilBarrelPerDay);
+        }
+
+        /// <summary>
         ///     Get LiquidRate from OilBarrelsPerDay.
         /// </summary>
 #if WINDOWS_UWP
@@ -237,6 +280,20 @@ namespace UnitsNet
         {
             double value = (double) oilbarrelsperday;
             return new LiquidRate(value, LiquidRateUnit.OilBarrelsPerDay);
+        }
+
+        /// <summary>
+        ///     Get LiquidRate from ThousandOilBarrelsPerDay.
+        /// </summary>
+#if WINDOWS_UWP
+        [Windows.Foundation.Metadata.DefaultOverload]
+        public static LiquidRate FromThousandOilBarrelsPerDay(double thousandoilbarrelsperday)
+#else
+        public static LiquidRate FromThousandOilBarrelsPerDay(QuantityValue thousandoilbarrelsperday)
+#endif
+        {
+            double value = (double) thousandoilbarrelsperday;
+            return new LiquidRate(value, LiquidRateUnit.ThousandOilBarrelsPerDay);
         }
 
 
@@ -436,10 +493,13 @@ namespace UnitsNet
         {
             switch(Unit)
             {
+                case LiquidRateUnit.CubicKiloMetersPerDay: return _value/1000;
                 case LiquidRateUnit.CubicMeterPerDay: return _value;
                 case LiquidRateUnit.HectocubicMeterPerDay: return (_value) * 1e2d;
                 case LiquidRateUnit.KilocubicMeterPerDay: return (_value) * 1e3d;
+                case LiquidRateUnit.MillionOilBarrelPerDay: return _value*158987.294928;
                 case LiquidRateUnit.OilBarrelsPerDay: return _value*0.158987294928;
+                case LiquidRateUnit.ThousandOilBarrelsPerDay: return _value*158.987294928;
                 default:
                     throw new NotImplementedException($"Can not convert {Unit} to base units.");
             }
@@ -454,10 +514,13 @@ namespace UnitsNet
 
             switch(unit)
             {
+                case LiquidRateUnit.CubicKiloMetersPerDay: return baseUnitValue*1000;
                 case LiquidRateUnit.CubicMeterPerDay: return baseUnitValue;
                 case LiquidRateUnit.HectocubicMeterPerDay: return (baseUnitValue) / 1e2d;
                 case LiquidRateUnit.KilocubicMeterPerDay: return (baseUnitValue) / 1e3d;
+                case LiquidRateUnit.MillionOilBarrelPerDay: return baseUnitValue/158987.294928;
                 case LiquidRateUnit.OilBarrelsPerDay: return baseUnitValue/0.158987294928;
+                case LiquidRateUnit.ThousandOilBarrelsPerDay: return baseUnitValue/158.987294928;
                 default:
                     throw new NotImplementedException($"Can not convert {Unit} to {unit}.");
             }

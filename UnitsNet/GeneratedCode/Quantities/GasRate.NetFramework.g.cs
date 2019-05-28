@@ -63,11 +63,27 @@ namespace UnitsNet
         #region Nullable From Methods
 
         /// <summary>
-        ///     Get nullable GasRate from nullable CubicFeet.
+        ///     Get nullable GasRate from nullable BillionCubicFeetPerDay.
         /// </summary>
-        public static GasRate? FromCubicFeet(QuantityValue? cubicfeet)
+        public static GasRate? FromBillionCubicFeetPerDay(QuantityValue? billioncubicfeetperday)
         {
-            return cubicfeet.HasValue ? FromCubicFeet(cubicfeet.Value) : default(GasRate?);
+            return billioncubicfeetperday.HasValue ? FromBillionCubicFeetPerDay(billioncubicfeetperday.Value) : default(GasRate?);
+        }
+
+        /// <summary>
+        ///     Get nullable GasRate from nullable CubicFeetPerDay.
+        /// </summary>
+        public static GasRate? FromCubicFeetPerDay(QuantityValue? cubicfeetperday)
+        {
+            return cubicfeetperday.HasValue ? FromCubicFeetPerDay(cubicfeetperday.Value) : default(GasRate?);
+        }
+
+        /// <summary>
+        ///     Get nullable GasRate from nullable CubicKiloMetersPerDay.
+        /// </summary>
+        public static GasRate? FromCubicKiloMetersPerDay(QuantityValue? cubickilometersperday)
+        {
+            return cubickilometersperday.HasValue ? FromCubicKiloMetersPerDay(cubickilometersperday.Value) : default(GasRate?);
         }
 
         /// <summary>
@@ -79,11 +95,11 @@ namespace UnitsNet
         }
 
         /// <summary>
-        ///     Get nullable GasRate from nullable GigacubicFeet.
+        ///     Get nullable GasRate from nullable GigacubicFeetPerDay.
         /// </summary>
-        public static GasRate? FromGigacubicFeet(QuantityValue? gigacubicfeet)
+        public static GasRate? FromGigacubicFeetPerDay(QuantityValue? gigacubicfeetperday)
         {
-            return gigacubicfeet.HasValue ? FromGigacubicFeet(gigacubicfeet.Value) : default(GasRate?);
+            return gigacubicfeetperday.HasValue ? FromGigacubicFeetPerDay(gigacubicfeetperday.Value) : default(GasRate?);
         }
 
         /// <summary>
@@ -95,11 +111,11 @@ namespace UnitsNet
         }
 
         /// <summary>
-        ///     Get nullable GasRate from nullable KilocubicFeet.
+        ///     Get nullable GasRate from nullable KilocubicFeetPerDay.
         /// </summary>
-        public static GasRate? FromKilocubicFeet(QuantityValue? kilocubicfeet)
+        public static GasRate? FromKilocubicFeetPerDay(QuantityValue? kilocubicfeetperday)
         {
-            return kilocubicfeet.HasValue ? FromKilocubicFeet(kilocubicfeet.Value) : default(GasRate?);
+            return kilocubicfeetperday.HasValue ? FromKilocubicFeetPerDay(kilocubicfeetperday.Value) : default(GasRate?);
         }
 
         /// <summary>
@@ -111,11 +127,11 @@ namespace UnitsNet
         }
 
         /// <summary>
-        ///     Get nullable GasRate from nullable MegacubicFeet.
+        ///     Get nullable GasRate from nullable MegacubicFeetPerDay.
         /// </summary>
-        public static GasRate? FromMegacubicFeet(QuantityValue? megacubicfeet)
+        public static GasRate? FromMegacubicFeetPerDay(QuantityValue? megacubicfeetperday)
         {
-            return megacubicfeet.HasValue ? FromMegacubicFeet(megacubicfeet.Value) : default(GasRate?);
+            return megacubicfeetperday.HasValue ? FromMegacubicFeetPerDay(megacubicfeetperday.Value) : default(GasRate?);
         }
 
         /// <summary>
@@ -127,11 +143,27 @@ namespace UnitsNet
         }
 
         /// <summary>
-        ///     Get nullable GasRate from nullable TeracubicFeet.
+        ///     Get nullable GasRate from nullable MillionCubicFeetPerDay.
         /// </summary>
-        public static GasRate? FromTeracubicFeet(QuantityValue? teracubicfeet)
+        public static GasRate? FromMillionCubicFeetPerDay(QuantityValue? millioncubicfeetperday)
         {
-            return teracubicfeet.HasValue ? FromTeracubicFeet(teracubicfeet.Value) : default(GasRate?);
+            return millioncubicfeetperday.HasValue ? FromMillionCubicFeetPerDay(millioncubicfeetperday.Value) : default(GasRate?);
+        }
+
+        /// <summary>
+        ///     Get nullable GasRate from nullable TeracubicFeetPerDay.
+        /// </summary>
+        public static GasRate? FromTeracubicFeetPerDay(QuantityValue? teracubicfeetperday)
+        {
+            return teracubicfeetperday.HasValue ? FromTeracubicFeetPerDay(teracubicfeetperday.Value) : default(GasRate?);
+        }
+
+        /// <summary>
+        ///     Get nullable GasRate from nullable ThousandCubicFeetPerDay.
+        /// </summary>
+        public static GasRate? FromThousandCubicFeetPerDay(QuantityValue? thousandcubicfeetperday)
+        {
+            return thousandcubicfeetperday.HasValue ? FromThousandCubicFeetPerDay(thousandcubicfeetperday.Value) : default(GasRate?);
         }
 
         /// <summary>

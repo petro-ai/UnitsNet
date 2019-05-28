@@ -63,6 +63,14 @@ namespace UnitsNet
         #region Nullable From Methods
 
         /// <summary>
+        ///     Get nullable LiquidRate from nullable CubicKiloMetersPerDay.
+        /// </summary>
+        public static LiquidRate? FromCubicKiloMetersPerDay(QuantityValue? cubickilometersperday)
+        {
+            return cubickilometersperday.HasValue ? FromCubicKiloMetersPerDay(cubickilometersperday.Value) : default(LiquidRate?);
+        }
+
+        /// <summary>
         ///     Get nullable LiquidRate from nullable CubicMetersPerDay.
         /// </summary>
         public static LiquidRate? FromCubicMetersPerDay(QuantityValue? cubicmetersperday)
@@ -87,11 +95,27 @@ namespace UnitsNet
         }
 
         /// <summary>
+        ///     Get nullable LiquidRate from nullable MillionOilBarrelsPerDay.
+        /// </summary>
+        public static LiquidRate? FromMillionOilBarrelsPerDay(QuantityValue? millionoilbarrelsperday)
+        {
+            return millionoilbarrelsperday.HasValue ? FromMillionOilBarrelsPerDay(millionoilbarrelsperday.Value) : default(LiquidRate?);
+        }
+
+        /// <summary>
         ///     Get nullable LiquidRate from nullable OilBarrelsPerDay.
         /// </summary>
         public static LiquidRate? FromOilBarrelsPerDay(QuantityValue? oilbarrelsperday)
         {
             return oilbarrelsperday.HasValue ? FromOilBarrelsPerDay(oilbarrelsperday.Value) : default(LiquidRate?);
+        }
+
+        /// <summary>
+        ///     Get nullable LiquidRate from nullable ThousandOilBarrelsPerDay.
+        /// </summary>
+        public static LiquidRate? FromThousandOilBarrelsPerDay(QuantityValue? thousandoilbarrelsperday)
+        {
+            return thousandoilbarrelsperday.HasValue ? FromThousandOilBarrelsPerDay(thousandoilbarrelsperday.Value) : default(LiquidRate?);
         }
 
         /// <summary>

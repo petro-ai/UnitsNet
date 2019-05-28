@@ -158,9 +158,19 @@ namespace UnitsNet
         public static GasRateUnit[] Units { get; } = Enum.GetValues(typeof(GasRateUnit)).Cast<GasRateUnit>().ToArray();
 
         /// <summary>
-        ///     Get GasRate in CubicFeet.
+        ///     Get GasRate in BillionCubicFeetPerDay.
         /// </summary>
-        public double CubicFeet => As(GasRateUnit.CubicFoot);
+        public double BillionCubicFeetPerDay => As(GasRateUnit.BillionCubicFootPerDay);
+
+        /// <summary>
+        ///     Get GasRate in CubicFeetPerDay.
+        /// </summary>
+        public double CubicFeetPerDay => As(GasRateUnit.CubicFootPerDay);
+
+        /// <summary>
+        ///     Get GasRate in CubicKiloMetersPerDay.
+        /// </summary>
+        public double CubicKiloMetersPerDay => As(GasRateUnit.CubicKiloMetersPerDay);
 
         /// <summary>
         ///     Get GasRate in CubicMetersPerDay.
@@ -168,9 +178,9 @@ namespace UnitsNet
         public double CubicMetersPerDay => As(GasRateUnit.CubicMeterPerDay);
 
         /// <summary>
-        ///     Get GasRate in GigacubicFeet.
+        ///     Get GasRate in GigacubicFeetPerDay.
         /// </summary>
-        public double GigacubicFeet => As(GasRateUnit.GigacubicFoot);
+        public double GigacubicFeetPerDay => As(GasRateUnit.GigacubicFootPerDay);
 
         /// <summary>
         ///     Get GasRate in HectocubicMetersPerDay.
@@ -178,9 +188,9 @@ namespace UnitsNet
         public double HectocubicMetersPerDay => As(GasRateUnit.HectocubicMeterPerDay);
 
         /// <summary>
-        ///     Get GasRate in KilocubicFeet.
+        ///     Get GasRate in KilocubicFeetPerDay.
         /// </summary>
-        public double KilocubicFeet => As(GasRateUnit.KilocubicFoot);
+        public double KilocubicFeetPerDay => As(GasRateUnit.KilocubicFootPerDay);
 
         /// <summary>
         ///     Get GasRate in KilocubicMetersPerDay.
@@ -188,9 +198,9 @@ namespace UnitsNet
         public double KilocubicMetersPerDay => As(GasRateUnit.KilocubicMeterPerDay);
 
         /// <summary>
-        ///     Get GasRate in MegacubicFeet.
+        ///     Get GasRate in MegacubicFeetPerDay.
         /// </summary>
-        public double MegacubicFeet => As(GasRateUnit.MegacubicFoot);
+        public double MegacubicFeetPerDay => As(GasRateUnit.MegacubicFootPerDay);
 
         /// <summary>
         ///     Get GasRate in MegacubicMetersPerDay.
@@ -198,9 +208,19 @@ namespace UnitsNet
         public double MegacubicMetersPerDay => As(GasRateUnit.MegacubicMeterPerDay);
 
         /// <summary>
-        ///     Get GasRate in TeracubicFeet.
+        ///     Get GasRate in MillionCubicFeetPerDay.
         /// </summary>
-        public double TeracubicFeet => As(GasRateUnit.TeracubicFoot);
+        public double MillionCubicFeetPerDay => As(GasRateUnit.MillionCubicFootPerDay);
+
+        /// <summary>
+        ///     Get GasRate in TeracubicFeetPerDay.
+        /// </summary>
+        public double TeracubicFeetPerDay => As(GasRateUnit.TeracubicFootPerDay);
+
+        /// <summary>
+        ///     Get GasRate in ThousandCubicFeetPerDay.
+        /// </summary>
+        public double ThousandCubicFeetPerDay => As(GasRateUnit.ThousandCubicFootPerDay);
 
         #endregion
 
@@ -209,17 +229,45 @@ namespace UnitsNet
         public static GasRate Zero => new GasRate(0, BaseUnit);
 
         /// <summary>
-        ///     Get GasRate from CubicFeet.
+        ///     Get GasRate from BillionCubicFeetPerDay.
         /// </summary>
 #if WINDOWS_UWP
         [Windows.Foundation.Metadata.DefaultOverload]
-        public static GasRate FromCubicFeet(double cubicfeet)
+        public static GasRate FromBillionCubicFeetPerDay(double billioncubicfeetperday)
 #else
-        public static GasRate FromCubicFeet(QuantityValue cubicfeet)
+        public static GasRate FromBillionCubicFeetPerDay(QuantityValue billioncubicfeetperday)
 #endif
         {
-            double value = (double) cubicfeet;
-            return new GasRate(value, GasRateUnit.CubicFoot);
+            double value = (double) billioncubicfeetperday;
+            return new GasRate(value, GasRateUnit.BillionCubicFootPerDay);
+        }
+
+        /// <summary>
+        ///     Get GasRate from CubicFeetPerDay.
+        /// </summary>
+#if WINDOWS_UWP
+        [Windows.Foundation.Metadata.DefaultOverload]
+        public static GasRate FromCubicFeetPerDay(double cubicfeetperday)
+#else
+        public static GasRate FromCubicFeetPerDay(QuantityValue cubicfeetperday)
+#endif
+        {
+            double value = (double) cubicfeetperday;
+            return new GasRate(value, GasRateUnit.CubicFootPerDay);
+        }
+
+        /// <summary>
+        ///     Get GasRate from CubicKiloMetersPerDay.
+        /// </summary>
+#if WINDOWS_UWP
+        [Windows.Foundation.Metadata.DefaultOverload]
+        public static GasRate FromCubicKiloMetersPerDay(double cubickilometersperday)
+#else
+        public static GasRate FromCubicKiloMetersPerDay(QuantityValue cubickilometersperday)
+#endif
+        {
+            double value = (double) cubickilometersperday;
+            return new GasRate(value, GasRateUnit.CubicKiloMetersPerDay);
         }
 
         /// <summary>
@@ -237,17 +285,17 @@ namespace UnitsNet
         }
 
         /// <summary>
-        ///     Get GasRate from GigacubicFeet.
+        ///     Get GasRate from GigacubicFeetPerDay.
         /// </summary>
 #if WINDOWS_UWP
         [Windows.Foundation.Metadata.DefaultOverload]
-        public static GasRate FromGigacubicFeet(double gigacubicfeet)
+        public static GasRate FromGigacubicFeetPerDay(double gigacubicfeetperday)
 #else
-        public static GasRate FromGigacubicFeet(QuantityValue gigacubicfeet)
+        public static GasRate FromGigacubicFeetPerDay(QuantityValue gigacubicfeetperday)
 #endif
         {
-            double value = (double) gigacubicfeet;
-            return new GasRate(value, GasRateUnit.GigacubicFoot);
+            double value = (double) gigacubicfeetperday;
+            return new GasRate(value, GasRateUnit.GigacubicFootPerDay);
         }
 
         /// <summary>
@@ -265,17 +313,17 @@ namespace UnitsNet
         }
 
         /// <summary>
-        ///     Get GasRate from KilocubicFeet.
+        ///     Get GasRate from KilocubicFeetPerDay.
         /// </summary>
 #if WINDOWS_UWP
         [Windows.Foundation.Metadata.DefaultOverload]
-        public static GasRate FromKilocubicFeet(double kilocubicfeet)
+        public static GasRate FromKilocubicFeetPerDay(double kilocubicfeetperday)
 #else
-        public static GasRate FromKilocubicFeet(QuantityValue kilocubicfeet)
+        public static GasRate FromKilocubicFeetPerDay(QuantityValue kilocubicfeetperday)
 #endif
         {
-            double value = (double) kilocubicfeet;
-            return new GasRate(value, GasRateUnit.KilocubicFoot);
+            double value = (double) kilocubicfeetperday;
+            return new GasRate(value, GasRateUnit.KilocubicFootPerDay);
         }
 
         /// <summary>
@@ -293,17 +341,17 @@ namespace UnitsNet
         }
 
         /// <summary>
-        ///     Get GasRate from MegacubicFeet.
+        ///     Get GasRate from MegacubicFeetPerDay.
         /// </summary>
 #if WINDOWS_UWP
         [Windows.Foundation.Metadata.DefaultOverload]
-        public static GasRate FromMegacubicFeet(double megacubicfeet)
+        public static GasRate FromMegacubicFeetPerDay(double megacubicfeetperday)
 #else
-        public static GasRate FromMegacubicFeet(QuantityValue megacubicfeet)
+        public static GasRate FromMegacubicFeetPerDay(QuantityValue megacubicfeetperday)
 #endif
         {
-            double value = (double) megacubicfeet;
-            return new GasRate(value, GasRateUnit.MegacubicFoot);
+            double value = (double) megacubicfeetperday;
+            return new GasRate(value, GasRateUnit.MegacubicFootPerDay);
         }
 
         /// <summary>
@@ -321,17 +369,45 @@ namespace UnitsNet
         }
 
         /// <summary>
-        ///     Get GasRate from TeracubicFeet.
+        ///     Get GasRate from MillionCubicFeetPerDay.
         /// </summary>
 #if WINDOWS_UWP
         [Windows.Foundation.Metadata.DefaultOverload]
-        public static GasRate FromTeracubicFeet(double teracubicfeet)
+        public static GasRate FromMillionCubicFeetPerDay(double millioncubicfeetperday)
 #else
-        public static GasRate FromTeracubicFeet(QuantityValue teracubicfeet)
+        public static GasRate FromMillionCubicFeetPerDay(QuantityValue millioncubicfeetperday)
 #endif
         {
-            double value = (double) teracubicfeet;
-            return new GasRate(value, GasRateUnit.TeracubicFoot);
+            double value = (double) millioncubicfeetperday;
+            return new GasRate(value, GasRateUnit.MillionCubicFootPerDay);
+        }
+
+        /// <summary>
+        ///     Get GasRate from TeracubicFeetPerDay.
+        /// </summary>
+#if WINDOWS_UWP
+        [Windows.Foundation.Metadata.DefaultOverload]
+        public static GasRate FromTeracubicFeetPerDay(double teracubicfeetperday)
+#else
+        public static GasRate FromTeracubicFeetPerDay(QuantityValue teracubicfeetperday)
+#endif
+        {
+            double value = (double) teracubicfeetperday;
+            return new GasRate(value, GasRateUnit.TeracubicFootPerDay);
+        }
+
+        /// <summary>
+        ///     Get GasRate from ThousandCubicFeetPerDay.
+        /// </summary>
+#if WINDOWS_UWP
+        [Windows.Foundation.Metadata.DefaultOverload]
+        public static GasRate FromThousandCubicFeetPerDay(double thousandcubicfeetperday)
+#else
+        public static GasRate FromThousandCubicFeetPerDay(QuantityValue thousandcubicfeetperday)
+#endif
+        {
+            double value = (double) thousandcubicfeetperday;
+            return new GasRate(value, GasRateUnit.ThousandCubicFootPerDay);
         }
 
 
@@ -531,15 +607,19 @@ namespace UnitsNet
         {
             switch(Unit)
             {
-                case GasRateUnit.CubicFoot: return _value*0.0283168;
+                case GasRateUnit.BillionCubicFootPerDay: return _value*28316800;
+                case GasRateUnit.CubicFootPerDay: return _value*0.0283168;
+                case GasRateUnit.CubicKiloMetersPerDay: return _value/1000;
                 case GasRateUnit.CubicMeterPerDay: return _value;
-                case GasRateUnit.GigacubicFoot: return (_value*0.0283168) * 1e9d;
+                case GasRateUnit.GigacubicFootPerDay: return (_value*0.0283168) * 1e9d;
                 case GasRateUnit.HectocubicMeterPerDay: return (_value) * 1e2d;
-                case GasRateUnit.KilocubicFoot: return (_value*0.0283168) * 1e3d;
+                case GasRateUnit.KilocubicFootPerDay: return (_value*0.0283168) * 1e3d;
                 case GasRateUnit.KilocubicMeterPerDay: return (_value) * 1e3d;
-                case GasRateUnit.MegacubicFoot: return (_value*0.0283168) * 1e6d;
+                case GasRateUnit.MegacubicFootPerDay: return (_value*0.0283168) * 1e6d;
                 case GasRateUnit.MegacubicMeterPerDay: return (_value) * 1e6d;
-                case GasRateUnit.TeracubicFoot: return (_value*0.0283168) * 1e12d;
+                case GasRateUnit.MillionCubicFootPerDay: return _value*28316.8;
+                case GasRateUnit.TeracubicFootPerDay: return (_value*0.0283168) * 1e12d;
+                case GasRateUnit.ThousandCubicFootPerDay: return _value*28.3168;
                 default:
                     throw new NotImplementedException($"Can not convert {Unit} to base units.");
             }
@@ -554,15 +634,19 @@ namespace UnitsNet
 
             switch(unit)
             {
-                case GasRateUnit.CubicFoot: return baseUnitValue/0.0283168;
+                case GasRateUnit.BillionCubicFootPerDay: return baseUnitValue/28316800;
+                case GasRateUnit.CubicFootPerDay: return baseUnitValue/0.0283168;
+                case GasRateUnit.CubicKiloMetersPerDay: return baseUnitValue*1000;
                 case GasRateUnit.CubicMeterPerDay: return baseUnitValue;
-                case GasRateUnit.GigacubicFoot: return (baseUnitValue/0.0283168) / 1e9d;
+                case GasRateUnit.GigacubicFootPerDay: return (baseUnitValue/0.0283168) / 1e9d;
                 case GasRateUnit.HectocubicMeterPerDay: return (baseUnitValue) / 1e2d;
-                case GasRateUnit.KilocubicFoot: return (baseUnitValue/0.0283168) / 1e3d;
+                case GasRateUnit.KilocubicFootPerDay: return (baseUnitValue/0.0283168) / 1e3d;
                 case GasRateUnit.KilocubicMeterPerDay: return (baseUnitValue) / 1e3d;
-                case GasRateUnit.MegacubicFoot: return (baseUnitValue/0.0283168) / 1e6d;
+                case GasRateUnit.MegacubicFootPerDay: return (baseUnitValue/0.0283168) / 1e6d;
                 case GasRateUnit.MegacubicMeterPerDay: return (baseUnitValue) / 1e6d;
-                case GasRateUnit.TeracubicFoot: return (baseUnitValue/0.0283168) / 1e12d;
+                case GasRateUnit.MillionCubicFootPerDay: return baseUnitValue/28316.8;
+                case GasRateUnit.TeracubicFootPerDay: return (baseUnitValue/0.0283168) / 1e12d;
+                case GasRateUnit.ThousandCubicFootPerDay: return baseUnitValue/28.3168;
                 default:
                     throw new NotImplementedException($"Can not convert {Unit} to {unit}.");
             }
