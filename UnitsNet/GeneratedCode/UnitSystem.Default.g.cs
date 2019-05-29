@@ -1875,7 +1875,7 @@ namespace UnitsNet
                         new CulturesForEnumValue((int) GasVolumeUnit.CubicKiloMeter,
                             new[]
                             {
-                                new AbbreviationsForCulture("en-US", "e3m3", "km3"),
+                                new AbbreviationsForCulture("en-US", "e3m3"),
                             }),
                         new CulturesForEnumValue((int) GasVolumeUnit.CubicMeter,
                             new[]
