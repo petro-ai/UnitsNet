@@ -71,27 +71,19 @@ namespace UnitsNet
         }
 
         /// <summary>
-        ///     Get nullable BoeVolume from nullable Gigaboe.
+        ///     Get nullable BoeVolume from nullable MillionBoe.
         /// </summary>
-        public static BoeVolume? FromGigaboe(QuantityValue? gigaboe)
+        public static BoeVolume? FromMillionBoe(QuantityValue? millionboe)
         {
-            return gigaboe.HasValue ? FromGigaboe(gigaboe.Value) : default(BoeVolume?);
+            return millionboe.HasValue ? FromMillionBoe(millionboe.Value) : default(BoeVolume?);
         }
 
         /// <summary>
-        ///     Get nullable BoeVolume from nullable Kiloboe.
+        ///     Get nullable BoeVolume from nullable ThousandBoe.
         /// </summary>
-        public static BoeVolume? FromKiloboe(QuantityValue? kiloboe)
+        public static BoeVolume? FromThousandBoe(QuantityValue? thousandboe)
         {
-            return kiloboe.HasValue ? FromKiloboe(kiloboe.Value) : default(BoeVolume?);
-        }
-
-        /// <summary>
-        ///     Get nullable BoeVolume from nullable Megaboe.
-        /// </summary>
-        public static BoeVolume? FromMegaboe(QuantityValue? megaboe)
-        {
-            return megaboe.HasValue ? FromMegaboe(megaboe.Value) : default(BoeVolume?);
+            return thousandboe.HasValue ? FromThousandBoe(thousandboe.Value) : default(BoeVolume?);
         }
 
         /// <summary>

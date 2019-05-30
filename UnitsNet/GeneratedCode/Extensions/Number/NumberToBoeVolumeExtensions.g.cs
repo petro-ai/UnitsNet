@@ -78,105 +78,71 @@ namespace UnitsNet.Extensions.NumberToBoeVolume
 
         #endregion
 
-        #region Gigaboe
+        #region MillionBoe
 
-        /// <inheritdoc cref="BoeVolume.FromGigaboe(UnitsNet.QuantityValue)" />
-        public static BoeVolume Gigaboe(this int value) => BoeVolume.FromGigaboe(value);
+        /// <inheritdoc cref="BoeVolume.FromMillionBoe(UnitsNet.QuantityValue)" />
+        public static BoeVolume MillionBoe(this int value) => BoeVolume.FromMillionBoe(value);
 
-        /// <inheritdoc cref="BoeVolume.FromGigaboe(UnitsNet.QuantityValue)" />
-        public static BoeVolume? Gigaboe(this int? value) => BoeVolume.FromGigaboe(value);
+        /// <inheritdoc cref="BoeVolume.FromMillionBoe(UnitsNet.QuantityValue)" />
+        public static BoeVolume? MillionBoe(this int? value) => BoeVolume.FromMillionBoe(value);
 
-        /// <inheritdoc cref="BoeVolume.FromGigaboe(UnitsNet.QuantityValue)" />
-        public static BoeVolume Gigaboe(this long value) => BoeVolume.FromGigaboe(value);
+        /// <inheritdoc cref="BoeVolume.FromMillionBoe(UnitsNet.QuantityValue)" />
+        public static BoeVolume MillionBoe(this long value) => BoeVolume.FromMillionBoe(value);
 
-        /// <inheritdoc cref="BoeVolume.FromGigaboe(UnitsNet.QuantityValue)" />
-        public static BoeVolume? Gigaboe(this long? value) => BoeVolume.FromGigaboe(value);
+        /// <inheritdoc cref="BoeVolume.FromMillionBoe(UnitsNet.QuantityValue)" />
+        public static BoeVolume? MillionBoe(this long? value) => BoeVolume.FromMillionBoe(value);
 
-        /// <inheritdoc cref="BoeVolume.FromGigaboe(UnitsNet.QuantityValue)" />
-        public static BoeVolume Gigaboe(this double value) => BoeVolume.FromGigaboe(value);
+        /// <inheritdoc cref="BoeVolume.FromMillionBoe(UnitsNet.QuantityValue)" />
+        public static BoeVolume MillionBoe(this double value) => BoeVolume.FromMillionBoe(value);
 
-        /// <inheritdoc cref="BoeVolume.FromGigaboe(UnitsNet.QuantityValue)" />
-        public static BoeVolume? Gigaboe(this double? value) => BoeVolume.FromGigaboe(value);
+        /// <inheritdoc cref="BoeVolume.FromMillionBoe(UnitsNet.QuantityValue)" />
+        public static BoeVolume? MillionBoe(this double? value) => BoeVolume.FromMillionBoe(value);
 
-        /// <inheritdoc cref="BoeVolume.FromGigaboe(UnitsNet.QuantityValue)" />
-        public static BoeVolume Gigaboe(this float value) => BoeVolume.FromGigaboe(value);
+        /// <inheritdoc cref="BoeVolume.FromMillionBoe(UnitsNet.QuantityValue)" />
+        public static BoeVolume MillionBoe(this float value) => BoeVolume.FromMillionBoe(value);
 
-        /// <inheritdoc cref="BoeVolume.FromGigaboe(UnitsNet.QuantityValue)" />
-        public static BoeVolume? Gigaboe(this float? value) => BoeVolume.FromGigaboe(value);
+        /// <inheritdoc cref="BoeVolume.FromMillionBoe(UnitsNet.QuantityValue)" />
+        public static BoeVolume? MillionBoe(this float? value) => BoeVolume.FromMillionBoe(value);
 
-        /// <inheritdoc cref="BoeVolume.FromGigaboe(UnitsNet.QuantityValue)" />
-        public static BoeVolume Gigaboe(this decimal value) => BoeVolume.FromGigaboe(Convert.ToDouble(value));
+        /// <inheritdoc cref="BoeVolume.FromMillionBoe(UnitsNet.QuantityValue)" />
+        public static BoeVolume MillionBoe(this decimal value) => BoeVolume.FromMillionBoe(Convert.ToDouble(value));
 
-        /// <inheritdoc cref="BoeVolume.FromGigaboe(UnitsNet.QuantityValue)" />
-        public static BoeVolume? Gigaboe(this decimal? value) => BoeVolume.FromGigaboe(value == null ? (double?)null : Convert.ToDouble(value.Value));
-
-        #endregion
-
-        #region Kiloboe
-
-        /// <inheritdoc cref="BoeVolume.FromKiloboe(UnitsNet.QuantityValue)" />
-        public static BoeVolume Kiloboe(this int value) => BoeVolume.FromKiloboe(value);
-
-        /// <inheritdoc cref="BoeVolume.FromKiloboe(UnitsNet.QuantityValue)" />
-        public static BoeVolume? Kiloboe(this int? value) => BoeVolume.FromKiloboe(value);
-
-        /// <inheritdoc cref="BoeVolume.FromKiloboe(UnitsNet.QuantityValue)" />
-        public static BoeVolume Kiloboe(this long value) => BoeVolume.FromKiloboe(value);
-
-        /// <inheritdoc cref="BoeVolume.FromKiloboe(UnitsNet.QuantityValue)" />
-        public static BoeVolume? Kiloboe(this long? value) => BoeVolume.FromKiloboe(value);
-
-        /// <inheritdoc cref="BoeVolume.FromKiloboe(UnitsNet.QuantityValue)" />
-        public static BoeVolume Kiloboe(this double value) => BoeVolume.FromKiloboe(value);
-
-        /// <inheritdoc cref="BoeVolume.FromKiloboe(UnitsNet.QuantityValue)" />
-        public static BoeVolume? Kiloboe(this double? value) => BoeVolume.FromKiloboe(value);
-
-        /// <inheritdoc cref="BoeVolume.FromKiloboe(UnitsNet.QuantityValue)" />
-        public static BoeVolume Kiloboe(this float value) => BoeVolume.FromKiloboe(value);
-
-        /// <inheritdoc cref="BoeVolume.FromKiloboe(UnitsNet.QuantityValue)" />
-        public static BoeVolume? Kiloboe(this float? value) => BoeVolume.FromKiloboe(value);
-
-        /// <inheritdoc cref="BoeVolume.FromKiloboe(UnitsNet.QuantityValue)" />
-        public static BoeVolume Kiloboe(this decimal value) => BoeVolume.FromKiloboe(Convert.ToDouble(value));
-
-        /// <inheritdoc cref="BoeVolume.FromKiloboe(UnitsNet.QuantityValue)" />
-        public static BoeVolume? Kiloboe(this decimal? value) => BoeVolume.FromKiloboe(value == null ? (double?)null : Convert.ToDouble(value.Value));
+        /// <inheritdoc cref="BoeVolume.FromMillionBoe(UnitsNet.QuantityValue)" />
+        public static BoeVolume? MillionBoe(this decimal? value) => BoeVolume.FromMillionBoe(value == null ? (double?)null : Convert.ToDouble(value.Value));
 
         #endregion
 
-        #region Megaboe
+        #region ThousandBoe
 
-        /// <inheritdoc cref="BoeVolume.FromMegaboe(UnitsNet.QuantityValue)" />
-        public static BoeVolume Megaboe(this int value) => BoeVolume.FromMegaboe(value);
+        /// <inheritdoc cref="BoeVolume.FromThousandBoe(UnitsNet.QuantityValue)" />
+        public static BoeVolume ThousandBoe(this int value) => BoeVolume.FromThousandBoe(value);
 
-        /// <inheritdoc cref="BoeVolume.FromMegaboe(UnitsNet.QuantityValue)" />
-        public static BoeVolume? Megaboe(this int? value) => BoeVolume.FromMegaboe(value);
+        /// <inheritdoc cref="BoeVolume.FromThousandBoe(UnitsNet.QuantityValue)" />
+        public static BoeVolume? ThousandBoe(this int? value) => BoeVolume.FromThousandBoe(value);
 
-        /// <inheritdoc cref="BoeVolume.FromMegaboe(UnitsNet.QuantityValue)" />
-        public static BoeVolume Megaboe(this long value) => BoeVolume.FromMegaboe(value);
+        /// <inheritdoc cref="BoeVolume.FromThousandBoe(UnitsNet.QuantityValue)" />
+        public static BoeVolume ThousandBoe(this long value) => BoeVolume.FromThousandBoe(value);
 
-        /// <inheritdoc cref="BoeVolume.FromMegaboe(UnitsNet.QuantityValue)" />
-        public static BoeVolume? Megaboe(this long? value) => BoeVolume.FromMegaboe(value);
+        /// <inheritdoc cref="BoeVolume.FromThousandBoe(UnitsNet.QuantityValue)" />
+        public static BoeVolume? ThousandBoe(this long? value) => BoeVolume.FromThousandBoe(value);
 
-        /// <inheritdoc cref="BoeVolume.FromMegaboe(UnitsNet.QuantityValue)" />
-        public static BoeVolume Megaboe(this double value) => BoeVolume.FromMegaboe(value);
+        /// <inheritdoc cref="BoeVolume.FromThousandBoe(UnitsNet.QuantityValue)" />
+        public static BoeVolume ThousandBoe(this double value) => BoeVolume.FromThousandBoe(value);
 
-        /// <inheritdoc cref="BoeVolume.FromMegaboe(UnitsNet.QuantityValue)" />
-        public static BoeVolume? Megaboe(this double? value) => BoeVolume.FromMegaboe(value);
+        /// <inheritdoc cref="BoeVolume.FromThousandBoe(UnitsNet.QuantityValue)" />
+        public static BoeVolume? ThousandBoe(this double? value) => BoeVolume.FromThousandBoe(value);
 
-        /// <inheritdoc cref="BoeVolume.FromMegaboe(UnitsNet.QuantityValue)" />
-        public static BoeVolume Megaboe(this float value) => BoeVolume.FromMegaboe(value);
+        /// <inheritdoc cref="BoeVolume.FromThousandBoe(UnitsNet.QuantityValue)" />
+        public static BoeVolume ThousandBoe(this float value) => BoeVolume.FromThousandBoe(value);
 
-        /// <inheritdoc cref="BoeVolume.FromMegaboe(UnitsNet.QuantityValue)" />
-        public static BoeVolume? Megaboe(this float? value) => BoeVolume.FromMegaboe(value);
+        /// <inheritdoc cref="BoeVolume.FromThousandBoe(UnitsNet.QuantityValue)" />
+        public static BoeVolume? ThousandBoe(this float? value) => BoeVolume.FromThousandBoe(value);
 
-        /// <inheritdoc cref="BoeVolume.FromMegaboe(UnitsNet.QuantityValue)" />
-        public static BoeVolume Megaboe(this decimal value) => BoeVolume.FromMegaboe(Convert.ToDouble(value));
+        /// <inheritdoc cref="BoeVolume.FromThousandBoe(UnitsNet.QuantityValue)" />
+        public static BoeVolume ThousandBoe(this decimal value) => BoeVolume.FromThousandBoe(Convert.ToDouble(value));
 
-        /// <inheritdoc cref="BoeVolume.FromMegaboe(UnitsNet.QuantityValue)" />
-        public static BoeVolume? Megaboe(this decimal? value) => BoeVolume.FromMegaboe(value == null ? (double?)null : Convert.ToDouble(value.Value));
+        /// <inheritdoc cref="BoeVolume.FromThousandBoe(UnitsNet.QuantityValue)" />
+        public static BoeVolume? ThousandBoe(this decimal? value) => BoeVolume.FromThousandBoe(value == null ? (double?)null : Convert.ToDouble(value.Value));
 
         #endregion
 

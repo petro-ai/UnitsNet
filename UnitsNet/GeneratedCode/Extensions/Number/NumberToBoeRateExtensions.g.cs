@@ -78,105 +78,71 @@ namespace UnitsNet.Extensions.NumberToBoeRate
 
         #endregion
 
-        #region GigaboePerDay
+        #region MillionBoePerDay
 
-        /// <inheritdoc cref="BoeRate.FromGigaboePerDay(UnitsNet.QuantityValue)" />
-        public static BoeRate GigaboePerDay(this int value) => BoeRate.FromGigaboePerDay(value);
+        /// <inheritdoc cref="BoeRate.FromMillionBoePerDay(UnitsNet.QuantityValue)" />
+        public static BoeRate MillionBoePerDay(this int value) => BoeRate.FromMillionBoePerDay(value);
 
-        /// <inheritdoc cref="BoeRate.FromGigaboePerDay(UnitsNet.QuantityValue)" />
-        public static BoeRate? GigaboePerDay(this int? value) => BoeRate.FromGigaboePerDay(value);
+        /// <inheritdoc cref="BoeRate.FromMillionBoePerDay(UnitsNet.QuantityValue)" />
+        public static BoeRate? MillionBoePerDay(this int? value) => BoeRate.FromMillionBoePerDay(value);
 
-        /// <inheritdoc cref="BoeRate.FromGigaboePerDay(UnitsNet.QuantityValue)" />
-        public static BoeRate GigaboePerDay(this long value) => BoeRate.FromGigaboePerDay(value);
+        /// <inheritdoc cref="BoeRate.FromMillionBoePerDay(UnitsNet.QuantityValue)" />
+        public static BoeRate MillionBoePerDay(this long value) => BoeRate.FromMillionBoePerDay(value);
 
-        /// <inheritdoc cref="BoeRate.FromGigaboePerDay(UnitsNet.QuantityValue)" />
-        public static BoeRate? GigaboePerDay(this long? value) => BoeRate.FromGigaboePerDay(value);
+        /// <inheritdoc cref="BoeRate.FromMillionBoePerDay(UnitsNet.QuantityValue)" />
+        public static BoeRate? MillionBoePerDay(this long? value) => BoeRate.FromMillionBoePerDay(value);
 
-        /// <inheritdoc cref="BoeRate.FromGigaboePerDay(UnitsNet.QuantityValue)" />
-        public static BoeRate GigaboePerDay(this double value) => BoeRate.FromGigaboePerDay(value);
+        /// <inheritdoc cref="BoeRate.FromMillionBoePerDay(UnitsNet.QuantityValue)" />
+        public static BoeRate MillionBoePerDay(this double value) => BoeRate.FromMillionBoePerDay(value);
 
-        /// <inheritdoc cref="BoeRate.FromGigaboePerDay(UnitsNet.QuantityValue)" />
-        public static BoeRate? GigaboePerDay(this double? value) => BoeRate.FromGigaboePerDay(value);
+        /// <inheritdoc cref="BoeRate.FromMillionBoePerDay(UnitsNet.QuantityValue)" />
+        public static BoeRate? MillionBoePerDay(this double? value) => BoeRate.FromMillionBoePerDay(value);
 
-        /// <inheritdoc cref="BoeRate.FromGigaboePerDay(UnitsNet.QuantityValue)" />
-        public static BoeRate GigaboePerDay(this float value) => BoeRate.FromGigaboePerDay(value);
+        /// <inheritdoc cref="BoeRate.FromMillionBoePerDay(UnitsNet.QuantityValue)" />
+        public static BoeRate MillionBoePerDay(this float value) => BoeRate.FromMillionBoePerDay(value);
 
-        /// <inheritdoc cref="BoeRate.FromGigaboePerDay(UnitsNet.QuantityValue)" />
-        public static BoeRate? GigaboePerDay(this float? value) => BoeRate.FromGigaboePerDay(value);
+        /// <inheritdoc cref="BoeRate.FromMillionBoePerDay(UnitsNet.QuantityValue)" />
+        public static BoeRate? MillionBoePerDay(this float? value) => BoeRate.FromMillionBoePerDay(value);
 
-        /// <inheritdoc cref="BoeRate.FromGigaboePerDay(UnitsNet.QuantityValue)" />
-        public static BoeRate GigaboePerDay(this decimal value) => BoeRate.FromGigaboePerDay(Convert.ToDouble(value));
+        /// <inheritdoc cref="BoeRate.FromMillionBoePerDay(UnitsNet.QuantityValue)" />
+        public static BoeRate MillionBoePerDay(this decimal value) => BoeRate.FromMillionBoePerDay(Convert.ToDouble(value));
 
-        /// <inheritdoc cref="BoeRate.FromGigaboePerDay(UnitsNet.QuantityValue)" />
-        public static BoeRate? GigaboePerDay(this decimal? value) => BoeRate.FromGigaboePerDay(value == null ? (double?)null : Convert.ToDouble(value.Value));
-
-        #endregion
-
-        #region KiloboePerDay
-
-        /// <inheritdoc cref="BoeRate.FromKiloboePerDay(UnitsNet.QuantityValue)" />
-        public static BoeRate KiloboePerDay(this int value) => BoeRate.FromKiloboePerDay(value);
-
-        /// <inheritdoc cref="BoeRate.FromKiloboePerDay(UnitsNet.QuantityValue)" />
-        public static BoeRate? KiloboePerDay(this int? value) => BoeRate.FromKiloboePerDay(value);
-
-        /// <inheritdoc cref="BoeRate.FromKiloboePerDay(UnitsNet.QuantityValue)" />
-        public static BoeRate KiloboePerDay(this long value) => BoeRate.FromKiloboePerDay(value);
-
-        /// <inheritdoc cref="BoeRate.FromKiloboePerDay(UnitsNet.QuantityValue)" />
-        public static BoeRate? KiloboePerDay(this long? value) => BoeRate.FromKiloboePerDay(value);
-
-        /// <inheritdoc cref="BoeRate.FromKiloboePerDay(UnitsNet.QuantityValue)" />
-        public static BoeRate KiloboePerDay(this double value) => BoeRate.FromKiloboePerDay(value);
-
-        /// <inheritdoc cref="BoeRate.FromKiloboePerDay(UnitsNet.QuantityValue)" />
-        public static BoeRate? KiloboePerDay(this double? value) => BoeRate.FromKiloboePerDay(value);
-
-        /// <inheritdoc cref="BoeRate.FromKiloboePerDay(UnitsNet.QuantityValue)" />
-        public static BoeRate KiloboePerDay(this float value) => BoeRate.FromKiloboePerDay(value);
-
-        /// <inheritdoc cref="BoeRate.FromKiloboePerDay(UnitsNet.QuantityValue)" />
-        public static BoeRate? KiloboePerDay(this float? value) => BoeRate.FromKiloboePerDay(value);
-
-        /// <inheritdoc cref="BoeRate.FromKiloboePerDay(UnitsNet.QuantityValue)" />
-        public static BoeRate KiloboePerDay(this decimal value) => BoeRate.FromKiloboePerDay(Convert.ToDouble(value));
-
-        /// <inheritdoc cref="BoeRate.FromKiloboePerDay(UnitsNet.QuantityValue)" />
-        public static BoeRate? KiloboePerDay(this decimal? value) => BoeRate.FromKiloboePerDay(value == null ? (double?)null : Convert.ToDouble(value.Value));
+        /// <inheritdoc cref="BoeRate.FromMillionBoePerDay(UnitsNet.QuantityValue)" />
+        public static BoeRate? MillionBoePerDay(this decimal? value) => BoeRate.FromMillionBoePerDay(value == null ? (double?)null : Convert.ToDouble(value.Value));
 
         #endregion
 
-        #region MegaboePerDay
+        #region ThousandBoePerDay
 
-        /// <inheritdoc cref="BoeRate.FromMegaboePerDay(UnitsNet.QuantityValue)" />
-        public static BoeRate MegaboePerDay(this int value) => BoeRate.FromMegaboePerDay(value);
+        /// <inheritdoc cref="BoeRate.FromThousandBoePerDay(UnitsNet.QuantityValue)" />
+        public static BoeRate ThousandBoePerDay(this int value) => BoeRate.FromThousandBoePerDay(value);
 
-        /// <inheritdoc cref="BoeRate.FromMegaboePerDay(UnitsNet.QuantityValue)" />
-        public static BoeRate? MegaboePerDay(this int? value) => BoeRate.FromMegaboePerDay(value);
+        /// <inheritdoc cref="BoeRate.FromThousandBoePerDay(UnitsNet.QuantityValue)" />
+        public static BoeRate? ThousandBoePerDay(this int? value) => BoeRate.FromThousandBoePerDay(value);
 
-        /// <inheritdoc cref="BoeRate.FromMegaboePerDay(UnitsNet.QuantityValue)" />
-        public static BoeRate MegaboePerDay(this long value) => BoeRate.FromMegaboePerDay(value);
+        /// <inheritdoc cref="BoeRate.FromThousandBoePerDay(UnitsNet.QuantityValue)" />
+        public static BoeRate ThousandBoePerDay(this long value) => BoeRate.FromThousandBoePerDay(value);
 
-        /// <inheritdoc cref="BoeRate.FromMegaboePerDay(UnitsNet.QuantityValue)" />
-        public static BoeRate? MegaboePerDay(this long? value) => BoeRate.FromMegaboePerDay(value);
+        /// <inheritdoc cref="BoeRate.FromThousandBoePerDay(UnitsNet.QuantityValue)" />
+        public static BoeRate? ThousandBoePerDay(this long? value) => BoeRate.FromThousandBoePerDay(value);
 
-        /// <inheritdoc cref="BoeRate.FromMegaboePerDay(UnitsNet.QuantityValue)" />
-        public static BoeRate MegaboePerDay(this double value) => BoeRate.FromMegaboePerDay(value);
+        /// <inheritdoc cref="BoeRate.FromThousandBoePerDay(UnitsNet.QuantityValue)" />
+        public static BoeRate ThousandBoePerDay(this double value) => BoeRate.FromThousandBoePerDay(value);
 
-        /// <inheritdoc cref="BoeRate.FromMegaboePerDay(UnitsNet.QuantityValue)" />
-        public static BoeRate? MegaboePerDay(this double? value) => BoeRate.FromMegaboePerDay(value);
+        /// <inheritdoc cref="BoeRate.FromThousandBoePerDay(UnitsNet.QuantityValue)" />
+        public static BoeRate? ThousandBoePerDay(this double? value) => BoeRate.FromThousandBoePerDay(value);
 
-        /// <inheritdoc cref="BoeRate.FromMegaboePerDay(UnitsNet.QuantityValue)" />
-        public static BoeRate MegaboePerDay(this float value) => BoeRate.FromMegaboePerDay(value);
+        /// <inheritdoc cref="BoeRate.FromThousandBoePerDay(UnitsNet.QuantityValue)" />
+        public static BoeRate ThousandBoePerDay(this float value) => BoeRate.FromThousandBoePerDay(value);
 
-        /// <inheritdoc cref="BoeRate.FromMegaboePerDay(UnitsNet.QuantityValue)" />
-        public static BoeRate? MegaboePerDay(this float? value) => BoeRate.FromMegaboePerDay(value);
+        /// <inheritdoc cref="BoeRate.FromThousandBoePerDay(UnitsNet.QuantityValue)" />
+        public static BoeRate? ThousandBoePerDay(this float? value) => BoeRate.FromThousandBoePerDay(value);
 
-        /// <inheritdoc cref="BoeRate.FromMegaboePerDay(UnitsNet.QuantityValue)" />
-        public static BoeRate MegaboePerDay(this decimal value) => BoeRate.FromMegaboePerDay(Convert.ToDouble(value));
+        /// <inheritdoc cref="BoeRate.FromThousandBoePerDay(UnitsNet.QuantityValue)" />
+        public static BoeRate ThousandBoePerDay(this decimal value) => BoeRate.FromThousandBoePerDay(Convert.ToDouble(value));
 
-        /// <inheritdoc cref="BoeRate.FromMegaboePerDay(UnitsNet.QuantityValue)" />
-        public static BoeRate? MegaboePerDay(this decimal? value) => BoeRate.FromMegaboePerDay(value == null ? (double?)null : Convert.ToDouble(value.Value));
+        /// <inheritdoc cref="BoeRate.FromThousandBoePerDay(UnitsNet.QuantityValue)" />
+        public static BoeRate? ThousandBoePerDay(this decimal? value) => BoeRate.FromThousandBoePerDay(value == null ? (double?)null : Convert.ToDouble(value.Value));
 
         #endregion
 

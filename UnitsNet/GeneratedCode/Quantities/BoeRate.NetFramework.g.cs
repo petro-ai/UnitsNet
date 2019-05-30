@@ -71,27 +71,19 @@ namespace UnitsNet
         }
 
         /// <summary>
-        ///     Get nullable BoeRate from nullable GigaboePerDay.
+        ///     Get nullable BoeRate from nullable MillionBoePerDay.
         /// </summary>
-        public static BoeRate? FromGigaboePerDay(QuantityValue? gigaboeperday)
+        public static BoeRate? FromMillionBoePerDay(QuantityValue? millionboeperday)
         {
-            return gigaboeperday.HasValue ? FromGigaboePerDay(gigaboeperday.Value) : default(BoeRate?);
+            return millionboeperday.HasValue ? FromMillionBoePerDay(millionboeperday.Value) : default(BoeRate?);
         }
 
         /// <summary>
-        ///     Get nullable BoeRate from nullable KiloboePerDay.
+        ///     Get nullable BoeRate from nullable ThousandBoePerDay.
         /// </summary>
-        public static BoeRate? FromKiloboePerDay(QuantityValue? kiloboeperday)
+        public static BoeRate? FromThousandBoePerDay(QuantityValue? thousandboeperday)
         {
-            return kiloboeperday.HasValue ? FromKiloboePerDay(kiloboeperday.Value) : default(BoeRate?);
-        }
-
-        /// <summary>
-        ///     Get nullable BoeRate from nullable MegaboePerDay.
-        /// </summary>
-        public static BoeRate? FromMegaboePerDay(QuantityValue? megaboeperday)
-        {
-            return megaboeperday.HasValue ? FromMegaboePerDay(megaboeperday.Value) : default(BoeRate?);
+            return thousandboeperday.HasValue ? FromThousandBoePerDay(thousandboeperday.Value) : default(BoeRate?);
         }
 
         /// <summary>

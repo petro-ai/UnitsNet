@@ -8,11 +8,34 @@
       "PluralName": "Boe",
       "FromUnitToBaseFunc": "x",
       "FromBaseToUnitFunc": "x",
-      "Prefixes": [ "Kilo", "Mega", "Giga" ],
       "Localization": [
         {
           "Culture": "en-US",
           "Abbreviations": [ "BOE" ]
+        }
+      ]
+    },
+    {
+      "SingularName": "ThousandBoe",
+      "PluralName": "ThousandBoe",
+      "FromUnitToBaseFunc": "x/1000",
+      "FromBaseToUnitFunc": "x*1000",
+      "Localization": [
+        {
+          "Culture": "en-US",
+          "Abbreviations": [ "MBOE" ]
+        }
+      ]
+    },
+    {
+      "SingularName": "MillionBoe",
+      "PluralName": "MillionBoe",
+      "FromUnitToBaseFunc": "x/1000000",
+      "FromBaseToUnitFunc": "x*1000000",
+      "Localization": [
+        {
+          "Culture": "en-US",
+          "Abbreviations": [ "MMBOE" ]
         }
       ]
     }

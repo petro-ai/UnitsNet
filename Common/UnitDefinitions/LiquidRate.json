@@ -36,7 +36,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "mbbl/d" ]
+          "Abbreviations": [ "Mbbld", "Mbbl/d" ]
         }
       ]
     },
@@ -48,7 +48,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "mmbbl/d" ]
+          "Abbreviations": [ "MMbbld", "MMbbl/d" ]
         }
       ]
     },
@@ -60,7 +60,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "e3m3/d", "km3/d" ]
+          "Abbreviations": [ "e3m3/d" ]
         }
       ]
     }

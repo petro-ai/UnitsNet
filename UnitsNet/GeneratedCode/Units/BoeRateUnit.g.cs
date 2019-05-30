@@ -43,8 +43,7 @@ namespace UnitsNet.Units
     {
         Undefined = 0,
         BoePerDay,
-        GigaboePerDay,
-        KiloboePerDay,
-        MegaboePerDay,
+        MillionBoePerDay,
+        ThousandBoePerDay,
     }
 }

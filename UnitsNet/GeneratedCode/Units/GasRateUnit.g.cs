@@ -46,14 +46,10 @@ namespace UnitsNet.Units
         CubicFootPerDay,
         CubicKiloMetersPerDay,
         CubicMeterPerDay,
-        GigacubicFootPerDay,
         HectocubicMeterPerDay,
-        KilocubicFootPerDay,
         KilocubicMeterPerDay,
-        MegacubicFootPerDay,
         MegacubicMeterPerDay,
         MillionCubicFootPerDay,
-        TeracubicFootPerDay,
         ThousandCubicFootPerDay,
     }
 }

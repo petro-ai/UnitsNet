@@ -21,7 +21,6 @@
       "PluralName": "CubicFeetPerDay",
       "FromUnitToBaseFunc": "x*0.0283168",
       "FromBaseToUnitFunc": "x/0.0283168",
-      "Prefixes": [ "Kilo", "Mega", "Giga", "Tera" ],
       "Localization": [
         {
           "Culture": "en-US",
@@ -38,7 +37,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "mcf/d" ]
+          "Abbreviations": [ "Mcfd", "Mcf/d" ]
         }
       ]
     },
@@ -51,7 +50,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "mmcf/d" ]
+          "Abbreviations": [ "MMcfd", "MMcf/d" ]
         }
       ]
     },
@@ -64,7 +63,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "bcf/d" ]
+          "Abbreviations": [ "Bcfd", "Bcf/d" ]
         }
       ]
     },
@@ -76,7 +75,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "e3m3/d", "km3/d" ]
+          "Abbreviations": [ "e3m3d", "e3m3/d" ]
         }
       ]
     }

@@ -8,11 +8,34 @@
       "PluralName": "BoePerDay",
       "FromUnitToBaseFunc": "x",
       "FromBaseToUnitFunc": "x",
-      "Prefixes": [ "Kilo", "Mega", "Giga" ],
       "Localization": [
         {
           "Culture": "en-US",
           "Abbreviations": [ "boepd", "boe/d" ]
+        }
+      ]
+    },
+    {
+      "SingularName": "ThousandBoePerDay",
+      "PluralName": "ThousandBoePerDay",
+      "FromUnitToBaseFunc": "x/1000",
+      "FromBaseToUnitFunc": "x*1000",
+      "Localization": [
+        {
+          "Culture": "en-US",
+          "Abbreviations": [ "Mboepd", "Mboe/d" ]
+        }
+      ]
+    },
+    {
+      "SingularName": "MillionBoePerDay",
+      "PluralName": "MillionBoePerDay",
+      "FromUnitToBaseFunc": "x/1000000",
+      "FromBaseToUnitFunc": "x*1000000",
+      "Localization": [
+        {
+          "Culture": "en-US",
+          "Abbreviations": [ "MMboepd", "MMboe/d" ]
         }
       ]
     }

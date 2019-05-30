@@ -43,8 +43,7 @@ namespace UnitsNet.Units
     {
         Undefined = 0,
         Boe,
-        Gigaboe,
-        Kiloboe,
-        Megaboe,
+        MillionBoe,
+        ThousandBoe,
     }
 }

@@ -40,7 +40,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "mbbl" ]
+          "Abbreviations": [ "Mbbl" ]
         }
       ]
     },
@@ -52,7 +52,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "mmbbl" ]
+          "Abbreviations": [ "MMbbl" ]
         }
       ]
     },
@@ -64,7 +64,7 @@
       "Localization": [
         {
           "Culture": "en-US",
-          "Abbreviations": [ "e3m3", "km3" ]
+          "Abbreviations": [ "e3m3" ]
         }
       ]
     }

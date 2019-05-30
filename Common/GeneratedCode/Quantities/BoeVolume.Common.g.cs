@@ -163,19 +163,14 @@ namespace UnitsNet
         public double Boe => As(BoeVolumeUnit.Boe);
 
         /// <summary>
-        ///     Get BoeVolume in Gigaboe.
+        ///     Get BoeVolume in MillionBoe.
         /// </summary>
-        public double Gigaboe => As(BoeVolumeUnit.Gigaboe);
+        public double MillionBoe => As(BoeVolumeUnit.MillionBoe);
 
         /// <summary>
-        ///     Get BoeVolume in Kiloboe.
+        ///     Get BoeVolume in ThousandBoe.
         /// </summary>
-        public double Kiloboe => As(BoeVolumeUnit.Kiloboe);
-
-        /// <summary>
-        ///     Get BoeVolume in Megaboe.
-        /// </summary>
-        public double Megaboe => As(BoeVolumeUnit.Megaboe);
+        public double ThousandBoe => As(BoeVolumeUnit.ThousandBoe);
 
         #endregion
 
@@ -198,45 +193,31 @@ namespace UnitsNet
         }
 
         /// <summary>
-        ///     Get BoeVolume from Gigaboe.
+        ///     Get BoeVolume from MillionBoe.
         /// </summary>
 #if WINDOWS_UWP
         [Windows.Foundation.Metadata.DefaultOverload]
-        public static BoeVolume FromGigaboe(double gigaboe)
+        public static BoeVolume FromMillionBoe(double millionboe)
 #else
-        public static BoeVolume FromGigaboe(QuantityValue gigaboe)
+        public static BoeVolume FromMillionBoe(QuantityValue millionboe)
 #endif
         {
-            double value = (double) gigaboe;
-            return new BoeVolume(value, BoeVolumeUnit.Gigaboe);
+            double value = (double) millionboe;
+            return new BoeVolume(value, BoeVolumeUnit.MillionBoe);
         }
 
         /// <summary>
-        ///     Get BoeVolume from Kiloboe.
+        ///     Get BoeVolume from ThousandBoe.
         /// </summary>
 #if WINDOWS_UWP
         [Windows.Foundation.Metadata.DefaultOverload]
-        public static BoeVolume FromKiloboe(double kiloboe)
+        public static BoeVolume FromThousandBoe(double thousandboe)
 #else
-        public static BoeVolume FromKiloboe(QuantityValue kiloboe)
+        public static BoeVolume FromThousandBoe(QuantityValue thousandboe)
 #endif
         {
-            double value = (double) kiloboe;
-            return new BoeVolume(value, BoeVolumeUnit.Kiloboe);
-        }
-
-        /// <summary>
-        ///     Get BoeVolume from Megaboe.
-        /// </summary>
-#if WINDOWS_UWP
-        [Windows.Foundation.Metadata.DefaultOverload]
-        public static BoeVolume FromMegaboe(double megaboe)
-#else
-        public static BoeVolume FromMegaboe(QuantityValue megaboe)
-#endif
-        {
-            double value = (double) megaboe;
-            return new BoeVolume(value, BoeVolumeUnit.Megaboe);
+            double value = (double) thousandboe;
+            return new BoeVolume(value, BoeVolumeUnit.ThousandBoe);
         }
 
 
@@ -437,9 +418,8 @@ namespace UnitsNet
             switch(Unit)
             {
                 case BoeVolumeUnit.Boe: return _value;
-                case BoeVolumeUnit.Gigaboe: return (_value) * 1e9d;
-                case BoeVolumeUnit.Kiloboe: return (_value) * 1e3d;
-                case BoeVolumeUnit.Megaboe: return (_value) * 1e6d;
+                case BoeVolumeUnit.MillionBoe: return _value/1000000;
+                case BoeVolumeUnit.ThousandBoe: return _value/1000;
                 default:
                     throw new NotImplementedException($"Can not convert {Unit} to base units.");
             }
@@ -455,9 +435,8 @@ namespace UnitsNet
             switch(unit)
             {
                 case BoeVolumeUnit.Boe: return baseUnitValue;
-                case BoeVolumeUnit.Gigaboe: return (baseUnitValue) / 1e9d;
-                case BoeVolumeUnit.Kiloboe: return (baseUnitValue) / 1e3d;
-                case BoeVolumeUnit.Megaboe: return (baseUnitValue) / 1e6d;
+                case BoeVolumeUnit.MillionBoe: return baseUnitValue*1000000;
+                case BoeVolumeUnit.ThousandBoe: return baseUnitValue*1000;
                 default:
                     throw new NotImplementedException($"Can not convert {Unit} to {unit}.");
             }

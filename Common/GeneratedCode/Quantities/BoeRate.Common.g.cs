@@ -163,19 +163,14 @@ namespace UnitsNet
         public double BoePerDay => As(BoeRateUnit.BoePerDay);
 
         /// <summary>
-        ///     Get BoeRate in GigaboePerDay.
+        ///     Get BoeRate in MillionBoePerDay.
         /// </summary>
-        public double GigaboePerDay => As(BoeRateUnit.GigaboePerDay);
+        public double MillionBoePerDay => As(BoeRateUnit.MillionBoePerDay);
 
         /// <summary>
-        ///     Get BoeRate in KiloboePerDay.
+        ///     Get BoeRate in ThousandBoePerDay.
         /// </summary>
-        public double KiloboePerDay => As(BoeRateUnit.KiloboePerDay);
-
-        /// <summary>
-        ///     Get BoeRate in MegaboePerDay.
-        /// </summary>
-        public double MegaboePerDay => As(BoeRateUnit.MegaboePerDay);
+        public double ThousandBoePerDay => As(BoeRateUnit.ThousandBoePerDay);
 
         #endregion
 
@@ -198,45 +193,31 @@ namespace UnitsNet
         }
 
         /// <summary>
-        ///     Get BoeRate from GigaboePerDay.
+        ///     Get BoeRate from MillionBoePerDay.
         /// </summary>
 #if WINDOWS_UWP
         [Windows.Foundation.Metadata.DefaultOverload]
-        public static BoeRate FromGigaboePerDay(double gigaboeperday)
+        public static BoeRate FromMillionBoePerDay(double millionboeperday)
 #else
-        public static BoeRate FromGigaboePerDay(QuantityValue gigaboeperday)
+        public static BoeRate FromMillionBoePerDay(QuantityValue millionboeperday)
 #endif
         {
-            double value = (double) gigaboeperday;
-            return new BoeRate(value, BoeRateUnit.GigaboePerDay);
+            double value = (double) millionboeperday;
+            return new BoeRate(value, BoeRateUnit.MillionBoePerDay);
         }
 
         /// <summary>
-        ///     Get BoeRate from KiloboePerDay.
+        ///     Get BoeRate from ThousandBoePerDay.
         /// </summary>
 #if WINDOWS_UWP
         [Windows.Foundation.Metadata.DefaultOverload]
-        public static BoeRate FromKiloboePerDay(double kiloboeperday)
+        public static BoeRate FromThousandBoePerDay(double thousandboeperday)
 #else
-        public static BoeRate FromKiloboePerDay(QuantityValue kiloboeperday)
+        public static BoeRate FromThousandBoePerDay(QuantityValue thousandboeperday)
 #endif
         {
-            double value = (double) kiloboeperday;
-            return new BoeRate(value, BoeRateUnit.KiloboePerDay);
-        }
-
-        /// <summary>
-        ///     Get BoeRate from MegaboePerDay.
-        /// </summary>
-#if WINDOWS_UWP
-        [Windows.Foundation.Metadata.DefaultOverload]
-        public static BoeRate FromMegaboePerDay(double megaboeperday)
-#else
-        public static BoeRate FromMegaboePerDay(QuantityValue megaboeperday)
-#endif
-        {
-            double value = (double) megaboeperday;
-            return new BoeRate(value, BoeRateUnit.MegaboePerDay);
+            double value = (double) thousandboeperday;
+            return new BoeRate(value, BoeRateUnit.ThousandBoePerDay);
         }
 
 
@@ -437,9 +418,8 @@ namespace UnitsNet
             switch(Unit)
             {
                 case BoeRateUnit.BoePerDay: return _value;
-                case BoeRateUnit.GigaboePerDay: return (_value) * 1e9d;
-                case BoeRateUnit.KiloboePerDay: return (_value) * 1e3d;
-                case BoeRateUnit.MegaboePerDay: return (_value) * 1e6d;
+                case BoeRateUnit.MillionBoePerDay: return _value/1000000;
+                case BoeRateUnit.ThousandBoePerDay: return _value/1000;
                 default:
                     throw new NotImplementedException($"Can not convert {Unit} to base units.");
             }
@@ -455,9 +435,8 @@ namespace UnitsNet
             switch(unit)
             {
                 case BoeRateUnit.BoePerDay: return baseUnitValue;
-                case BoeRateUnit.GigaboePerDay: return (baseUnitValue) / 1e9d;
-                case BoeRateUnit.KiloboePerDay: return (baseUnitValue) / 1e3d;
-                case BoeRateUnit.MegaboePerDay: return (baseUnitValue) / 1e6d;
+                case BoeRateUnit.MillionBoePerDay: return baseUnitValue*1000000;
+                case BoeRateUnit.ThousandBoePerDay: return baseUnitValue*1000;
                 default:
                     throw new NotImplementedException($"Can not convert {Unit} to {unit}.");
             }
